@@ -31,7 +31,6 @@ const Grid = ({ current, setCurrent }) => {
             <p>Art work Description</p>
             <p>Art work Material</p>
             <p>Art work Year</p>
-
           </div>
           <div className="activeButtons">
             <button>Visit Art Section</button>

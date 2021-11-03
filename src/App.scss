@@ -1,0 +1,31 @@
+html {
+  background-color: rgb(235, 235, 235) ;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  @media screen and (min-width: 1280px) {
+    justify-content: center;
+  }
+
+}
+body * {
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  width: 1280px;
+  background-color: white;
+}
+.site-content-with-header {
+  padding-left: 300px;
+}
+
+main {
+  background-color: white;
+  border-left: 1px solid black;
+  min-height: calc(100vh - 200px);
+
+}

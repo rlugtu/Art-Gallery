@@ -1,17 +1,20 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import Grid from "./components/Grid";
+import Grid2 from "./components/Grid2";
 import { useState, useEffect } from "react";
-
+import { Route } from "react-router-dom";
+import Index from "./pages/Index";
+import Layout from "./components/Layout";
 function App() {
   const [current, setCurrent] = useState(null);
 
   return (
-    <div className={current ? "AppActive" : "App"}>
-      <div className="wall">
-        <Grid current={current} setCurrent={setCurrent} />
-      </div>
-    </div>
+    <>
+      <Layout>
+        <Route exact path="/" render={() => <Index />} />
+      </Layout>
+    </>
   );
 }
 

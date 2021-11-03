@@ -1,0 +1,229 @@
+.App {
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  font-family: Sans-serif;
+  color: rgb(49, 49, 49);
+}
+.AppActive {
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  animation: background-zoom forwards;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+.artContainer {
+  position: relative;
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  box-sizing: border-box;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  align-items: center; */
+  /* overflow: hidden; */
+  /* max-height: 70vh; */
+  animation: fade-in 2s;
+}
+.activeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 400px);
+  margin-top: 50px;
+  animation: fade-in 1s;
+}
+.activeDescription {
+  display: flex;
+  margin: 20px 0;
+}
+.activePiece {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  animation: fade-in 1s;
+  height: 100%;
+  cursor: url("./assets/mouse.png"), pointer;
+}
+.active {
+  height: 100%;
+  width: 100%;
+  /* animation: fade-in;
+  animation-duration: 0.5s; */
+  align-self: center;
+  /* max-height: 30vh; */
+  object-fit: contain;
+}
+#active {
+}
+.activeButtons {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.activeButtons * {
+  width: 125px;
+}
+
+.artWork {
+  display: flex;
+  object-fit: contain;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+#Abstraction {
+  max-width: 12vw;
+}
+#ATimeToDance {
+  max-width: 12vw;
+}
+#Carousel {
+  max-width: 15vw;
+}
+#GossipOnTheSubway {
+  max-width: 20vw;
+}
+#Lighthouse {
+  max-width: 25vw;
+}
+#VerticalAndHorizontal2 {
+  max-width: 25vw;
+}
+#LeapingLena {
+  max-width: 30vw;
+}
+#Conversation {
+  max-width: 30vw;
+}
+.singleArtwork {
+  max-width: 300px;
+  object-fit: cover;
+}
+.artPiece {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+
+/* .artPiece:hover {
+  border: 5px solid black;
+} */
+.wall {
+  padding-top: 5%;
+}
+.wall h1 {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  font-family: Sans-serif;
+}
+
+.header {
+  font-size: 2.5rem;
+  color: rgb(192, 192, 192);
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    /* 1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191, */
+      1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+.subHeader {
+  font-size: 2rem;
+  color: rgb(192, 192, 192);
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    /* 1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191, */
+      1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+.inactive {
+  -moz-animation: fade-out forwards;
+  animation: fade-out forwards;
+  animation-duration: 0.5s;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+.singleArtwork {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes zoom-in {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
+@keyframes background-zoom {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.4, 1.4);
+  }
+}

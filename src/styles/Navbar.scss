@@ -1,0 +1,21 @@
+.nav {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  overflow-y: scroll;
+  background-color: white;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: bold;
+}
