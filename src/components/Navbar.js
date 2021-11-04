@@ -35,7 +35,7 @@ const Navbar = () => {
             fontWeight: "bold",
           }}
         >
-          Home
+          HOME
         </NavLink>
         <Text m={0} mt={12} mb={2}>
           ARTWORK
@@ -132,8 +132,25 @@ const Navbar = () => {
             CATALOG OF WORKS
           </NavLink>
         </VStack>
-        <Text mb={2}>TEMIMA'S LIFE</Text>
-        <VStack display="flex" alignItems="flex-start" ml={16} spacing={0}>
+        <Text m={0} mt={20}>
+          <NavLink
+            className="link"
+            exact
+            to="/temima-life"
+            activeStyle={{
+              fontWeight: "bold",
+            }}
+          >
+            TEMIMA'S LIFE
+          </NavLink>
+        </Text>
+        <VStack
+          display="flex"
+          alignItems="flex-start"
+          m={0}
+          ml={16}
+          spacing={0}
+        >
           <NavLink
             className="link"
             exact
@@ -157,7 +174,7 @@ const Navbar = () => {
           <NavLink
             className="link"
             exact
-            to="/professional relationships"
+            to="/professional-relationships"
             activeStyle={{
               fontWeight: "bold",
             }}

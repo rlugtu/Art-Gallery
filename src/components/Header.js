@@ -1,4 +1,12 @@
-import { Box, Flex, Heading, Link, Center, Image, Button } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Heading,
+  Link,
+  Center,
+  Image,
+  Button,
+} from "@chakra-ui/react";
 import "../styles/Header.scss";
 
 const Header = () => {
@@ -21,7 +29,7 @@ const Header = () => {
           INSTRUCTIONS
         </Link>
         <Link textAlign="center" color="white" exact to="/who-was-temima">
-        WHO WAS TEMIMA?
+          WHO WAS TEMIMA?
         </Link>
         <Link textAlign="center" color="white" exact to="/books">
           BOOKS
@@ -33,7 +41,7 @@ const Header = () => {
           VOLUNTEER
         </Link>
         <Link textAlign="center" color="white" exact to="/mailing-list">
-          MAILING LIST 
+          MAILING LIST
         </Link>
         <Link textAlign="center" color="white" exact to="/contact">
           CONTACT
