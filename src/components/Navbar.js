@@ -197,7 +197,7 @@ const Navbar = () => {
             ART EDUCATION
           </NavLink>
           <NavLink className="link" exact to="/artist-creativity">
-            AUTOBIOGRAPHY
+            ART AND CREATIVITY
           </NavLink>
         </VStack>
         <VStack display="flex" alignItems="flex-start" mt={20} spacing={10}>
@@ -227,6 +227,12 @@ const Navbar = () => {
             TEMIMA
           </NavLink>
         </VStack>
+
+        <Text mt={20}>
+          <NavLink className="link" exact to="/studio-workshop-press">
+            STUDIO WORKSHOP PRESS
+          </NavLink>
+        </Text>
       </Flex>
     </Flex>
   );
