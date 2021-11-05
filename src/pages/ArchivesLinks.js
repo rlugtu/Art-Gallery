@@ -117,7 +117,9 @@ const ArchivesLinks = () => {
             href="https://www.longislandhistoryproject.org/rocky-point-einstein-and-me/"
             target="_blank"
             m={0}
-          ></Link>
+          >
+            https://www.longislandhistoryproject.org/rocky-point-einstein-and-me/
+          </Link>
         </Stack>
 
         <Stack spacing={0}>

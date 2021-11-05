@@ -1,10 +1,10 @@
 import React from "react";
 import {
-    Box,
+  Box,
   Flex,
   Button,
   Heading,
-  Image, 
+  Image,
   Text,
   Stack,
   Link,
@@ -51,53 +51,63 @@ const StudioWorkshopPress = () => {
 
         <Stack spacing={20}>
           <Heading bg="lightgrey" p={12} mb={0}>
-          BOOKS ABOUT TEMIMA GEZARI
+            BOOKS ABOUT TEMIMA GEZARI
           </Heading>
-            <Flex w="100%">
-                <Box w="70%">
-                    <Image src={require('../artwork/Abstraction.jpg').default}w="100%" objectFit="contain" />
-                </Box>
-                <Stack pl={60}>
-                    <Text>
-                    The Art of Temima Gezari is a retrospective collection of Temima's artwork up to 1985. It also serves as the catalog of this website.
-
-360 black and white photos and 27 color plates.
-
-146 pages. Hardcover.
-
-
-                    </Text>
-                    <Text>Limited numbers of The Art of Temima Gezari's are availible new from Studio Workshop Press</Text>
-                    <Text>
-                    A second edition is being planned for publication in Fall 2021, which will also contain additional material that appears on this website, including early art exercises and book illustrations
-
-
-                    </Text>
-                    <Text>
-                    Used copies of The Art of Temima Gezari can often be purchased online at book sellers such as AbeBooks, Amazon (books), eBay(books), Thrift Books, etc
-
-
-                    </Text>
-                </Stack>
-            </Flex>
+          <Flex w="100%">
+            <Box w="70%">
+              <Image
+                src={require("../artwork/Abstraction.jpg").default}
+                w="100%"
+                objectFit="contain"
+              />
+            </Box>
+            <Stack pl={60}>
+              <Text>
+                The Art of Temima Gezari is a retrospective collection of
+                Temima's artwork up to 1985. It also serves as the catalog of
+                this website. 360 black and white photos and 27 color plates.
+                146 pages. Hardcover.
+              </Text>
+              <Text>
+                Limited numbers of The Art of Temima Gezari's are availible new
+                from Studio Workshop Press
+              </Text>
+              <Text>
+                A second edition is being planned for publication in Fall 2021,
+                which will also contain additional material that appears on this
+                website, including early art exercises and book illustrations
+              </Text>
+              <Text>
+                Used copies of The Art of Temima Gezari can often be purchased
+                online at book sellers such as AbeBooks, Amazon (books),
+                eBay(books), Thrift Books, etc
+              </Text>
+            </Stack>
+          </Flex>
         </Stack>
         <Stack>
-        <Heading bg="lightgrey" p={12} mb={0}>
-        BOOKS BY TEMIMA GEZARI
+          <Heading bg="lightgrey" p={12} mb={0}>
+            BOOKS BY TEMIMA GEZARI
           </Heading>
           <Stack>
-              <Heading>AUTOBIOGRAPHY</Heading>
-              <Flex></Flex>
+            <Heading>AUTOBIOGRAPHY</Heading>
+            <Flex></Flex>
           </Stack>
           <Stack>
-              <Heading>ART EDUCATION FOR CHILDREN AND ADULTS
-</Heading>
-              <Flex></Flex>
+            <Heading>ART EDUCATION FOR CHILDREN AND ADULTS</Heading>
+            <Flex></Flex>
           </Stack>
           <Stack>
-              <Heading mb={0}>BOOKS ILLUSTRATED BY TEMIMA (REPRINTS PLANNED BUT NOT YET AVAILIBLE)</Heading>
-              <Text fontWeight="bold">Used copies of these books can often be purchased online at book sellers such as AbeBooks, Amazon (books), eBay(books), Thrift Books, etc</Text>
-              <Flex></Flex>
+            <Heading mb={0}>
+              BOOKS ILLUSTRATED BY TEMIMA (REPRINTS PLANNED BUT NOT YET
+              AVAILIBLE)
+            </Heading>
+            <Text fontWeight="bold">
+              Used copies of these books can often be purchased online at book
+              sellers such as AbeBooks, Amazon (books), eBay(books), Thrift
+              Books, etc
+            </Text>
+            <Flex></Flex>
           </Stack>
         </Stack>
       </Stack>

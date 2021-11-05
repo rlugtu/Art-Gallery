@@ -13,6 +13,7 @@ import Memories from "./pages/textPages/Memories";
 import ArtCreativity from "./pages/textPages/ArtCreativity";
 import ArchivesLinks from "./pages/ArchivesLinks";
 import StudioWorkshopPress from "./pages/StudioWorkshopPress";
+import Philosophy from "./pages/textPages/Philosophy";
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/temima-life" render={() => <TemimaLife />} />
         <Route exact path="/artist" render={() => <Artist />} />
         <Route exact path="/art-educator" render={() => <ArtEducator />} />
+        <Route exact path="/philosophy" render={() => <Philosophy />} />
         <Route
           exact
           path="/professional-relationships"
