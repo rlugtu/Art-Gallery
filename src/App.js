@@ -20,6 +20,7 @@ import Relationships from "./pages/textPages/Relationships";
 import Foundation from "./pages/textPages/Foundation";
 import Contact from "./pages/Contact";
 import MailingList from "./pages/MailingList";
+import VideoMedia from "./pages/VideoMedia";
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -36,6 +37,7 @@ function App() {
         <Route exact path="/foundation" render={() => <Foundation />} />
         <Route exact path="/contact" render={() => <Contact />} />
         <Route exact path="/mailing-list" render={() => <MailingList />} />
+        <Route exact path="/video-media" render={() => <VideoMedia />} />
 
         <Route
           exact
