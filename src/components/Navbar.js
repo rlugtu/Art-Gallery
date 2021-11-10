@@ -179,6 +179,16 @@ const Navbar = () => {
               fontWeight: "bold",
             }}
           >
+            PROFESSIONAL RELATIONSHIPS
+          </NavLink>
+          <NavLink
+            className="link"
+            exact
+            to="/memories"
+            activeStyle={{
+              fontWeight: "bold",
+            }}
+          >
             MEMORIES OF TEMIMA GEZARI
           </NavLink>
         </VStack>

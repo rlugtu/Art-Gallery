@@ -5,7 +5,7 @@ const ArtCreativity = () => {
   return (
     <Flex flexDirection="column" py={80} px={120}>
       <Stack spacing={20}>
-        <Heading>ART AND THE ARTIST</Heading>
+        <Heading mt={0}>ART AND THE ARTIST</Heading>
         <Text>
           “For the artist, the discipline of the craft must always be
           maintained. That is, the understanding of space, color and form. You

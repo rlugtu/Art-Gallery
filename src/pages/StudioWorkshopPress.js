@@ -56,7 +56,11 @@ const StudioWorkshopPress = () => {
           <Flex w="100%">
             <Box w="70%">
               <Image
-                src={require("../artwork/Abstraction.jpg").default}
+                border="1px solid black"
+                p={16}
+                src={
+                  require("../assets/studioWorkshopPress/mainBook.png").default
+                }
                 w="100%"
                 objectFit="contain"
               />

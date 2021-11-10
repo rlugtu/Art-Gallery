@@ -91,9 +91,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
-            Jewish Women's Archive Encyclopedia - Temima Gezari
-          </Text>
+          <Text>Archive Encyclopedia - Temima Gezari</Text>
           <Link
             color="blue"
             href="https://jwa.org/encyclopedia/article/gezari-temima"

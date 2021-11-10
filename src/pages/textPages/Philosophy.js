@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Flex, Button, Heading, Text, Stack, Link } from "@chakra-ui/react";
+import { Flex, Button, Heading, Text, Stack } from "@chakra-ui/react";
 
 const Philosophy = () => {
   const myRef = useRef();

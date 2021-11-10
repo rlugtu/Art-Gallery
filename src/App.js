@@ -14,6 +14,12 @@ import ArtCreativity from "./pages/textPages/ArtCreativity";
 import ArchivesLinks from "./pages/ArchivesLinks";
 import StudioWorkshopPress from "./pages/StudioWorkshopPress";
 import Philosophy from "./pages/textPages/Philosophy";
+import ArtEducation from "./pages/textPages/ArtEducation";
+import FootprintsPreview from "./pages/FootprintsPreview";
+import Relationships from "./pages/textPages/Relationships";
+import Foundation from "./pages/textPages/Foundation";
+import Contact from "./pages/Contact";
+import MailingList from "./pages/MailingList";
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -26,16 +32,30 @@ function App() {
         <Route exact path="/artist" render={() => <Artist />} />
         <Route exact path="/art-educator" render={() => <ArtEducator />} />
         <Route exact path="/philosophy" render={() => <Philosophy />} />
-        <Route
-          exact
-          path="/professional-relationships"
-          render={() => <Memories />}
-        />
+        <Route exact path="/art-education" render={() => <ArtEducation />} />
+        <Route exact path="/foundation" render={() => <Foundation />} />
+        <Route exact path="/contact" render={() => <Contact />} />
+        <Route exact path="/mailing-list" render={() => <MailingList />} />
+
         <Route
           exact
           path="/artist-creativity"
           render={() => <ArtCreativity />}
         />
+
+        <Route
+          exact
+          path="/footprints-preview"
+          render={() => <FootprintsPreview />}
+        />
+        <Route
+          exact
+          path="/professional-relationships"
+          render={() => <Relationships />}
+        />
+
+        <Route exact path="/memories" render={() => <Memories />} />
+
         <Route exact path="/archive-links" render={() => <ArchivesLinks />} />
         <Route
           exact
