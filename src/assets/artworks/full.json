@@ -1,0 +1,1950 @@
+{
+  "sculptures": [
+    {
+      "src": "WomansHead-0",
+      "title": "Woman's Head",
+      "year": 1938,
+      "material": "Marble",
+      "size": "8\"",
+      "location": "New York"
+    },
+    {
+      "src": "RebbiandRebitzen-1",
+      "title": "Rebbi and Rebitzen",
+      "year": 1940,
+      "material": "Glazed Ceramic",
+      "size": "6\"",
+      "location": ""
+    },
+    {
+      "src": "FatherAndFirstBornMotherAndSecondBorn-2",
+      "title": "Father And First Born Mother And Second Born",
+      "year": 1942,
+      "material": "Terra Cotta",
+      "size": "17\"",
+      "location": "New York"
+    },
+    {
+      "src": "Newsboy-3",
+      "title": "Newsboy",
+      "year": 1942,
+      "material": "Painted plaster",
+      "size": "10\"",
+      "location": "New York"
+    },
+    {
+      "src": "ANationFindsItsBirthplaceAndReturnsToTheSoil-4",
+      "title": "A Nation Finds Its Birthplace And Returns To The Soil",
+      "year": 1943,
+      "material": "Ceramic",
+      "size": "6\"x6\"",
+      "location": "New York"
+    },
+    {
+      "src": "LeapingLena-5",
+      "title": "Leaping Lena",
+      "year": 1943,
+      "material": "Bronze",
+      "size": "26\"",
+      "location": "New York"
+    },
+    {
+      "src": "Shalom-6",
+      "title": "Shalom",
+      "year": 1943,
+      "material": "Ceramic",
+      "size": "4 1/2\"",
+      "location": "New York"
+    },
+    {
+      "src": "AfricanGirl-7",
+      "title": "African Girl",
+      "year": 1945,
+      "material": "Balsa Wood",
+      "size": "12\"",
+      "location": "New York "
+    },
+    {
+      "src": "FamilyCircle-8",
+      "title": "Family Circle",
+      "year": 1945,
+      "material": "Terra Cotta",
+      "size": "15\"",
+      "location": "New York"
+    },
+    {
+      "src": "Miriam-9",
+      "title": "Miriam",
+      "year": 1945,
+      "material": "Balsa Wood",
+      "size": "18\"",
+      "location": "New York"
+    },
+    {
+      "src": "MorningSong-10",
+      "title": "Morning Song",
+      "year": 1945,
+      "material": "Balsa Wood",
+      "size": "18\"",
+      "location": "New York"
+    },
+    {
+      "src": "TheStoneCutter-11",
+      "title": "The Stone Cutter",
+      "year": 1946,
+      "material": "Bronze",
+      "size": "13\"",
+      "location": "New York"
+    },
+    {
+      "src": "FourEves-12",
+      "title": "Four Eves",
+      "year": 1949,
+      "material": "Bronze",
+      "size": "60\"",
+      "location": "New York"
+    },
+    {
+      "src": "WalterAge5-13",
+      "title": "Walter Age 5",
+      "year": 1949,
+      "material": "Plaster",
+      "size": "8\"",
+      "location": ""
+    },
+    {
+      "src": "CainandAbel-14",
+      "title": "Cain and Abel",
+      "year": 1950,
+      "material": "Bronze",
+      "size": "60\"",
+      "location": ""
+    },
+    {
+      "src": "GrapesofWrath-15",
+      "title": "Grapes of Wrath",
+      "year": 1950,
+      "material": "Bronze",
+      "size": "13\"",
+      "location": ""
+    },
+    {
+      "src": "NightProwler-16",
+      "title": "Night Prowler",
+      "year": 1951,
+      "material": "Bronze",
+      "size": "15\"",
+      "location": ""
+    },
+    {
+      "src": "MyMother-17",
+      "title": "My Mother",
+      "year": 1952,
+      "material": "Bronze",
+      "size": "9\"",
+      "location": "New York"
+    },
+    {
+      "src": "Juggler-18",
+      "title": "Juggler",
+      "year": 1955,
+      "material": "Beach Stones",
+      "size": "15\"",
+      "location": ""
+    },
+    {
+      "src": "NewAtlas-19",
+      "title": "New Atlas",
+      "year": 1955,
+      "material": "Bronze",
+      "size": "29\"",
+      "location": ""
+    },
+    {
+      "src": "BathingBeauty-20",
+      "title": "Bathing Beauty",
+      "year": 1956,
+      "material": " Beach Stones",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "Cat-21",
+      "title": "Cat",
+      "year": 1959,
+      "material": "Beach Stones",
+      "size": "8\"",
+      "location": ""
+    },
+    {
+      "src": "DancingHassidim-22",
+      "title": "Dancing Hassidim",
+      "year": 1959,
+      "material": "Terra Cotta",
+      "size": "17\"",
+      "location": ""
+    },
+    {
+      "src": "SpanishDancer-23",
+      "title": "Spanish Dancer",
+      "year": 1960,
+      "material": "Beach Stones",
+      "size": "26\"",
+      "location": ""
+    },
+    {
+      "src": "MomentofSilence-24",
+      "title": "Moment of Silence",
+      "year": 1963,
+      "material": "Beach Stones",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "NightRiders-25",
+      "title": "Night Riders",
+      "year": 1963,
+      "material": "Chipped Bluestone",
+      "size": "16\"",
+      "location": ""
+    },
+    {
+      "src": "Stampede-26",
+      "title": "Stampede",
+      "year": 1963,
+      "material": "Chipped Bluestone",
+      "size": "16\"",
+      "location": ""
+    },
+    {
+      "src": "DriftwoodBird-27",
+      "title": "Driftwood Bird",
+      "year": 1964,
+      "material": "Driftwood",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "FreedomSong-28",
+      "title": "Freedom Song",
+      "year": 1965,
+      "material": "Terra Cotta",
+      "size": "18\"",
+      "location": ""
+    },
+    {
+      "src": "AtTheWaitingWall-29",
+      "title": "At The Waiting Wall",
+      "year": 1966,
+      "material": "Terra Cotta",
+      "size": "18\"",
+      "location": "Tel Aviv"
+    },
+    {
+      "src": "AtTheWell-30",
+      "title": "At The Well",
+      "year": 1966,
+      "material": "Terra Cotta",
+      "size": "30\"",
+      "location": ""
+    },
+    {
+      "src": "Meditation-31",
+      "title": "Meditation",
+      "year": 1966,
+      "material": "Bronze",
+      "size": "26\"",
+      "location": ""
+    },
+    {
+      "src": "Panther-32",
+      "title": "Panther",
+      "year": 1966,
+      "material": "Bronze",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "FlyingAngel-33",
+      "title": "Flying Angel",
+      "year": 1967,
+      "material": "Clay with Black Patina",
+      "size": "14\"",
+      "location": ""
+    },
+    {
+      "src": "KingSaul-34",
+      "title": "King Saul",
+      "year": 1967,
+      "material": "Terra Cotta",
+      "size": "33\"",
+      "location": ""
+    },
+    {
+      "src": "Moses-35",
+      "title": "Moses",
+      "year": 1967,
+      "material": "Terra Cotta",
+      "size": "30\"",
+      "location": ""
+    },
+    {
+      "src": "Conversation-36",
+      "title": "Conversation",
+      "year": 1968,
+      "material": "Terra Cotta",
+      "size": "23\"",
+      "location": ""
+    },
+    {
+      "src": "Gossip-37",
+      "title": "Gossip",
+      "year": 1968,
+      "material": "Terra Cotta with Black Patina",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "HadGadya(Goat)-38",
+      "title": "Had Gadya (Goat)",
+      "year": 1968,
+      "material": "Bronze",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "Job-39",
+      "title": "Job",
+      "year": 1968,
+      "material": "Bronze",
+      "size": "26\"",
+      "location": ""
+    },
+    {
+      "src": "MaleandFemale-40",
+      "title": "Male and Female",
+      "year": 1968,
+      "material": "Bronze",
+      "size": "28\"",
+      "location": ""
+    },
+    {
+      "src": "PrimitiveFamily-41",
+      "title": "Primitive Family",
+      "year": 1968,
+      "material": "Clay with Black Patina",
+      "size": "13\"",
+      "location": ""
+    },
+    {
+      "src": "Refugees-42",
+      "title": "Refugees",
+      "year": 1968,
+      "material": "Terra Cotta with Brown Patina",
+      "size": "25\"",
+      "location": ""
+    },
+    {
+      "src": "Sails-43",
+      "title": "Sails",
+      "year": 1968,
+      "material": "Terra Cotta",
+      "size": "20\"",
+      "location": ""
+    },
+    {
+      "src": "TheFruitsofWar-44",
+      "title": "The Fruits of War",
+      "year": 1968,
+      "material": "Clay with Green Patina",
+      "size": "10\"x10\"",
+      "location": ""
+    },
+    {
+      "src": "TheGoldenCalf-45",
+      "title": "The Golden Calf",
+      "year": 1968,
+      "material": "Bronze",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "TheKiss-46",
+      "title": "The Kiss",
+      "year": 1968,
+      "material": "Bronze",
+      "size": "19\"",
+      "location": ""
+    },
+    {
+      "src": "YeshivaBachurim-47",
+      "title": "Yeshiva Bachurim",
+      "year": 1968,
+      "material": "Terra Cotta with Blue Patina",
+      "size": " 23\"",
+      "location": ""
+    },
+    {
+      "src": "Yizkor-48",
+      "title": "Yizkor",
+      "year": 1968,
+      "material": "Clay with Blue Patina",
+      "size": "23\"",
+      "location": ""
+    },
+    {
+      "src": "WingedVictory-49",
+      "title": "Winged Victory",
+      "year": 1968,
+      "material": "Bronze",
+      "size": "27\"",
+      "location": ""
+    },
+    {
+      "src": "Birth-50",
+      "title": "Birth",
+      "year": 1969,
+      "material": "Terra Cotta with Black Patina",
+      "size": "12\"",
+      "location": ""
+    },
+    {
+      "src": "BlackMotherMournsHerSon-51",
+      "title": "Black Mother Mourns Her Son",
+      "year": 1969,
+      "material": "Terra Cotta with Black Patina",
+      "size": " 12\"",
+      "location": ""
+    },
+    {
+      "src": "ConcaveandConvex-52",
+      "title": "Concave and Convex",
+      "year": 1969,
+      "material": "Terra Cotta",
+      "size": " 17\"",
+      "location": ""
+    },
+    {
+      "src": "Fetus-53",
+      "title": "Fetus",
+      "year": 1969,
+      "material": "",
+      "size": "14\"",
+      "location": "Terra Cotta with Black Patina"
+    },
+    {
+      "src": "LittleAngel-54",
+      "title": "Little Angel",
+      "year": 1969,
+      "material": "Terra Cotta",
+      "size": "19\"",
+      "location": ""
+    },
+    {
+      "src": "PrometheusBound-55",
+      "title": "Prometheus Bound",
+      "year": 1969,
+      "material": "Terra Cotta",
+      "size": "26\"",
+      "location": ""
+    },
+    {
+      "src": "AmericanIndianTotem-56",
+      "title": "American Indian Totem",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "60\"",
+      "location": ""
+    },
+    {
+      "src": "ConservationTotem-57",
+      "title": "Conservation Totem",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "36\"",
+      "location": ""
+    },
+    {
+      "src": "FlagTotem-58",
+      "title": "Flag Totem",
+      "year": 1970,
+      "material": "Clay and Slip",
+      "size": "57\"",
+      "location": ""
+    },
+    {
+      "src": "GenerationsTotem-59",
+      "title": "Generations Totem",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "48\"",
+      "location": ""
+    },
+    {
+      "src": "JudaicTotem-60",
+      "title": "Judaic Totem",
+      "year": 1970,
+      "material": "Bronze",
+      "size": "70\"",
+      "location": "Lawrence"
+    },
+    {
+      "src": "LoveNotWarTotem-61",
+      "title": "Love Not War Totem",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "60\"",
+      "location": ""
+    },
+    {
+      "src": "Patriarch-62",
+      "title": "Patriarch",
+      "year": 1970,
+      "material": "Terra Cotta",
+      "size": "32\"",
+      "location": ""
+    },
+    {
+      "src": "PeaceTotem-63",
+      "title": "Peace Totem",
+      "year": 1970,
+      "material": "Clay",
+      "size": "61\"",
+      "location": ""
+    },
+    {
+      "src": "PillarofSalt-64",
+      "title": "Pillar of Salt",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "ShabbatTotem-65",
+      "title": "Shabbat Totem",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "4'",
+      "location": ""
+    },
+    {
+      "src": "TaxTotem-66",
+      "title": "Tax Totem",
+      "year": 1970,
+      "material": "Brown Clay",
+      "size": "5'",
+      "location": ""
+    },
+    {
+      "src": "AmericanEagle-Crucifixion-67",
+      "title": "American Eagle - Crucifixion",
+      "year": 1971,
+      "material": "Brown Clay with Slip",
+      "size": "36\"",
+      "location": "New York"
+    },
+    {
+      "src": "ColumnofPeace-68",
+      "title": "Column of Peace",
+      "year": 1971,
+      "material": "",
+      "size": "Clay, 7'-7\"",
+      "location": ""
+    },
+    {
+      "src": "Disc-WhatstheGoodWord?-69",
+      "title": "Disc - Whats the Good Word?",
+      "year": 1971,
+      "material": "Brown Clay",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "Disc-WhatstheGoodWord?-70",
+      "title": "Disc - Whats the Good Word?",
+      "year": 1971,
+      "material": "Brown Clay",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "AtTheBeach-71",
+      "title": "At The Beach",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "AtTheBeach-72",
+      "title": "At The Beach",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Dancers-73",
+      "title": "Dancers",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Derelicts,1972,-74",
+      "title": "Derelicts, 1972, ",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Family-75",
+      "title": "Family",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "InTheStreet-76",
+      "title": "In The Street",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Judaica-77",
+      "title": "Judaica",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Musicians-78",
+      "title": "Musicians",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "OnTheBus-79",
+      "title": "On The Bus",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Performers-80",
+      "title": "Performers",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Singers-81",
+      "title": "Singers",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Sports-82",
+      "title": "Sports",
+      "year": 1972,
+      "material": "Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "AfricanPlant-83",
+      "title": "African Plant",
+      "year": 1974,
+      "material": "Brown Clay",
+      "size": "17\"",
+      "location": ""
+    },
+    {
+      "src": "BerryVine-84",
+      "title": "Berry Vine",
+      "year": 1974,
+      "material": "Brown Clay",
+      "size": "14\"",
+      "location": "Africa"
+    },
+    {
+      "src": "ElmoloMotherandChild-85",
+      "title": "Elmolo Mother and Child",
+      "year": 1974,
+      "material": "Black and Red Clay (Cast in Bronze)",
+      "size": "29\"",
+      "location": ""
+    },
+    {
+      "src": "ElmoloYouth-86",
+      "title": "Elmolo Youth",
+      "year": 1974,
+      "material": "Black and Red Clay (Cast in Bronze)",
+      "size": "24\"",
+      "location": ""
+    },
+    {
+      "src": "JanetandVanessa-87",
+      "title": "Janet and Vanessa",
+      "year": 1974,
+      "material": "Bronze",
+      "size": "16\"",
+      "location": ""
+    },
+    {
+      "src": "JungleRoots-88",
+      "title": "Jungle Roots",
+      "year": 1974,
+      "material": "Brown Clay",
+      "size": "14\"",
+      "location": "Africa"
+    },
+    {
+      "src": "KukayaWoman-89",
+      "title": "Kukaya Woman",
+      "year": 1974,
+      "material": " Black, Brown, and Red Clay",
+      "size": "27\"",
+      "location": ""
+    },
+    {
+      "src": "MasaiWarrior-90",
+      "title": "Masai Warrior",
+      "year": 1974,
+      "material": "Black, Brown, and Red Clay",
+      "size": "30\"",
+      "location": ""
+    },
+    {
+      "src": "Maze,1974-91",
+      "title": "Maze, 1974",
+      "year": 1974,
+      "material": "Brown Clay",
+      "size": "16\"",
+      "location": ""
+    },
+    {
+      "src": "Sisal-92",
+      "title": "Sisal",
+      "year": 1974,
+      "material": "Brown Clay",
+      "size": "16\"",
+      "location": "Africa"
+    },
+    {
+      "src": "VanessaAftertheBath-93",
+      "title": "Vanessa After the Bath",
+      "year": 1974,
+      "material": "Clay with Black Patina",
+      "size": "15\"",
+      "location": ""
+    },
+    {
+      "src": "VanessaNewborn-94",
+      "title": "Vanessa Newborn",
+      "year": 1974,
+      "material": "Clay with Black Patina",
+      "size": "1\"",
+      "location": ""
+    },
+    {
+      "src": "Abstraction-95",
+      "title": "Abstraction",
+      "year": 1975,
+      "material": "Brown Clay",
+      "size": "16\"",
+      "location": ""
+    },
+    {
+      "src": "Barley-96",
+      "title": "Barley",
+      "year": 1975,
+      "material": "Brown Clay",
+      "size": "17\"",
+      "location": "Poland"
+    },
+    {
+      "src": "Birches-97",
+      "title": "Birches",
+      "year": 1975,
+      "material": "Brown Clay",
+      "size": "18\"",
+      "location": "Finland"
+    },
+    {
+      "src": "Capillaries-98",
+      "title": "Capillaries",
+      "year": 1975,
+      "material": " Black Clay",
+      "size": "17\"",
+      "location": ""
+    },
+    {
+      "src": "Cell-99",
+      "title": "Cell",
+      "year": 1975,
+      "material": "Black Clay with White Slip",
+      "size": "18\"",
+      "location": ""
+    },
+    {
+      "src": "Convolutions-100",
+      "title": "Convolutions",
+      "year": 1975,
+      "material": "Brown Clay",
+      "size": "16\"",
+      "location": ""
+    },
+    {
+      "src": "Fern-101",
+      "title": "Fern",
+      "year": 1975,
+      "material": "Bronze",
+      "size": "29\"",
+      "location": "Finland"
+    },
+    {
+      "src": "SmallBronzes-102",
+      "title": "Small Bronzes",
+      "year": 1975,
+      "material": "Bronze",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Stabile-103",
+      "title": "Stabile",
+      "year": 1975,
+      "material": "Bronze",
+      "size": "17\"",
+      "location": ""
+    },
+    {
+      "src": "MusselShell-104",
+      "title": "Mussel Shell",
+      "year": 1976,
+      "material": "Bronze",
+      "size": "20\"",
+      "location": ""
+    },
+    {
+      "src": "PirjoandSuvi-105",
+      "title": "Pirjo and Suvi",
+      "year": 1977,
+      "material": "Bronze",
+      "size": "14\"",
+      "location": ""
+    },
+    {
+      "src": "SuviinDanielsHand-106",
+      "title": "Suvi in Daniel's Hand",
+      "year": 1977,
+      "material": "Terra Cotta",
+      "size": "15\"",
+      "location": ""
+    },
+    {
+      "src": "GoingToSchool-107",
+      "title": "Going To School",
+      "year": 1978,
+      "material": "Brown Clay with Slip",
+      "size": "15\"",
+      "location": "China"
+    },
+    {
+      "src": "GroundCover-108",
+      "title": "Ground Cover",
+      "year": 1978,
+      "material": "Brown Clay",
+      "size": "16\"",
+      "location": "Bermuda"
+    },
+    {
+      "src": "Lament-109",
+      "title": "Lament",
+      "year": 1978,
+      "material": "Bronze",
+      "size": "30\"",
+      "location": "Israel"
+    },
+    {
+      "src": "MotherandBaby-110",
+      "title": "Mother and Baby",
+      "year": 1978,
+      "material": "Brown Clay with Slip",
+      "size": "16\"",
+      "location": "China"
+    },
+    {
+      "src": "SisterandBrother-111",
+      "title": "Sister and Brother",
+      "year": 1978,
+      "material": "Brown Clay with Slip",
+      "size": "16\"",
+      "location": "China"
+    },
+    {
+      "src": "StudentsApplaudTheVisitors-112",
+      "title": "Students Applaud The Visitors",
+      "year": 1978,
+      "material": "Brown Clay with Slip",
+      "size": "21\"",
+      "location": "China"
+    },
+    {
+      "src": "Worker-113",
+      "title": "Worker",
+      "year": 1978,
+      "material": "Brown Clay with Slip",
+      "size": "15\"",
+      "location": "China"
+    },
+    {
+      "src": "Abstraction#1-114",
+      "title": "Abstraction #1",
+      "year": 1979,
+      "material": "Black Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Abstraction#2-115",
+      "title": "Abstraction #2",
+      "year": 1979,
+      "material": "Brown Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "AfterTheRaid-116",
+      "title": "After The Raid",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "20\"",
+      "location": "Israel"
+    },
+    {
+      "src": "ArabMother-117",
+      "title": "Arab Mother",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "22\"",
+      "location": "Israel"
+    },
+    {
+      "src": "BoyWithAccordian-118",
+      "title": "Boy With Accordian",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "21\"",
+      "location": "Israel"
+    },
+    {
+      "src": "BoywithHoe-119",
+      "title": "Boy with Hoe",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "21\"",
+      "location": "Israel"
+    },
+    {
+      "src": "BukharianMan-120",
+      "title": "Bukharian Man",
+      "year": 1979,
+      "material": "Brown Clay with Slip, Israel",
+      "size": "20\"",
+      "location": ""
+    },
+    {
+      "src": "BukharianWoman-121",
+      "title": "Bukharian Woman",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "20\"",
+      "location": "Israel"
+    },
+    {
+      "src": "Carousel-122",
+      "title": "Carousel",
+      "year": 1979,
+      "material": "Terra Cotta",
+      "size": "23\"",
+      "location": ""
+    },
+    {
+      "src": "GrandfathersBlessing-123",
+      "title": "Grandfather's Blessing",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "22\"",
+      "location": "Israel"
+    },
+    {
+      "src": "KibbutzFather-124",
+      "title": "Kibbutz Father",
+      "year": 1979,
+      "material": "Brown Clay with Slip, Israel",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "KibbutzMother-125",
+      "title": "Kibbutz Mother",
+      "year": 1979,
+      "material": "Brown Clay with Slip, Israel",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "PurimShpreter-126",
+      "title": "Purim Shpreter",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "22\"",
+      "location": "Israel"
+    },
+    {
+      "src": "RedOnion-127",
+      "title": "Red Onion",
+      "year": 1979,
+      "material": "Red Clay",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "SugarCane-128",
+      "title": "Sugar Cane",
+      "year": 1979,
+      "material": "Brown Clay",
+      "size": "16\"",
+      "location": "Cuba"
+    },
+    {
+      "src": "TheSabal-129",
+      "title": "The Sabal",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "18\"",
+      "location": "Israel"
+    },
+    {
+      "src": "YeminiteBride-130",
+      "title": "Yeminite Bride",
+      "year": 1979,
+      "material": "Brown Clay with Slip",
+      "size": "23\"",
+      "location": "Israel"
+    },
+    {
+      "src": "SeriesofMasks-131",
+      "title": "Series of Masks",
+      "year": 1981,
+      "material": "Clay with Acrylics",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "LittleDavid-132",
+      "title": "Little David",
+      "year": 1982,
+      "material": "Buff Clay with Acrylics",
+      "size": "20\"",
+      "location": "New York"
+    },
+    {
+      "src": "BagLady-133",
+      "title": "Bag Lady",
+      "year": 1985,
+      "material": "Bone Clay",
+      "size": "21\"",
+      "location": ""
+    },
+    {
+      "src": "DeborahTheJudge-134",
+      "title": "Deborah The Judge",
+      "year": 1985,
+      "material": "Terra Cotta",
+      "size": "17\"",
+      "location": ""
+    },
+    {
+      "src": "NationalOrganizationofWomen-135",
+      "title": "National Organization of Women",
+      "year": 1985,
+      "material": "Red Clay",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "Rachel-136",
+      "title": "Rachel",
+      "year": 1985,
+      "material": "Red Clay",
+      "size": "20\"",
+      "location": ""
+    },
+    {
+      "src": "Rebecca-137",
+      "title": "Rebecca",
+      "year": 1985,
+      "material": "Red Clay",
+      "size": "19\"",
+      "location": ""
+    },
+    {
+      "src": "RuthandNaomi-138",
+      "title": "Ruth and Naomi",
+      "year": 1985,
+      "material": "Red Clay",
+      "size": "18\"",
+      "location": ""
+    },
+    {
+      "src": "Sarah-139",
+      "title": "Sarah",
+      "year": 1985,
+      "material": "Red Clay",
+      "size": "19\"",
+      "location": ""
+    },
+    {
+      "src": "SexSymbol-140",
+      "title": "Sex Symbol",
+      "year": 1985,
+      "material": "Bone Clay",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "Suffragettes-141",
+      "title": "Suffragettes",
+      "year": 1985,
+      "material": "Bone Clay",
+      "size": "22\"",
+      "location": ""
+    },
+    {
+      "src": "TheBreeder-142",
+      "title": "The Breeder",
+      "year": 1985,
+      "material": "Bone Clay",
+      "size": "21\"",
+      "location": ""
+    },
+    {
+      "src": "UnionLabel-143",
+      "title": "Union Label",
+      "year": 1985,
+      "material": "Bone Clay",
+      "size": "17\"",
+      "location": ""
+    },
+    {
+      "src": "WomanofValor-144",
+      "title": "Woman of Valor",
+      "year": 1985,
+      "material": "Bone Clay",
+      "size": "22\"",
+      "location": ""
+    }
+  ],
+  "drawings": [
+    {
+      "src": "MyneighborhoodinBrownsville-Sketch#1(Age15)-0",
+      "title": "My neighborhood in Brownsville - Sketch #1   (Age 15)",
+      "year": 1919,
+      "material": "Pencil on Paper",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "MyneighborhoodinBrownsville-Sketch#2(Age15)-1",
+      "title": "My neighborhood in Brownsville - Sketch #2 (Age 15)",
+      "year": 1919,
+      "material": "Pencil on Paper",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "MyneighborhoodinBrownsville-Sketch#3(Age15)-2",
+      "title": "My neighborhood in Brownsville - Sketch #3   (Age 15)",
+      "year": 1919,
+      "material": "Pencil on Paper",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "Figure-3",
+      "title": "Figure",
+      "year": 1925,
+      "material": "Pencil on Paper",
+      "size": "12\"x18\"",
+      "location": "New York "
+    },
+    {
+      "src": "SeatedNude-4",
+      "title": "Seated Nude",
+      "year": 1925,
+      "material": "",
+      "size": "12\"x18\"",
+      "location": "New York"
+    },
+    {
+      "src": "FigureDiagonals-5",
+      "title": "Figure Diagonals",
+      "year": 1926,
+      "material": "Pencil on Paper",
+      "size": "12\"x18\"",
+      "location": "New York "
+    },
+    {
+      "src": "HeadDiagonals-6",
+      "title": "Head Diagonals",
+      "year": 1926,
+      "material": "Pencil on Paper",
+      "size": "12\"x18\"",
+      "location": "New York "
+    },
+    {
+      "src": "Head-7",
+      "title": "Head",
+      "year": 1927,
+      "material": "Chalk",
+      "size": "12\"x18\"",
+      "location": "New York "
+    },
+    {
+      "src": "RecliningFigure-8",
+      "title": "Reclining Figure",
+      "year": 1927,
+      "material": "Pencil on Paper",
+      "size": "18\"x12\"",
+      "location": "New York"
+    },
+    {
+      "src": "StandingFigure-9",
+      "title": "Standing Figure",
+      "year": 1927,
+      "material": "Pencil on Paper",
+      "size": "12\"x18\"",
+      "location": "New York"
+    },
+    {
+      "src": "StandingNude-10",
+      "title": "Standing Nude",
+      "year": 1927,
+      "material": "Chalk",
+      "size": "12\"x18\"",
+      "location": "New York"
+    },
+    {
+      "src": "StudyofaHead-11",
+      "title": "Study of a Head",
+      "year": 1927,
+      "material": "Pencil on Paper",
+      "size": "13\"x15\"",
+      "location": "New York "
+    },
+    {
+      "src": "Torso-12",
+      "title": "Torso",
+      "year": 1927,
+      "material": "Chalk",
+      "size": "12\"x18\"",
+      "location": "New York"
+    },
+    {
+      "src": "TreeofLife(CircleonaSquare)-13",
+      "title": "Tree of Life (Circle on a Square)",
+      "year": 1930,
+      "material": "Pencil on Paper",
+      "size": "13\"x15\"",
+      "location": "Maine"
+    },
+    {
+      "src": "EmilBisstramHouse-14",
+      "title": "Emil Bisstram House",
+      "year": 1931,
+      "material": "Pencil on Paper",
+      "size": " Taos",
+      "location": "11-1/2\"x9\""
+    },
+    {
+      "src": "FourSketches-15",
+      "title": "Four Sketches",
+      "year": 1931,
+      "material": "Pen and Ink",
+      "size": "8-1/2\"x12-1/2\"",
+      "location": " New York"
+    },
+    {
+      "src": "FourSketches-LowerEastSide-16",
+      "title": "Four Sketches - Lower East Side",
+      "year": 1931,
+      "material": "Pen and Ink",
+      "size": "8-1/2\"x12-1/2\"",
+      "location": "New York"
+    },
+    {
+      "src": "FourSketches-LowerEastSide-17",
+      "title": "Four Sketches - Lower East Side",
+      "year": 1931,
+      "material": "Pen and Ink",
+      "size": "8-1/2\"x12-1/2\"",
+      "location": "New York"
+    },
+    {
+      "src": "FourSketches-LowerEastSide-18",
+      "title": "Four Sketches - Lower East Side  ",
+      "year": 1931,
+      "material": "Pen and Ink",
+      "size": "8-1/2\"x12-1/2\"",
+      "location": "New York"
+    },
+    {
+      "src": "MyStudio-19",
+      "title": "My Studio",
+      "year": 1931,
+      "material": "Pencil on Paper",
+      "size": "11-1/2\"x9\"",
+      "location": "Taos"
+    },
+    {
+      "src": "SixSketchesattheBeach-20",
+      "title": "Six Sketches at the Beach",
+      "year": 1931,
+      "material": "Pen and Ink",
+      "size": "9\"x12\" and 6\"x9\"",
+      "location": "Tel Aviv"
+    },
+    {
+      "src": "TaosPueblo2-21",
+      "title": "Taos Pueblo 2",
+      "year": 1931,
+      "material": "Pencil on Paper",
+      "size": "15\"x11\"",
+      "location": "Taos"
+    },
+    {
+      "src": "IndianWomen,1932,PencilonPaper,Taos,NM,11x13-22",
+      "title": "Indian Women, 1932, Pencil on Paper, Taos, NM, 11\"x13\"",
+      "year": 1932,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "LandscapeinTriangles-23",
+      "title": "Landscape in Triangles",
+      "year": 1932,
+      "material": "Pencil on Paper",
+      "size": "10\"x14\"",
+      "location": "New York"
+    },
+    {
+      "src": "MyGrandfather-24",
+      "title": "My Grandfather",
+      "year": 1932,
+      "material": "Pencil on Paper",
+      "size": "12\"x15\"",
+      "location": "New York"
+    },
+    {
+      "src": "Stoneworker-25",
+      "title": "Stoneworker",
+      "year": 1932,
+      "material": "Pencil on Paper",
+      "size": "",
+      "location": "Palestine"
+    },
+    {
+      "src": "TreeStudy-26",
+      "title": "Tree Study",
+      "year": 1932,
+      "material": "Pencil on Paper",
+      "size": "15\"x21\"",
+      "location": "New Mexico"
+    },
+    {
+      "src": "VerticalandHorizontal#2-27",
+      "title": "Vertical and Horizontal #2",
+      "year": 1932,
+      "material": "Pencil on Paper",
+      "size": "10\"x10\"",
+      "location": "New York"
+    },
+    {
+      "src": "ThreeWomenintheOldCity-28",
+      "title": "Three Women in the Old City",
+      "year": 1932,
+      "material": "Pencil Drawing",
+      "size": " 24\u201d x 18\u201d",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "DonkeyBallet-29",
+      "title": "Donkey Ballet",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "18\"x24\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "Donkeys-30",
+      "title": "Donkeys",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": " 18\"x24\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "EgyptianMother-31",
+      "title": "Egyptian Mother",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "18\"x24\"",
+      "location": "Jerusalem,Israel"
+    },
+    {
+      "src": "HassidicNewlyweds-32",
+      "title": "Hassidic Newlyweds",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "24\"x30\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "Jericho-33",
+      "title": "Jericho",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "12\"x18\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "OldCityofJerusalem-34",
+      "title": "Old City of Jerusalem",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "14\"x20\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "Satat-35",
+      "title": "Satat",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "20\"x20\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "TheSage-36",
+      "title": "The Sage",
+      "year": 1934,
+      "material": "Pencil on Paper",
+      "size": "12\"x18\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "ThreeGenerations-37",
+      "title": "Three Generations",
+      "year": 1934,
+      "material": "Pencil on paper",
+      "size": "24\"x30\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "HaMagish(TheHelper)-38",
+      "title": "Ha Magish (The Helper)",
+      "year": 1934,
+      "material": "Pencil on paper",
+      "size": "24\"x30\"",
+      "location": "Palistine"
+    },
+    {
+      "src": "LandofIsraelMuralStudy-artistssketch(LeftPanel)-39",
+      "title": "Land of Israel Mural Study - artist's sketch (Left Panel)",
+      "year": 1936,
+      "material": "Pencil on Paper",
+      "size": "20\"x10\"",
+      "location": "New York"
+    },
+    {
+      "src": "LandofIsraelMuralStudy(TopRight)-40",
+      "title": "Land of Israel Mural Study (Top Right)",
+      "year": 1936,
+      "material": "Pencil on Paper",
+      "size": "20\"x10\"",
+      "location": "New York"
+    },
+    {
+      "src": "LandofIsraelMuralStudy(BottomLeft)-41",
+      "title": "Land of Israel Mural Study (Bottom Left)",
+      "year": 1936,
+      "material": "Pencil on Paper",
+      "size": "20\"x10\"",
+      "location": "New York"
+    },
+    {
+      "src": "LandofIsraelMuralStudy(BottomRight)-42",
+      "title": "Land of Israel Mural Study (Bottom Right)",
+      "year": 1936,
+      "material": "Pencil on Paper",
+      "size": "20\"x10\"",
+      "location": "New York"
+    },
+    {
+      "src": "Dormant-43",
+      "title": "Dormant",
+      "year": 1937,
+      "material": "Charcoal on Paper",
+      "size": "19\"x24\"",
+      "location": "Mexico"
+    },
+    {
+      "src": "Stirring-44",
+      "title": "Stirring",
+      "year": 1937,
+      "material": "Charcoal on Paper",
+      "size": "19\"x24\"",
+      "location": "Mexico"
+    },
+    {
+      "src": "Struggle-45",
+      "title": "Struggle",
+      "year": 1937,
+      "material": "Charcoal on Paper",
+      "size": "19\"x24\"",
+      "location": "Mexico"
+    },
+    {
+      "src": "CigaretteVendor-46",
+      "title": "Cigarette Vendor",
+      "year": 1938,
+      "material": "Pencil on Paper",
+      "size": "17x23\"",
+      "location": "Tel Aviv"
+    },
+    {
+      "src": "Sabal-Porter-47",
+      "title": "Sabal - Porter",
+      "year": 1938,
+      "material": "Brown Clay with Slip",
+      "size": "17\" x 24\"",
+      "location": "Israel"
+    },
+    {
+      "src": "ShoeRepairMan-48",
+      "title": "Shoe Repair Man",
+      "year": 1938,
+      "material": "Pencil on Paper",
+      "size": "17\" x 23\"",
+      "location": "Tel Aviv"
+    }
+  ],
+  "paintings": [
+    {
+      "src": "Mraglimage-14-0",
+      "title": "M'raglim age - 14",
+      "year": 1918,
+      "material": "small tapestry",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "GossipontheSubway-1",
+      "title": "Gossip on the Subway",
+      "year": 1929,
+      "material": "Chalk on Paper",
+      "size": "15\"x24\"",
+      "location": "New York"
+    },
+    {
+      "src": "PuebloIndianWoman-2",
+      "title": "Pueblo Indian Woman",
+      "year": 1931,
+      "material": "Oils on wood panel",
+      "size": "16\" x 12\"",
+      "location": "Taos"
+    },
+    {
+      "src": "IndianWomaninDoorway-3",
+      "title": "Indian Woman in Doorway",
+      "year": 1931,
+      "material": "Gouache",
+      "size": "11\"x18\"",
+      "location": "Taos"
+    },
+    {
+      "src": "Fisherman-4",
+      "title": "Fisherman",
+      "year": 1939,
+      "material": "Gouache",
+      "size": "18\"x24\"",
+      "location": "Gloucester"
+    },
+    {
+      "src": "GloucesterWaterfront-5",
+      "title": "Gloucester Waterfront",
+      "year": 1939,
+      "material": "Gouache",
+      "size": "24\"x18\"",
+      "location": "Gloucester"
+    },
+    {
+      "src": "Lighthouse-6",
+      "title": "Lighthouse",
+      "year": 1939,
+      "material": "Gouache",
+      "size": "24\"x18\"",
+      "location": "Gloucester"
+    },
+    {
+      "src": "PayDay-7",
+      "title": "Pay Day",
+      "year": 1939,
+      "material": "Gouache",
+      "size": "18\"x24\"",
+      "location": "Gloucester"
+    },
+    {
+      "src": "RosietheLobsterman-8",
+      "title": "Rosie the Lobsterman",
+      "year": 1939,
+      "material": "Gouache",
+      "size": "18\"x24\"",
+      "location": "Gloucester"
+    },
+    {
+      "src": "DanielAge7-9",
+      "title": "Daniel Age 7",
+      "year": 1949,
+      "material": "Oil on Canvas",
+      "size": "12\"x16\"",
+      "location": ""
+    },
+    {
+      "src": "ATimeToEmbrace-10",
+      "title": "A Time To Embrace",
+      "year": 1957,
+      "material": "Oils on Canvas",
+      "size": "36\"x24\"",
+      "location": ""
+    },
+    {
+      "src": "ATimeToDance-11",
+      "title": "A Time To Dance",
+      "year": 1957,
+      "material": " oils on canvas",
+      "size": "36\"x24\"",
+      "location": ""
+    }
+  ],
+  "illustrations": [
+    {
+      "src": "-0",
+      "title": "",
+      "year": 1950,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-1",
+      "title": "",
+      "year": 1950,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-2",
+      "title": "",
+      "year": 1950,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-3",
+      "title": "",
+      "year": 1950,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-4",
+      "title": "",
+      "year": 1950,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-5",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-6",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-7",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-8",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-9",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-10",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-11",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-12",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-13",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-14",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-15",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-16",
+      "title": "",
+      "year": 1939,
+      "material": "",
+      "size": "",
+      "location": ""
+    }
+  ],
+  "lithographs": [
+    {
+      "src": "FourSisters-0",
+      "title": "Four Sisters",
+      "year": 1932,
+      "material": "lithograph",
+      "size": "12\"x19\"",
+      "location": "Taos"
+    },
+    {
+      "src": "ShabbosShpatzir-1",
+      "title": "Shabbos Shpatzir",
+      "year": 1934,
+      "material": "Lithograph",
+      "size": "19\"x13\"",
+      "location": "Jerusalem"
+    },
+    {
+      "src": "FishforShabbat-2",
+      "title": "Fish for Shabbat",
+      "year": 1935,
+      "material": "Lithograph",
+      "size": "15\"x10\"",
+      "location": "New York "
+    },
+    {
+      "src": "TheLittlePresser-3",
+      "title": "The Little Presser",
+      "year": 1935,
+      "material": "Lithograph",
+      "size": "18\"13\"",
+      "location": "New York"
+    },
+    {
+      "src": "TheWorldSituation-4",
+      "title": "The World Situation",
+      "year": 1935,
+      "material": "Lithograph",
+      "size": "19\"x15\"",
+      "location": "New York"
+    },
+    {
+      "src": "WashDay-Kibbutz-5",
+      "title": "Wash Day - Kibbutz",
+      "year": 1938,
+      "material": "Lithograph",
+      "size": "11\"x15\"",
+      "location": "New York"
+    }
+  ],
+  "highschoolExercises": [
+    {
+      "src": "-0",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-1",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-2",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-3",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-4",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-5",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-6",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-7",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-8",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-9",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-10",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-11",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "-12",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    }
+  ]
+}

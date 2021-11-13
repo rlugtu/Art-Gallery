@@ -21,7 +21,8 @@ import Foundation from "./pages/textPages/Foundation";
 import Contact from "./pages/Contact";
 import MailingList from "./pages/MailingList";
 import VideoMedia from "./pages/VideoMedia";
-
+import Books from "./pages/Books";
+import ArtGrid from "./pages/ArtGrid";
 function App() {
   const [current, setCurrent] = useState(null);
 
@@ -38,6 +39,7 @@ function App() {
         <Route exact path="/contact" render={() => <Contact />} />
         <Route exact path="/mailing-list" render={() => <MailingList />} />
         <Route exact path="/video-media" render={() => <VideoMedia />} />
+        <Route exact path="/books" render={() => <Books />} />
 
         <Route
           exact
@@ -64,7 +66,33 @@ function App() {
           path="/studio-workshop-press"
           render={() => <StudioWorkshopPress />}
         />
+        <Route
+          exact
+          path="/sculptures/"
+          render={() => <ArtGrid artStyle="sculptures" />}
+        />
+        <Route
+          exact
+          path="/illustrations/"
+          render={() => <ArtGrid artStyle="illustrations" />}
+        />
+        <Route
+          exact
+          path="/drawings/"
+          render={() => <ArtGrid artStyle="drawings" />}
+        />
+        <Route
+          exact
+          path="/paintings/"
+          render={() => <ArtGrid artStyle="paintings" />}
+        />
+        <Route
+          exact
+          path="/lithographs/"
+          render={() => <ArtGrid artStyle="lithographs" />}
+        />
       </Layout>
+      <Route exact path="/artwork/:id" render={() => <ArchivesLinks />} />
     </>
   );
 }

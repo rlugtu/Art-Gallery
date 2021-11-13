@@ -45,18 +45,13 @@ const VideoMedia = () => {
         <Heading m={0} bg="gray" color="white" p={10}>
           Filmstrips by Temima Gezari
         </Heading>
-        <Text>Growing Through Art (1955)
-
-</Text>
-        <Text>Art and Growing Child (1956) (1956 Winner of the Silver Reel Award of the Film Council of America and the 1957 Scholastic Award)
-
-</Text>
-        <Text>Minature Stone Sculpture (1963)
-
-</Text>
-        <Text>The Art of Israeli Children (1963)
-
-</Text>
+        <Text>Growing Through Art (1955)</Text>
+        <Text>
+          Art and Growing Child (1956) (1956 Winner of the Silver Reel Award of
+          the Film Council of America and the 1957 Scholastic Award)
+        </Text>
+        <Text>Minature Stone Sculpture (1963)</Text>
+        <Text>The Art of Israeli Children (1963)</Text>
         <Text>The Patriarchs (1977)</Text>
       </Stack>
     </Flex>

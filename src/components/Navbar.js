@@ -44,7 +44,7 @@ const Navbar = () => {
           <NavLink
             className="link"
             exact
-            to="/sculpture"
+            to="/sculptures"
             activeStyle={{
               fontWeight: "bold",
             }}
@@ -59,7 +59,7 @@ const Navbar = () => {
               fontWeight: "bold",
             }}
           >
-            LITHOGRAPHS
+            DRAWINGS
           </NavLink>
           <NavLink
             className="link"
