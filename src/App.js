@@ -3,7 +3,7 @@ import "./App.scss";
 import Grid from "./components/Grid";
 import Grid2 from "./components/Grid2";
 import { useState, useEffect } from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch,Redirect } from "react-router-dom";
 import Index from "./pages/Index";
 import Layout from "./components/Layout";
 import TemimaLife from "./pages/textPages/TemimaLife";
@@ -23,12 +23,16 @@ import MailingList from "./pages/MailingList";
 import VideoMedia from "./pages/VideoMedia";
 import Books from "./pages/Books";
 import ArtGrid from "./pages/ArtGrid";
+import SingleArt from "./pages/SingleArt";
+
 function App() {
   const [current, setCurrent] = useState(null);
 
   return (
     <>
-      <Layout>
+    <Switch>
+    <Route exact path="/artwork/:style/:id" render={() => <SingleArt />} />
+    <Layout>
         <Route exact path="/" render={() => <Index />} />
         <Route exact path="/temima-life" render={() => <TemimaLife />} />
         <Route exact path="/artist" render={() => <Artist />} />
@@ -73,11 +77,6 @@ function App() {
         />
         <Route
           exact
-          path="/illustrations/"
-          render={() => <ArtGrid artStyle="illustrations" />}
-        />
-        <Route
-          exact
           path="/drawings/"
           render={() => <ArtGrid artStyle="drawings" />}
         />
@@ -91,8 +90,15 @@ function App() {
           path="/lithographs/"
           render={() => <ArtGrid artStyle="lithographs" />}
         />
+        <Route
+          exact
+          path="/illustrations/"
+          render={() => <ArtGrid artStyle="illustrations" />}
+        />
       </Layout>
-      <Route exact path="/artwork/:id" render={() => <ArchivesLinks />} />
+
+    </Switch>
+     
     </>
   );
 }
