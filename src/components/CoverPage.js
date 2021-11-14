@@ -3,6 +3,7 @@ import background from "../assets/background.jpg";
 import CoverImage from "./CoverImage";
 import { useState } from "react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import "../App.scss";
 
 const CustomImage = ({ url, width }) => {
   const [hover, setHover] = useState(false);
@@ -29,8 +30,6 @@ const CustomImage = ({ url, width }) => {
         visibility={hover ? "visible" : "hidden"}
         zIndex={100}
       >
-        <Button cursor="pointer">Visit Art Piece</Button>
-        <Button cursor="pointer">Visit Section</Button>
       </Flex>
     </Center>
   );
@@ -39,27 +38,11 @@ const CoverPage = ({ setShowCover }) => {
   const [selected, setSelected] = useState(null);
   const images = [
     "Abstraction.jpg",
-    // "AmericanEagleCrucifixion",
     "ATimeToDance.jpg",
     "Carousel.jpg",
     "GossipOnTheSubway.jpg",
-    // "LeapingLenaRight",
     "Lighthouse.jpg",
     "VerticalAndHorizontal2.jpg",
-    // "ThreeWomaninOldCity",
-    // "TravelingToRockyPoint",
-    // "VerticalAndHorizontal2",
-    // "WashDayKibbutz"
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
-    // "artwork",
   ];
   const wheelProps = {
     step: 0.2,
@@ -83,7 +66,7 @@ const CoverPage = ({ setShowCover }) => {
 
   return (
     <Box>
-      <TransformWrapper
+      {/* <TransformWrapper
         centerOnInit={true}
         wheel={wheelProps}
         panning={panningProps}
@@ -98,7 +81,7 @@ const CoverPage = ({ setShowCover }) => {
         }}
       >
         {({ resetTransform, zoomIn, centerView, ...rest }) => (
-          <TransformComponent>
+          <TransformComponent> */}
             <Flex
               w="100vw"
               h="100vh"
@@ -123,7 +106,8 @@ const CoverPage = ({ setShowCover }) => {
                 position="absolute"
                 top="5%"
                 fontSize="3xl"
-                className="header"
+                className="header" 
+                textAlign="center"
               >
                 TEMIMA GEZARI
               </Heading>
@@ -183,9 +167,9 @@ const CoverPage = ({ setShowCover }) => {
                 <CustomImage url="Conversation.png" width={0} />
               </Center>
             </Flex>
-          </TransformComponent>
-        )}
-      </TransformWrapper>
+          {/* </TransformComponent> */}
+        {/* )} */}
+      {/* </TransformWrapper> */}
     </Box>
   );
 };
