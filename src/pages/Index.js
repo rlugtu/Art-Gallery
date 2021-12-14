@@ -27,8 +27,8 @@ const Home = () => {
 
     </Flex>
     :
-    <Flex p={12} flexDir="column">
-    <Flex wrap="wrap">
+    <Flex p={0} flexDir="column">
+    <Flex p={0} wrap="wrap">
       <Flex w="50%" alignItems="center" flexDir="column">
         <Link href="/sculptures">
           <Heading textAlign="center">SCULPTURE</Heading>
@@ -37,8 +37,9 @@ const Home = () => {
             _hover={{
               border: "3px solid black",
             }}
+            w="100%"
           >
-            <Flex w="145px" h="145px">
+            <Flex w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -49,24 +50,24 @@ const Home = () => {
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
                 h="100%"
                 src={
-                  require(`../assets/thumbnails/sculptures/LeapingLena-5.jpg`)
+                  require(`../assets/thumbnails/sculptures/WomansHead-0.jpg`)
                     .default
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
                 h="100%"
                 src={
-                  require(`../assets/thumbnails/sculptures/LeapingLena-5.jpg`)
+                  require(`../assets/thumbnails/sculptures/Juggler-18.jpg`)
                     .default
                 }
               />
@@ -89,7 +90,7 @@ const Home = () => {
               border: "3px solid black",
             }}
           >
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -100,7 +101,7 @@ const Home = () => {
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -111,7 +112,7 @@ const Home = () => {
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -139,8 +140,9 @@ const Home = () => {
             _hover={{
               border: "3px solid black",
             }}
+            w="100%"
           >
-            <Flex w="145px" h="145px">
+            <Flex  w="30%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -149,8 +151,8 @@ const Home = () => {
                   require(`../assets/thumbnails/drawings/Head-7.jpg`).default
                 }
               />
-            </Flex>
-            <Flex w="145px" h="145px">
+            </Flex> 
+             <Flex   w="30%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -161,7 +163,7 @@ const Home = () => {
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="150px" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -189,7 +191,7 @@ const Home = () => {
               border: "3px solid black",
             }}
           >
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -200,7 +202,7 @@ const Home = () => {
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
@@ -211,7 +213,7 @@ const Home = () => {
                 }
               />
             </Flex>
-            <Flex w="145px" h="145px">
+            <Flex  w="33%" h="145px">
               <Image
                 objectFit="cover"
                 w="100%"
