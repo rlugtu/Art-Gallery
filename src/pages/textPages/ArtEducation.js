@@ -3,8 +3,8 @@ import { Flex, Heading, Text, Stack } from "@chakra-ui/react";
 
 const ArtEducation = () => {
   return (
-    <Flex flexDirection="column" px={120} py={80}>
-      <Stack spacing={20} id="artEducation">
+    <Flex flexDirection="column" py={60} px={135}>
+      <Stack spacing={16} id="artEducation">
         <Heading my={0} mt={0}>
           ART EDUCATION
         </Heading>
@@ -52,8 +52,8 @@ const ArtEducation = () => {
         <Text>Click here to read parts ofArt and Education</Text>
       </Stack>
 
-      <Stack spacing={20} id="artChildDev">
-        <Heading my={0} mt={80}>
+      <Stack spacing={16} id="artChildDev">
+        <Heading my={0} mt={40}>
           ART AND CHILD DEVELOPMENT
         </Heading>
         <Text>
@@ -92,8 +92,8 @@ const ArtEducation = () => {
         </Text>
       </Stack>
 
-      <Stack spacing={20} id="noCompetitions">
-        <Heading my={0} mt={80}>
+      <Stack spacing={16} id="noCompetitions">
+        <Heading my={0} mt={40}>
           NO COMPETITIONS
         </Heading>
         <Text>
@@ -105,8 +105,8 @@ const ArtEducation = () => {
         </Text>
       </Stack>
 
-      <Stack spacing={20} id="noColoringBooks">
-        <Heading my={0} mt={80}>
+      <Stack spacing={16} id="noColoringBooks">
+        <Heading my={0} mt={40}>
           NO COLORING BOOKS
         </Heading>
         <Text>

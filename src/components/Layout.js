@@ -1,13 +1,15 @@
 import Navbar from "./Navbar";
 import Header from "./Header";
 import { Flex } from "@chakra-ui/react";
+import { useState } from "react";
 
 const Layout = ({ children }) => {
+  const [showHeader, setShowHeader] = useState(true);
   return (
     <div className="content">
       <Navbar />
       <Flex flexDirection="column" className="site-content-with-header">
-        <Header></Header>
+        {showHeader && <Header></Header>}
         <main>{children}</main>
       </Flex>
     </div>

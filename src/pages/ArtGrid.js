@@ -11,19 +11,19 @@ const ArtGrid = ({ artStyle }) => {
     // console.log(artJson[`${artStyle}`])
   }, []);
   return (
-    <Flex flexDir="column">
-      <Heading>
+    <Flex flexDir="column" p="20px">
+      <Heading mt={0} mb="20px" fontWeight="600">
         {artStyle[0].toUpperCase() + artStyle.slice(1)}
         <Text fontWeight="normal" as="span">
           {" "}
-          in Chronlogical Order
+          in chronlogical order
         </Text>
       </Heading>
       <Flex w="100%" flexWrap="wrap">
         {artType &&
           artJson[`${artType}`].map((art, i) => (
             <Link href={`/artwork/${artType}/${art.src}`} cursor="pointer">
-              <Flex w="181px" h="181px" m="3px">
+              <Flex w="175px" h="175px" m="2px">
                 <Image
                   objectFit="cover"
                   w="100%"

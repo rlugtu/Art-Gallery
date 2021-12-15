@@ -4,18 +4,22 @@ import React from "react";
 
 const Artist = () => {
   return (
-    <Flex flexDirection="column">
+    <Flex flexDirection="column" p={20} pr={80}>
       <Stack>
-        <Heading>CURRICULUM VITAE - TEMIMA GEZARI</Heading>
-        <Heading>SCULPTOR, PAINTER, ART EDUCATOR, AUTHOR AND LECTURER</Heading>
-        <Text>
+        <Heading m={0} mt={20} fontSize="2em">
+          CURRICULUM VITAE - TEMIMA GEZARI
+        </Heading>
+        <Heading fontSize="1.35rem" m={0} pt={20} pb={0}>
+          SCULPTOR, PAINTER, ART EDUCATOR, AUTHOR AND LECTURER
+        </Heading>
+        <Text pt={12}>
           Temima Gezari was the Director of the Department of Art Education,
           Board of Jewish Education of New York (for 62 years, beginning in 1940
           and supervised art programs and art teachers in 150 schools in the
           greater new york metropolitan area.) She was married to Zvi Gezari,
           and the mother of two sons, Daniel and Walter.
         </Text>
-        <Stack spacing={16}>
+        <Stack spacing={14}>
           <Heading mb={4}>Education {`&`} Art Studies</Heading>
           <Text mt={0}>
             Parson's New York School of Fine and Applied Art -1924

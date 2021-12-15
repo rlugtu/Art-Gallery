@@ -9,26 +9,53 @@ const Navbar = () => {
       <Flex
         flexDirection="column"
         className="nav-header"
-        h={200}
+        h={204}
         p={22}
         bg="#b7ac44"
       >
-        <Text color="white" m={0} mt={0} fontSize="2.5rem" textAlign="center">
+        <Text
+          color="white"
+          m={0}
+          lineHeight="3.4rem"
+          fontWeight="700"
+          fontSize="3.4rem"
+          textAlign="center"
+        >
           TEMIMA
         </Text>
-        <Text color="white" m={0} mt={0} fontSize="2.5rem" textAlign="center">
-          Gezari
+        <Text
+          color="white"
+          m={0}
+          lineHeight="3.4rem"
+          fontWeight="700"
+          fontSize="3.4rem"
+          textAlign="center"
+        >
+          GEZARI
         </Text>
-        <Text m={0} mt={10} fontSize="1.2rem" textAlign="center">
+        <Text
+          m={0}
+          my="5px"
+          fontWeight="bold"
+          lineHeight="1.3rem"
+          fontSize="1.3rem"
+          textAlign="center"
+        >
           20th CENTURY AMERICAN
         </Text>
-        <Text m={0} mt={10} fontSize="1.2rem" textAlign="center">
+        <Text
+          m={0}
+          fontWeight="bold"
+          lineHeight="1.3rem"
+          fontSize="1.3rem"
+          textAlign="center"
+        >
           ARTIST AND EDUCATOR
         </Text>
       </Flex>
       <Flex flexDirection="column" p={20}>
         <NavLink
-          className="link"
+          className="link-header"
           exact
           to="/"
           activeStyle={{
@@ -37,10 +64,23 @@ const Navbar = () => {
         >
           HOME
         </NavLink>
-        <Text m={0} mt={12} mb={2}>
+        <Text
+          color="#5a5a5a"
+          class="link-header"
+          m={0}
+          mt="10px"
+          mb={0}
+          fontSize="1.2rem"
+        >
           ARTWORK
         </Text>
-        <VStack display="flex" alignItems="flex-start" ml={16} spacing={0}>
+        <VStack
+          display="flex"
+          alignItems="flex-start"
+          ml={16}
+          mt={0}
+          spacing={0}
+        >
           <NavLink
             className="link"
             exact
@@ -120,6 +160,9 @@ const Navbar = () => {
             }}
           >
             FULL COLLECTION
+            <Text mt={0} ml={18} mb={0}>
+              -CHRONOLOGICAL ORDER
+            </Text>
           </NavLink>
           <NavLink
             className="link"
@@ -134,7 +177,7 @@ const Navbar = () => {
         </VStack>
         <Text m={0} mt={20}>
           <NavLink
-            className="link"
+            className="link-header"
             exact
             to="/temima-life"
             activeStyle={{
@@ -193,12 +236,12 @@ const Navbar = () => {
           </NavLink>
         </VStack>
         <Text m={0} mt={20}>
-          <NavLink className="link" exact to="/autobiography">
+          <NavLink className="link-header" exact to="/autobiography">
             AUTOBIOGRAPHY
           </NavLink>
         </Text>
         <Text m={0} mt={20}>
-          <NavLink className="link" exact to="/philosophy">
+          <NavLink className="link-header" exact to="/philosophy">
             PHILOSOPHY
           </NavLink>
         </Text>
@@ -211,21 +254,23 @@ const Navbar = () => {
           </NavLink>
         </VStack>
         <VStack display="flex" alignItems="flex-start" mt={20} spacing={10}>
-          <NavLink className="link" exact to="/footprints-preview">
+          <NavLink className="link-header" exact to="/footprints-preview">
             FOOTPRINTS BOOK PREVIEW
           </NavLink>
-          <NavLink className="link" exact to="/books">
+          <NavLink className="link-header" exact to="/books">
             BOOKS BY TEMIMA GEZARI
           </NavLink>
-          <NavLink className="link" exact to="/video-media">
+          <NavLink className="link-header" exact to="/video-media">
             VIDEO AND MEDIA
           </NavLink>
-          <NavLink className="link" exact to="/archive-links">
+          <NavLink className="link-header" exact to="/archive-links">
             ARCHIVES AND LINKS
           </NavLink>
         </VStack>
 
-        <Text mb={2}>PHOTO GALLERY</Text>
+        <Text className="link-header" mb={2}>
+          PHOTO GALLERY
+        </Text>
         <VStack display="flex" alignItems="flex-start" ml={16} spacing={0}>
           <NavLink className="link" exact to="/rockypoint-studio">
             ROCKY POINT STUDIO
@@ -239,7 +284,7 @@ const Navbar = () => {
         </VStack>
 
         <Text mt={20}>
-          <NavLink className="link" exact to="/studio-workshop-press">
+          <NavLink className="link-header" exact to="/studio-workshop-press">
             STUDIO WORKSHOP PRESS
           </NavLink>
         </Text>

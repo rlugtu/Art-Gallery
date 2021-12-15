@@ -1,4 +1,4 @@
-import { Flex, Link, Image } from "@chakra-ui/react";
+import { Flex, Link, Image, Text } from "@chakra-ui/react";
 import "../styles/Header.scss";
 
 const Header = () => {
@@ -7,36 +7,38 @@ const Header = () => {
       flexDirection="column"
       justifyContent="space-between"
       className="header"
+      maxW="950px"
+      h="204px"
     >
       <Flex>
         <Flex>
           <Image
-            h="174px"
-            w="165px"
+            h="175px"
+            w="160px"
             objectFit="cover"
             src={require("../assets/header/header1.jpg").default}
           />
         </Flex>
         <Flex>
           <Image
-            h="174px"
-            w="165px"
+            h="175px"
+            w="159px"
             objectFit="cover"
             src={require("../assets/header/header2.jpg").default}
           />
         </Flex>
         <Flex>
           <Image
-            h="174px"
-            w="150px"
+            h="175px"
+            w="140px"
             objectFit="cover"
             src={require("../assets/header/header3.jpeg").default}
           />
         </Flex>
         <Flex>
           <Image
-            h="174px"
-            w="500px"
+            h="175px"
+            w="489px"
             src={require("../assets/header/header4.jpg").default}
           />
         </Flex>
@@ -47,28 +49,48 @@ const Header = () => {
         backgroundColor="black"
         color="white"
         justifyContent="space-evenly"
-        py={4}
+        alignItems="center"
+        h="39px"
       >
         <Link textAlign="center" color="white" exact href="/instructions">
-          INSTRUCTIONS
+          <Text p={0} m={0} color="#bdbdbd">
+            INSTRUCTIONS
+          </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/artist ">
-          WHO WAS TEMIMA?
+          <Text p={0} m={0} color="#bdbdbd">
+            {" "}
+            WHO WAS TEMIMA?
+          </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/books">
-          BOOKS
+          <Text p={0} m={0} color="#bdbdbd">
+            {" "}
+            BOOKS
+          </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/foundation">
-          FOUNDATION
+          <Text p={0} m={0} color="#bdbdbd">
+            {" "}
+            FOUNDATION
+          </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/volunteer">
-          VOLUNTEER
+          <Text p={0} m={0} color="#bdbdbd">
+            {" "}
+            VOLUNTEER
+          </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/mailing-list">
-          MAILING LIST
+          <Text p={0} m={0} color="#bdbdbd">
+            {" "}
+            MAILING LIST
+          </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/contact">
-          CONTACT
+          <Text p={0} m={0} color="#bdbdbd">
+            CONTACT
+          </Text>
         </Link>
       </Flex>
     </Flex>

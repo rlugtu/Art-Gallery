@@ -3,7 +3,7 @@ import { Flex, Heading, Text, Stack, Link } from "@chakra-ui/react";
 
 const Books = () => {
   return (
-    <Flex flexDir="column">
+    <Flex flexDir="column" p="40px" pr="20px" pt="20px">
       <Stack>
         <Heading color="white" bg="grey" p={10} borderRadius={5}>
           Books Written by Temima Gezari

@@ -3,9 +3,11 @@ import { Flex, Heading, Text, Stack } from "@chakra-ui/react";
 
 const ArtCreativity = () => {
   return (
-    <Flex flexDirection="column" py={80} px={120}>
-      <Stack spacing={20}>
-        <Heading mt={0}>ART AND THE ARTIST</Heading>
+    <Flex flexDirection="column" py={60} px={135}>
+      <Stack spacing={18} mt={0}>
+        <Heading my={0} mb={0}>
+          ART AND THE ARTIST
+        </Heading>
         <Text>
           “For the artist, the discipline of the craft must always be
           maintained. That is, the understanding of space, color and form. You
@@ -38,8 +40,8 @@ const ArtCreativity = () => {
         </Text>
       </Stack>
 
-      <Stack spacing={20}>
-        <Heading mt={50}>THE CREATIVE PROCESS</Heading>
+      <Stack spacing={18} mt={40}>
+        <Heading my={0}>THE CREATIVE PROCESS</Heading>
         <Text>
           “The creative process gives meaning to life. When we finally learn
           that we are creative, we have an altogether different feeling about
@@ -60,7 +62,7 @@ const ArtCreativity = () => {
       </Stack>
 
       <Stack spacing={20}>
-        <Heading mt={50}>LIBERATED WOMAN</Heading>
+        <Heading my={0}>LIBERATED WOMAN</Heading>
         <Text>
           “I have always been liberated. At a very early age, I discovered that
           I was an artist, and had a natural talent to share with the world.
@@ -92,7 +94,7 @@ const ArtCreativity = () => {
       </Stack>
 
       <Stack spacing={20}>
-        <Heading mt={50}>ART AND NATURE</Heading>
+        <Heading my={0}>ART AND NATURE</Heading>
         <Text>
           “When I walk on Rocky Point beach, and the children who have been to
           my studio come running to me with stones they have found and tell me

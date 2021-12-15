@@ -25,6 +25,7 @@ import Books from "./pages/Books";
 import ArtGrid from "./pages/ArtGrid";
 import SingleArt from "./pages/SingleArt";
 import AllArtGrid from "./pages/AllArtGrid";
+import NoHeader from "./components/NoHeader";
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -44,29 +45,44 @@ function App() {
             path="/artwork/:style/:id"
             render={() => <SingleArt />}
           />
+          <Route
+            path={[
+              "/books",
+              "/test",
+              "/philosophy",
+              "/art-education",
+              "/artist-creativity",
+              "/art-educator",
+            ]}
+          >
+            <NoHeader>
+              <Switch>
+                <Route path="/books" render={() => <Books />} />
+                <Route path="/test" render={() => <Index />} />
+                <Route path="/philosophy" render={() => <Philosophy />} />
+                <Route path="/art-education" render={() => <ArtEducation />} />
+                <Route
+                  path="/artist-creativity"
+                  render={() => <ArtCreativity />}
+                />
+                <Route
+                  exact
+                  path="/art-educator"
+                  render={() => <ArtEducator />}
+                />
+              </Switch>
+            </NoHeader>
+          </Route>
+
           <Layout>
             <Route exact path="/" render={() => <Index />} />
             <Route exact path="/temima-life" render={() => <TemimaLife />} />
             <Route exact path="/artist" render={() => <Artist />} />
-            <Route exact path="/art-educator" render={() => <ArtEducator />} />
-            <Route exact path="/philosophy" render={() => <Philosophy />} />
-            
-            <Route
-              exact
-              path="/art-education"
-              render={() => <ArtEducation />}
-            />
+
             <Route exact path="/foundation" render={() => <Foundation />} />
             <Route exact path="/contact" render={() => <Contact />} />
             <Route exact path="/mailing-list" render={() => <MailingList />} />
             <Route exact path="/video-media" render={() => <VideoMedia />} />
-            <Route exact path="/books" render={() => <Books />} />
-
-            <Route
-              exact
-              path="/artist-creativity"
-              render={() => <ArtCreativity />}
-            />
 
             <Route
               exact
@@ -122,7 +138,11 @@ function App() {
               render={() => <ArtGrid artStyle="illustrations" />}
             />
           </Layout>
+
           {/* </Routes> */}
+          {/* <NoHeader>
+          <Route exact path="/test" render={() => <Index />} />
+          </NoHeader> */}
         </Switch>
       </BrowserRouter>
     </>

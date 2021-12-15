@@ -3,9 +3,10 @@ import { Flex, Heading, Text, Stack } from "@chakra-ui/react";
 
 const ArtEducator = () => {
   return (
-    <Flex flexDirection="column" py={80} px={120}>
+    <Flex flexDirection="column" py={60} px={135}>
+      <Heading m={0}>ARTIST & EDUCATOR</Heading>
+
       <Stack>
-        <Heading>ARTIST & EDUCATOR</Heading>
         <Text>
           “I am an artist and an art educator. I love both careers. I don’t
           believe you are really an artist unless you have a concept to share.

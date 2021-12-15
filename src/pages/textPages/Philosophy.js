@@ -12,12 +12,13 @@ const Philosophy = () => {
   };
 
   return (
-    <Flex w="100%">
+    <Flex w="100%" pl="20px" pr="40px" pt="30px">
       <Stack spacing={20} mt={40} w="20%" position="fixed">
         <Button
-          p={10}
+          p={8}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("artAndArtist")}
         >
           ART AND THE ARTIST
@@ -26,6 +27,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("creativeProcess")}
         >
           THE CREATIVE PROCESS
@@ -34,6 +36,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("noCompetitions")}
         >
           NO COMPETITIONS
@@ -42,6 +45,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("noColoringBooks")}
         >
           NO COLORING BOOKS
@@ -50,6 +54,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("liberatedWoman")}
         >
           LIBERATED WOMAN
@@ -58,6 +63,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("artAndNature")}
         >
           ART AND NATURE
@@ -66,6 +72,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("artEducation")}
         >
           ART EDUCATION
@@ -74,6 +81,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("artChildDev")}
         >
           ART AND CHILD DEVELOPMENT
@@ -82,6 +90,7 @@ const Philosophy = () => {
           p={10}
           whiteSpace="normal"
           w="175px"
+          border="1px solid black"
           onClick={() => scrollTo("temimaBooks")}
         >
           TEMIMA'S BOOKS ON ART EDUCATION
@@ -127,7 +136,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="creativeProcess">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             THE CREATIVE PROCESS
           </Heading>
           <Text>
@@ -150,7 +159,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="noCompetitions">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             NO COMPETITIONS
           </Heading>
           <Text>
@@ -163,7 +172,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="noColoringBooks">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             NO COLORING BOOKS
           </Heading>
           <Text>
@@ -176,7 +185,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="liberatedWoman">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             LIBERATED WOMAN
           </Heading>
           <Text>
@@ -211,7 +220,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="artAndNature">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             ART AND NATURE
           </Heading>
           <Text>
@@ -227,7 +236,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="artEducation">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             ART EDUCATION
           </Heading>
           <Text>
@@ -275,7 +284,7 @@ const Philosophy = () => {
         </Stack>
 
         <Stack spacing={20} id="artChildDev">
-          <Heading my={0} mt={80}>
+          <Heading my={0} mt={40}>
             ART AND CHILD DEVELOPMENT
           </Heading>
           <Text>
