@@ -23,17 +23,16 @@ const RelationshipSingle = ({ person, switchBack }) => {
   return (
     <Stack>
       <Flex justifyContent="space-between">
-        <Text>{person}</Text>
-        <Text color="blue" cursor="pointer" onClick={switchBack}>
+        <Text fontWeight="bold" fontSize="1.17em">{person}</Text>
+        <Text fontSize="1.17em" color="blue" cursor="pointer" onClick={switchBack}>
           BACK
         </Text>
       </Flex>
-
-      <Stack spacing={20}>
+      <Stack spacing={16} pt={10}>
         {person &&
-          relationshipJson[`${person}`].map((el, i) => <Text i={i}>{el}</Text>)}
+          relationshipJson[`${person}`].map((el, i) => <Text i={i} m={0}>{el}</Text>)}
       </Stack>
-      <Text pt={40} color="blue" cursor="pointer" onClick={switchBack}>
+      <Text fontSize="1.17em" pt={40} color="blue" cursor="pointer" onClick={switchBack}>
         BACK
       </Text>
     </Stack>

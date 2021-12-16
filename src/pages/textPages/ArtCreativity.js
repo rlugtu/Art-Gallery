@@ -61,7 +61,7 @@ const ArtCreativity = () => {
         </Text>
       </Stack>
 
-      <Stack spacing={20}>
+      <Stack spacing={20} mt={40}>
         <Heading my={0}>LIBERATED WOMAN</Heading>
         <Text>
           “I have always been liberated. At a very early age, I discovered that
@@ -93,7 +93,7 @@ const ArtCreativity = () => {
         </Text>
       </Stack>
 
-      <Stack spacing={20}>
+      <Stack spacing={20} mt={40}>
         <Heading my={0}>ART AND NATURE</Heading>
         <Text>
           “When I walk on Rocky Point beach, and the children who have been to

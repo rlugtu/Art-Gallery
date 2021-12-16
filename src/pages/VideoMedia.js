@@ -3,16 +3,19 @@ import { Flex, Heading, Text, Stack } from "@chakra-ui/react";
 import ReactPlayer from "react-player";
 import ReactAudioPlayer from "react-audio-player";
 import video from "../assets/media/longislandInterview.m4a";
+
 const VideoMedia = () => {
   return (
-    <Flex flexDir="column" px={40} py={40} pb={60}>
+    <Flex flexDir="column" px={150} py={40} pt="60px" pb={60}>
       <Stack mt={0} pos="relative" pb={400}>
-        <Heading m={0} bg="gray" color="white" p={10}>
+        <Heading m={0} bg="gray" color="white" p={10} borderRadius="5px">
           VIDEOS OF TEMIMA GEZARI
         </Heading>
         <Flex pos="absolute" left="-80" top="100">
           <ReactPlayer
             url={"https://streamable.com/69ot0m"}
+            width="800px"
+            height="480px"
             config={{
               youtube: {
                 playerVars: { showinfo: 1 },
@@ -24,10 +27,10 @@ const VideoMedia = () => {
           />
         </Flex>
 
-        <Heading>Camp Sedjwin Mural Rededication 1985</Heading>
+        <Heading pt={6}>Camp Sedjwin Mural Rededication 1985</Heading>
       </Stack>
-      <Stack mt={60} spacing={20}>
-        <Heading m={0} bg="gray" color="white" p={10}>
+      <Stack mt={180} spacing={20}>
+        <Heading m={0} bg="gray" color="white" p={10} borderRadius="5px">
           RADIO BROADCASTS OF TEMIMA GEZARI
         </Heading>
         <Heading>Long Island History Interview</Heading>
@@ -42,7 +45,7 @@ const VideoMedia = () => {
         <ReactAudioPlayer src={video} controls />
       </Stack>
       <Stack mt={60} spacing={20}>
-        <Heading m={0} bg="gray" color="white" p={10}>
+        <Heading m={0} bg="gray" color="white" p={10} borderRadius="5px">
           Filmstrips by Temima Gezari
         </Heading>
         <Text>Growing Through Art (1955)</Text>

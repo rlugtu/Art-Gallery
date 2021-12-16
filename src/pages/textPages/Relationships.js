@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RelatcionshipSingle from "../../components/RelationshipSingle";
+import RelationShipSingle from "../../components/RelationshipSingle";
 import { Flex, Heading, Stack, Text } from "@chakra-ui/react";
 
 const Relationships = () => {
@@ -16,17 +16,17 @@ const Relationships = () => {
   };
 
   return (
-    <Flex flexDirection="column" py={80} px={120}>
+    <Flex flexDirection="column" py="40px" px={150}>
       {showSingle ? (
-        <RelatcionshipSingle person={person} switchBack={switchBack} />
+        <RelationShipSingle person={person} switchBack={switchBack} />
       ) : (
         <Stack>
-          <Heading m={0}>PROFESSIONAL RELATIONSHIPS - </Heading>
-          <Heading m={0}>CONTEMPORARY ARTISTS AND EDUCATORS</Heading>
+          <Heading m={0} fontSize="2rem">PROFESSIONAL RELATIONSHIPS - </Heading>
+          <Heading m={0} fontSize="2rem">CONTEMPORARY ARTISTS AND EDUCATORS</Heading>
           <Stack>
-            <Text>
+            <Text fontWeight="500" fontSize="1.2rem">
               Temima Gezari wrote a memoir,{" "}
-              <Text as="span" fontWeight="bold" fontStyle="italic">
+              <Text as="span" fontWeight="bold" fontStyle="italic" fontSize="1.2rem">
                 I REMEMBER
               </Text>
               , in which she describes her friendships and experiences with 20th
@@ -34,7 +34,7 @@ const Relationships = () => {
             </Text>
             <Text></Text>
           </Stack>
-          <Text>
+          <Text fontSize="1.5rem">
             Read highlights from{" "}
             <Text as="span" fontWeight="bold" fontStyle="italic">
               I REMEMBER:
@@ -42,10 +42,12 @@ const Relationships = () => {
           </Text>
 
           <Stack>
-            <Heading>Artists:</Heading>
+            <Heading fontWeight="normal">Artists:</Heading>
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("MARK ROTHKO")}
             >
               MARK ROTHKO
@@ -53,6 +55,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("BRANCUSI")}
             >
               BRANCUSI
@@ -60,6 +64,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("DIEGO RIVERA")}
             >
               DIEGO RIVERA
@@ -67,6 +73,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("GEORGIA O’KEEFE")}
             >
               GEORGIA O’KEEFE
@@ -74,6 +82,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("MARC CHAGALL")}
             >
               MARC CHAGALL
@@ -81,10 +91,12 @@ const Relationships = () => {
           </Stack>
 
           <Stack>
-            <Heading>Educators:</Heading>
+            <Heading fontWeight="normal" fontSize="1.5rem">Educators:</Heading>
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("ALEXANDER DUSHKIN")}
             >
               ALEXANDER DUSHKIN
@@ -92,6 +104,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("MORDECAI M. KAPLAN")}
             >
               MORDECAI M. KAPLAN
@@ -99,6 +113,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("DAVID FINN")}
             >
               DAVID FINN
@@ -106,6 +122,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("MARTHA GRAHAM")}
             >
               MARTHA GRAHAM
@@ -113,6 +131,8 @@ const Relationships = () => {
             <Text
               color="blue"
               cursor="pointer"
+              fontSize="1.5rem"
+              fontWeight="bold"
               onClick={() => switchToSingle("ELEANOR ROOSEVELT")}
             >
               ELEANOR ROOSEVELT

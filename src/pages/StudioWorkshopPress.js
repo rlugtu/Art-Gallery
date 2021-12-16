@@ -13,15 +13,15 @@ import {
 
 const StudioWorkshopPress = () => {
   return (
-    <Flex flexDirection="column">
+    <Flex flexDirection="column" p="20px">
       <Stack spacing={20}>
         <Stack>
-          <Heading bg="lightgrey" p={12}>
+          <Heading bg="lightgrey" p={12} m={0}>
             STUDIO WORKSHOP PRESS PUBLISHES BOOKS BY AND ABOUT TEMIMA GEZARI
           </Heading>
-          <Heading>STUDIO WORKSHOP PRESS</Heading>
-          <Text>P.O. Box 793 Rocky Point NY, 11778</Text>
-          <Text>
+          <Heading pt={10} fontSize="2em">STUDIO WORKSHOP PRESS</Heading>
+          <Text fontSize="1.5rem">P.O. Box 793 Rocky Point NY, 11778</Text>
+          <Text fontSize="1.17em" fontWeight="700">
             To inquire about book availibility, please contact us at
             <Text as="span" color="blue">
               {" "}
@@ -30,31 +30,31 @@ const StudioWorkshopPress = () => {
           </Text>
         </Stack>
 
-        <Stack spacing={20}>
-          <Heading bg="lightgrey" p={12} mb={0}>
+        <Stack spacing={20} pt={20}>
+          <Heading bg="lightgrey" m={0} mb={0} py="5px" px="10px" fontSize="1.5rem">
             MAILING LIST
           </Heading>
-          <Text>
+          <Text fontSize="1.17em" fontWeight="700">
             Used copies of books by and about Temima Gezari can often be
             purchased online at book sellers such as AbeBooks, Amazon (books),
             eBay(books), Thrift Books, etc
           </Text>
-          <Text>
+          <Text fontSize="1.17em" fontWeight="700" pt={20}>
             Sign up for our mailing list to receive updates on book
             availibility:
           </Text>
           <Flex w="30%" justifyContent="space-between">
             <Input px={10} placeholder="Enter your email address" />
-            <Button p={10}>Submit</Button>
+            <Button p={10} border="1px solid black" w="200px" ml="10px">Submit</Button>
           </Flex>
         </Stack>
 
-        <Stack spacing={20}>
-          <Heading bg="lightgrey" p={12} mb={0}>
+        <Stack spacing={20} pt={20}>
+          <Heading bg="lightgrey"  m={0} mb={0} py="5px" px="10px" fontSize="1.5rem">
             BOOKS ABOUT TEMIMA GEZARI
           </Heading>
-          <Flex w="100%">
-            <Box w="70%">
+          <Flex w="100%" py={20}>
+            <Box w="90%">
               <Image
                 border="1px solid black"
                 p={16}
@@ -65,15 +65,16 @@ const StudioWorkshopPress = () => {
                 objectFit="contain"
               />
             </Box>
-            <Stack pl={60}>
+            <Stack pl="40px">
               <Text>
-                The Art of Temima Gezari is a retrospective collection of
+                <Text as="span" fontWeight="bold" fontStyle="italic">The Art of Temima Gezari </Text>
+                 is a retrospective collection of
                 Temima's artwork up to 1985. It also serves as the catalog of
                 this website. 360 black and white photos and 27 color plates.
                 146 pages. Hardcover.
               </Text>
               <Text>
-                Limited numbers of The Art of Temima Gezari's are availible new
+                Limited numbers of   <Text as="span" fontWeight="bold" fontStyle="italic">The Art of Temima Gezari's </Text> are availible new
                 from Studio Workshop Press
               </Text>
               <Text>
@@ -82,15 +83,15 @@ const StudioWorkshopPress = () => {
                 website, including early art exercises and book illustrations
               </Text>
               <Text>
-                Used copies of The Art of Temima Gezari can often be purchased
+                Used copies of <Text as="span" fontWeight="bold" fontStyle="italic">The Art of Temima Gezari </Text> can often be purchased
                 online at book sellers such as AbeBooks, Amazon (books),
                 eBay(books), Thrift Books, etc
               </Text>
             </Stack>
           </Flex>
         </Stack>
-        <Stack>
-          <Heading bg="lightgrey" p={12} mb={0}>
+        <Stack pt="20px">
+          <Heading bg="lightgrey"  m={0} mb={0} py="5px" px="10px" fontSize="1.5rem">
             BOOKS BY TEMIMA GEZARI
           </Heading>
           <Stack>

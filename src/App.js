@@ -53,6 +53,9 @@ function App() {
               "/art-education",
               "/artist-creativity",
               "/art-educator",
+              "/video-media",
+              "/archive-links",
+              "/professional-relationships"
             ]}
           >
             <NoHeader>
@@ -70,6 +73,21 @@ function App() {
                   path="/art-educator"
                   render={() => <ArtEducator />}
                 />
+                <Route
+                  exact
+                  path="/video-media"
+                  render={() => <VideoMedia />}
+                />
+                <Route
+                  exact
+                  path="/archive-links"
+                  render={() => <ArchivesLinks />}
+                />
+                <Route
+              exact
+              path="/professional-relationships"
+              render={() => <Relationships />}
+            />
               </Switch>
             </NoHeader>
           </Route>
@@ -82,26 +100,16 @@ function App() {
             <Route exact path="/foundation" render={() => <Foundation />} />
             <Route exact path="/contact" render={() => <Contact />} />
             <Route exact path="/mailing-list" render={() => <MailingList />} />
-            <Route exact path="/video-media" render={() => <VideoMedia />} />
 
             <Route
               exact
               path="/footprints-preview"
               render={() => <FootprintsPreview />}
             />
-            <Route
-              exact
-              path="/professional-relationships"
-              render={() => <Relationships />}
-            />
+            
 
             <Route exact path="/memories" render={() => <Memories />} />
 
-            <Route
-              exact
-              path="/archive-links"
-              render={() => <ArchivesLinks />}
-            />
             <Route
               exact
               path="/studio-workshop-press"

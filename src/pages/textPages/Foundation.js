@@ -11,12 +11,12 @@ import {
 
 const Foundation = () => {
   return (
-    <Flex flexDir="column" p={20} pr={240}>
+    <Flex flexDir="column" p={40} pr="80px" >
       <Stack spacing={20} mt={20}>
-        <Heading m={0}>TEMIMA GEZARI FOUNDATION FOR ART AND EDUCATION</Heading>
+        <Heading m={0} fontSize="2rem" color="#838383">TEMIMA GEZARI FOUNDATION FOR ART AND EDUCATION</Heading>
         If you would like to support our efforts and the goals of the
         Foundation, click the icon below
-        <Text>
+        <Text pr="160px" >
           The Temima Gezari Foundation for Art and Education is a 501(c)3
           non-profit corporation that was founded to promote and publicize
           Temima's philosophy and method of education. Her humanistic approach
@@ -24,30 +24,30 @@ const Foundation = () => {
           highly effective. For an example of her attitude and approach, see
           Chapters 1 and 4 of her book Footprints and New Worlds
           <Text as="span">
-            <Link color="blue" cursor="pointer" href="/footprints-preview">
-              CLICK HERE{" "}
+            <Link color="blue" cursor="pointer" href="/footprints-preview" fontWeight="bold">
+            {" "} CLICK HERE{" "}
             </Link>
           </Text>
           The foundation is also committed to curating, conserving, and
           exhibiting Temima's artwork, and operating and maintaining her Rocky
           Point Studio as a gallery for public education and inspiration.
         </Text>
-        <Text>
+        <Text pr="160px">
           If you would like to support our efforts and the goals of the
           Foundation,
           <Text as="span">
-            <Link color="blue" cursor="pointer" href="/donate">
+            <Link color="blue" cursor="pointer" href="/donate" fontWeight="bold">
               {" "}
               CLICK HERE{" "}
             </Link>
           </Text>{" "}
           to go to the Donate Page.
         </Text>
-        <Stack>
-          <Heading>
+        <Stack mt={0} pt={0}>
+          <Heading mt={0} pt={0} pr="160px" fontSize="2em">
             Donate to the TEMIMA GEZARI FOUNDATION FOR ART AND EDUCATION
           </Heading>
-          <Heading>
+          <Heading pr="160px">
             If you would like to support our efforts and the goals of the
             Foundation, click the icon below
           </Heading>

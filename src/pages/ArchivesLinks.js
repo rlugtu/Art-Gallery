@@ -3,11 +3,11 @@ import { Flex, Heading, Text, Stack, Link } from "@chakra-ui/react";
 
 const ArchivesLinks = () => {
   return (
-    <Flex flexDirection="column" py={80} px={120}>
+    <Flex flexDirection="column" py="60px" px="150px">
       <Heading>ARCHIVES AND LINKS</Heading>
       <Stack spacing={20}>
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Temima Gezari, Jewish Women's Archive
           </Text>
           <Link
@@ -21,7 +21,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Wikipedia - Temima Gezari
           </Text>
           <Link
@@ -35,7 +35,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Temima Gezari Worldcat Identites
           </Text>
           <Link
@@ -49,7 +49,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Yeshiva University - Temima Gezari Papers
           </Text>
           <Link
@@ -63,7 +63,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Art And The Growing Child (filmstrip and sound)
           </Text>
           <Link
@@ -77,7 +77,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Temima Gezari: Seventy Years in Art Education. (Teacher Talk)
           </Text>
           <Link
@@ -91,7 +91,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text>Archive Encyclopedia - Temima Gezari</Text>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>Archive Encyclopedia - Temima Gezari</Text>
           <Link
             color="blue"
             href="https://jwa.org/encyclopedia/article/gezari-temima"
@@ -103,7 +103,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             Rocky Point, Einstein and Me
           </Text>
           <Text>
@@ -121,7 +121,7 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontWeight="bold" m={0}>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
             On Purple Cows and Pink Skies: An Interview with Temima Gezari
           </Text>
           <Link
