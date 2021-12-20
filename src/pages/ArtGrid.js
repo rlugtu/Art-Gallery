@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Flex, Heading, Image, Text, Link } from "@chakra-ui/react";
 import artJson from "../assets/artworks/full.json";
-
+import '../styles/SingleArt.scss'
 const ArtGrid = ({ artStyle }) => {
   const [artType, setArtType] = useState("");
 
@@ -22,7 +22,7 @@ const ArtGrid = ({ artStyle }) => {
       <Flex w="100%" flexWrap="wrap">
         {artType &&
           artJson[`${artType}`].map((art, i) => (
-            <Link href={`/artwork/${artType}/${art.src}`} cursor="pointer">
+            <Link href={`/artwork/${artType}/${art.src}`} className="art-grid">
               <Flex w="175px" h="175px" m="2px">
                 <Image
                   objectFit="cover"

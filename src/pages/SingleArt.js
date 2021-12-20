@@ -3,6 +3,7 @@ import { useParams, useHistory } from "react-router-dom";
 import artJson from "../assets/artworks/full.json";
 
 import { Flex, Heading, Text, Image } from "@chakra-ui/react";
+import '../styles/SingleArt.scss'
 
 const SingleArt = ({ type }) => {
   const [art, setArt] = useState("");
@@ -19,7 +20,7 @@ const SingleArt = ({ type }) => {
     // }
   }, []);
   return (
-    <Flex bg="white" justifyContent="center" w="100%">
+    <Flex bg="white" justifyContent="center" w="100%" className="single-art-container">
       <Flex
         flexDir="column"
         alignItems="center"
@@ -44,7 +45,7 @@ const SingleArt = ({ type }) => {
                 }
               />
               <Flex justifyContent="flex-end">
-                <Text mx={10}>{artData[0].title}</Text>
+                <Text mx={10} fontWeight="bold" fontStyle="italic">{artData[0].title}</Text>
                 <Text mx={10}>{artData[0].year}</Text>
                 <Text mx={10}>{artData[0].material}</Text>
                 <Text mx={10}>{artData[0].size}</Text>
