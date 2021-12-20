@@ -1163,7 +1163,7 @@
   ],
   "drawings": [
     {
-      "src": "MyneighborhoodinBrownsville-Sketch#1(Age15)-0",
+      "src": "myNeighborSketch1",
       "title": "My neighborhood in Brownsville - Sketch #1   (Age 15)",
       "year": 1919,
       "material": "Pencil on Paper",
@@ -1171,7 +1171,7 @@
       "location": ""
     },
     {
-      "src": "MyneighborhoodinBrownsville-Sketch#2(Age15)-1",
+      "src": "myNeighborSketch2",
       "title": "My neighborhood in Brownsville - Sketch #2 (Age 15)",
       "year": 1919,
       "material": "Pencil on Paper",
@@ -1179,7 +1179,7 @@
       "location": ""
     },
     {
-      "src": "MyneighborhoodinBrownsville-Sketch#3(Age15)-2",
+      "src": "myNeighborSketch3",
       "title": "My neighborhood in Brownsville - Sketch #3   (Age 15)",
       "year": 1919,
       "material": "Pencil on Paper",
@@ -1379,7 +1379,7 @@
       "location": "New Mexico"
     },
     {
-      "src": "VerticalandHorizontal#2-27",
+      "src": "VerticalHorizontal2",
       "title": "Vertical and Horizontal #2",
       "year": 1932,
       "material": "Pencil on Paper",

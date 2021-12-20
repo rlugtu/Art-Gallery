@@ -31,6 +31,8 @@ import AllArtGrid from "./pages/AllArtGrid";
 import NoHeader from "./components/NoHeader";
 import BookSingle from "./pages/BookSingle";
 import Catalog from "./pages/Catalog";
+import Murals from "./pages/Murals";
+
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -50,7 +52,7 @@ function App() {
             path="/artwork/:style/:id"
             render={() => <SingleArt />}
           />
-           <Route
+          <Route
             exact
             path="/full/artwork/:id"
             render={() => <FullArtSingle />}
@@ -115,6 +117,7 @@ function App() {
             <Route exact path="/contact" render={() => <Contact />} />
             <Route exact path="/mailing-list" render={() => <MailingList />} />
             <Route exact path="/book/:id" render={() => <BookSingle />} />
+            <Route exact path="/murals" render={() => <Murals />} />
 
             <Route
               exact

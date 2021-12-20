@@ -20,7 +20,7 @@ const SingleArt = ({ type }) => {
     // }
   }, []);
   return (
-    <Flex bg="white" justifyContent="center" w="100%" className="single-art-container">
+    <Flex bg="white" justifyContent="center" w="100vw" h="100vh" alignItems="center" className="single-art-container">
       <Flex
         flexDir="column"
         alignItems="center"
@@ -30,21 +30,24 @@ const SingleArt = ({ type }) => {
         // maxWidth="1250px"
         px={120}
         maxH="100vh"
+
       >
         {artData[0] && (
           <Flex flexDir="column" w="100%">
             <Flex flexDir="column">
-              <Image
-                objectFit="contain"
-                w="100%"
-                h="100%"
-                maxH="80vh"
-                src={
-                  require(`../assets/artworks/${style}/${artData[0].src}.jpg`)
-                    .default
-                }
-              />
-              <Flex justifyContent="flex-end">
+              {artData[0].src && (
+                <Image
+                  objectFit="contain"
+                  w="100%"
+                  h="100%"
+                  maxH="80vh"
+                  src={
+                    require(`../assets/artworks/${style}/${artData[0].src}.jpg`)
+                      .default
+                  }
+                />
+              )}
+              <Flex justifyContent="center">
                 <Text mx={10} fontWeight="bold" fontStyle="italic">{artData[0].title}</Text>
                 <Text mx={10}>{artData[0].year}</Text>
                 <Text mx={10}>{artData[0].material}</Text>

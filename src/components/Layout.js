@@ -14,7 +14,8 @@ const Layout = ({ children }) => {
       <Navbar />
       <Flex flexDirection="column" className="site-content-with-header">
         {showHeader && <Header></Header>}
-        <Flex borderLeft="1px solid black">
+        <Flex borderLeft="1px solid black" bg="white"
+        >
           <Button
             onClick={() => history.goBack()}
             mg="white"

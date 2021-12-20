@@ -1,0 +1,82 @@
+{
+    "harvestMural": [
+        {
+            "title": "The Harvest Mural - Camp Sedjwin",
+            "year": 1935,
+            "material": "Oil on Composition Board",
+            "size": "20'x8",
+            "location": "New York",
+            "src": "HarvestMural"
+        }
+    ],
+    "sedjwinPainting": [
+        {
+            "title": "",
+            "year": "",
+            "material": "",
+            "size": "",
+            "location": "",
+            "src": "SejwinPainting"
+        }
+    ],
+    "landOfIsraelFull": [
+        {
+            "title": "Land of Israel Mural",
+            "year": 1936,
+            "material": "Oil on Canvas",
+            "size": "30'x8",
+            "location": "New York",
+            "src": "landOfIsraelWholeMural"
+        }
+    ],
+    "landOfIsraelBottomLeft": [
+        {
+            "title": "Land of Israel Mural - Artist's Plan (Bottom Left)",
+            "year": 1936,
+            "material": "Pencil on Paper",
+            "size": "20'x10'",
+            "location": "New York",
+            "src": "LandOfIsraelBottomLeft"
+        }
+    ],
+    "landOfIsraelBottomRight": [
+        {
+            "title": "Land of Israel Mural - Artist's Plan (Bottom Right)",
+            "year": 1936,
+            "material": "Pencil on Paper",
+            "size": "20'x10'",
+            "location": "New York",
+            "src": "LandOfIsraelBottomRight"
+        }
+    ],
+    "landOfIsraelMiddleLeft": [
+        {
+            "title": "Land of Israel Mural - Artist's Plan (Middle Left Panel)",
+            "year": 1936,
+            "material": "Pencil on Paper",
+            "size": "20'x10'",
+            "location": "New York",
+            "src": "LandOfIsraelMiddleLeft"
+        }
+    ],
+    "landOfIsraelMiddleRight": [
+        {
+            "title": "Land of Israel Mural - Artist's Plan (Middle Right Panel)",
+            "year": 1936,
+            "material": "Pencil on Paper",
+            "size": "20'x10'",
+            "location": "New York",
+            "src": "LandOfIsraelMidRight"
+        }
+    ],
+    "rockyPoint": [
+        {
+            "title": "Traveling To Rocky Point",
+            "year": 1953,
+            "material": "Oil on Transite",
+            "size": "8'x4'",
+            "location": "",
+            "src": "RockyPoint"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Heading, Center, Image, Text, Stack } from "@chakra-ui/react";
+import { Flex, Center, Image, Stack } from "@chakra-ui/react";
 
 const Catalog = () => {
   const pages = ["catalog1", "catalog2", "catalog3", "catalog4"];
