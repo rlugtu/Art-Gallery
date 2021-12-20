@@ -60,7 +60,7 @@ const Header = () => {
         <Link textAlign="center" color="white" exact href="/artist ">
           <Text p={0} m={0} color="#bdbdbd">
             {" "}
-            WHO WAS TEMIMA?
+            WHO IS TEMIMA?
           </Text>
         </Link>
         <Link textAlign="center" color="white" exact href="/books">

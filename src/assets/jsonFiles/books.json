@@ -1,0 +1,139 @@
+{
+  "booksWritten": [
+    {
+      "title": "Mama, Papa, and Me",
+      "linkTitle": "mamapapaandme",
+      "description": "Book I of Temima's autobiography - covering her childhood and experiences as a young art student. (1905-1920)",
+      "author": "Temima Gezari",
+      "file": "mama_papa_and_me"
+    },
+    {
+      "title": "Never a Dull Moment",
+      "linkTitle": "neveradullmoment",
+      "description": "Temima Gezari",
+      "author": "Book II of Temima's autobiography - Adventures in the American South West and Mexico as a young artist (1920-193).",
+      "file": "never_a_dull_moment"
+    },
+    {
+      "title": "Is There a Tomorrow? – Yes!",
+      "linkTitle": "isthereatomorrow",
+      "description": "Book III of Temima's autobiography - Temima's adventures as a young artist in Palestine (1930-1938).",
+      "author": "Temima Gezari",
+      "file": "is_there_a_tomorrow"
+    },
+    {
+      "title": "This is the House that Zvi Built",
+      "linkTitle": "thisisthehouse",
+
+      "description": "Book IV of Temima's Autobiography - Marriage, family, and her studio in Rocky Point (1938-1960).",
+      "author": "Temima Gezari",
+      "file": "this_is_the_house"
+    },
+    {
+      "title": "I Remember",
+      "linkTitle": "iremember",
+
+      "description": "Book V of Temima's Autobiography - Temima's memoir of her relationships with major artists and educators (1920-1980).",
+      "author": "Temima Gezari",
+      "file": "I_remember"
+    },
+    {
+      "title": "Footprints and New Worlds",
+      "linkTitle": "footprints",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "footprints_and_new_worlds"
+    },
+    {
+      "title": "Art and Education",
+      "linkTitle": "arteducation",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "art_and_education"
+    },
+    {
+      "title": "Now that I'm Ninety",
+      "linkTitle": "nowthatimninety",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "now_that_im_ninety"
+    },
+    {
+      "title": "Now that I'm Ninety-Five",
+      "linkTitle": "nowthatimninetyfive",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "now_that_im_ninety_five"
+    },
+    {
+      "title": "The Jewish Kindergarten - A Manual for Teachers",
+      "linkTitle": "jewishkindergarten",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "the_jewish_kindergarden"
+    }
+  ],
+  "illustrated": [
+    {
+      "title": "Children of the Emek",
+      "linkTitle": "childrenofemek",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "children_of_emek"
+    },
+    {
+      "title": "Children of the Emek New and Revised",
+      "linkTitle": "childrenofemekrevised",
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "children_of_emek_revised"
+    },
+    {
+      "title": "Hillel’s Happy Holidays",
+      "linkTitle": "hillelhappyholiday",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "hillels_happy_holidays"
+    },
+    {
+      "title": "The Gateway to Jewish Song",
+      "linkTitle": "gatewaytojewishsong",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "gateway_to_jewish_song"
+    }
+  ],
+  "booksBy": [
+    {
+      "title": "The Art of Temima Gezari – Painting, Drawing and Sculpture",
+      "linkTitle": "artoftemimagezari",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "art_of_temima_gezari"
+    },
+    {
+      "title": "The Benderly Boys and American Jewish Education",
+      "linkTitle": "thebenderlyboys",
+
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "the_benderly_boys"
+    },
+    {
+      "title": "The Women who Reconstructed American Jewish Education, 1910-l965",
+      "linkTitle": "womanwhoreconstructed",
+      "description": "",
+      "author": "Temima Gezari",
+      "file": "the_women_who_reconstructed"
+    }
+  ]
+}

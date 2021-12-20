@@ -19,35 +19,42 @@ const SingleArt = ({ type }) => {
     // }
   }, []);
   return (
-    <Flex
-      flexDir="column"
-      alignItems="center"
-      w="100%"
-      onClick={() => history.goBack()}
-      pt={40}
-    >
-      {artData[0] && (
-        <Flex flexDir="column">
-          <Flex h="80vh" w="90vw">
-            <Image
-              objectFit="contain"
-              w="100%"
-              src={
-                require(`../assets/artworks/${style}/${artData[0].src}.jpg`)
-                  .default
-              }
-            />
+    <Flex bg="white" justifyContent="center" w="100%">
+      <Flex
+        flexDir="column"
+        alignItems="center"
+        w="100%"
+        onClick={() => history.goBack()}
+        py={80}
+        // maxWidth="1250px"
+        px={120}
+        maxH="100vh"
+      >
+        {artData[0] && (
+          <Flex flexDir="column" w="100%">
+            <Flex flexDir="column">
+              <Image
+                objectFit="contain"
+                w="100%"
+                h="100%"
+                maxH="80vh"
+                src={
+                  require(`../assets/artworks/${style}/${artData[0].src}.jpg`)
+                    .default
+                }
+              />
+              <Flex justifyContent="flex-end">
+                <Text mx={10}>{artData[0].title}</Text>
+                <Text mx={10}>{artData[0].year}</Text>
+                <Text mx={10}>{artData[0].material}</Text>
+                <Text mx={10}>{artData[0].size}</Text>
+                <Text mx={10}>{artData[0].location}</Text>
+                <Text></Text>
+              </Flex>
+            </Flex>
           </Flex>
-          <Flex justifyContent="center">
-            <Text mx={10}>{artData[0].title}</Text>
-            <Text mx={10}>{artData[0].year}</Text>
-            <Text mx={10}>{artData[0].material}</Text>
-            <Text mx={10}>{artData[0].size}</Text>
-            <Text mx={10}>{artData[0].location}</Text>
-            <Text></Text>
-          </Flex>
-        </Flex>
-      )}
+        )}
+      </Flex>
     </Flex>
   );
 };

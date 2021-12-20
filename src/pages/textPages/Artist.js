@@ -6,21 +6,23 @@ const Artist = () => {
   return (
     <Flex flexDirection="column" p={20} pr={80}>
       <Stack>
-        <Heading m={0} mt={20} fontSize="2em">
+        <Heading color="#5a5a5a" m={0} mt={20} fontSize="2em">
           CURRICULUM VITAE - TEMIMA GEZARI
         </Heading>
-        <Heading fontSize="1.35rem" m={0} pt={20} pb={0}>
+        <Heading color="#5a5a5a" fontSize="1.35rem" m={0} pt={8} pb={0}>
           SCULPTOR, PAINTER, ART EDUCATOR, AUTHOR AND LECTURER
         </Heading>
         <Text pt={12}>
           Temima Gezari was the Director of the Department of Art Education,
-          Board of Jewish Education of New York (for 62 years, beginning in 1940
-          and supervised art programs and art teachers in 150 schools in the
-          greater new york metropolitan area.) She was married to Zvi Gezari,
+          Board of Jewish Education of New York (for 62 years, beginning in
+          1940) and supervised art programs and art teachers in 150 schools in
+          the greater new york metropolitan area. She was married to Zvi Gezari,
           and the mother of two sons, Daniel and Walter.
         </Text>
-        <Stack spacing={14}>
-          <Heading mb={4}>Education {`&`} Art Studies</Heading>
+        <Stack spacing={0}>
+          <Heading color="#5a5a5a" mb={4}>
+            Education {`&`} Art Studies
+          </Heading>
           <Text mt={0}>
             Parson's New York School of Fine and Applied Art -1924
           </Text>
@@ -39,7 +41,9 @@ const Artist = () => {
           </Text>
         </Stack>
         <Stack spacing={16}>
-          <Heading mb={4}>Teaching</Heading>
+          <Heading color="#5a5a5a" mb={4}>
+            Teaching
+          </Heading>
           <Text mt={0}>
             Taught in the Clinic for Gifted Children at New York University,
             1938 - 1940
@@ -56,7 +60,9 @@ const Artist = () => {
           </Text>
         </Stack>
         <Stack spacing={16}>
-          <Heading mb={4}>Leadership in Art Education</Heading>
+          <Heading color="#5a5a5a" mb={4}>
+            Leadership in Art Education
+          </Heading>
           <Text mt={0}>
             Established the Art Workshop for Teachers to which they may come in
             an informal atmosphere to discuss the philosophy of art education
@@ -96,8 +102,10 @@ const Artist = () => {
           </Text>
         </Stack>
 
-        <Stack spacing={16}>
-          <Heading mb={4}>Professional Memberships</Heading>
+        <Stack spacing={0}>
+          <Heading color="#5a5a5a" mb={4}>
+            Professional Memberships
+          </Heading>
           <Text mt={0}>Museum-Schools Committee</Text>
           <Text>National Art Education Association</Text>
           <Text>Eastern Art Association</Text>
@@ -117,8 +125,10 @@ const Artist = () => {
           <Text>Has been invited lecturer for OSEA, NYSATA, NYCATA</Text>
         </Stack>
 
-        <Stack spacing={16}>
-          <Heading mb={4}>Listed In</Heading>
+        <Stack spacing={0}>
+          <Heading color="#5a5a5a" mb={4}>
+            Listed In
+          </Heading>
           <Text mt={0}>"Who's Who in World Jewrey",</Text>
           <Text>"Who's Who in the East",</Text>
           <Text>“Who's Who in American Education",</Text>
@@ -134,8 +144,10 @@ const Artist = () => {
           <Text>Has been invited lecturer for OSEA, NYSATA, NYCATA</Text>
         </Stack>
 
-        <Stack spacing={16}>
-          <Heading mb={4}>Solo Shows</Heading>
+        <Stack spacing={0}>
+          <Heading color="#5a5a5a" mb={4}>
+            Solo Shows
+          </Heading>
           <Text mt={0}>
             Retrospective Sculpture Exhibition - Suffolk Museum -1965
           </Text>
@@ -182,20 +194,27 @@ const Artist = () => {
           </Text>
 
           <Text>
-            Has had one-man shows in New York, Philadelphia, Cleveland,
-            Washington, D.C., Jerusalem.
+            One-man shows in New York, Philadelphia, Cleveland, Washington,
+            D.C., Jerusalem.
           </Text>
 
           <Text>
-            Has painted murals for the Society for the Advancement of Judiasm,
-            15 West 86th Street, New York, for the Synagogue of Camp Cejwin,
-            Port Jervis, N.Y. and for the Children's House of Kibbutz Sarid in
-            Israel
+            Painted murals for the Society for the Advancement of Judiasm, 15
+            West 86th Street
+          </Text>
+          <Text>
+            Painted murals for New York, for the Synagogue of Camp Cejwin, Port
+            Jervis, N.Y.
+          </Text>
+          <Text>
+            Painted murals for The Children's House of Kibbutz Sarid in Israel
           </Text>
         </Stack>
 
-        <Stack spacing={16}>
-          <Heading mb={4}>Commissions</Heading>
+        <Stack spacing={0}>
+          <Heading color="#5a5a5a" mb={4}>
+            Art Commissions
+          </Heading>
           <Text mt={0}>
             Bronze Judaic Totem - at Temple Israel, Lawrence, L.I., NY
           </Text>

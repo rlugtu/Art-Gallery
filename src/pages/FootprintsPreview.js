@@ -15,7 +15,14 @@ const FootprintsPreview = () => {
       >
         "FOOTPRINTS AND NEW WORLDS" - CHAPTERS 1 & 4
       </Heading>
-      <Text color="grey" fontSize="1.33rem" fontWeight="600" m={0} mt={10} p={0}>
+      <Text
+        color="grey"
+        fontSize="1.33rem"
+        fontWeight="600"
+        m={0}
+        mt={10}
+        p={0}
+      >
         TEMIMA GEZARI'S UNIQUE APPROACH TO EDUCATION AND CHILD DEVELOPMENT
       </Text>
 

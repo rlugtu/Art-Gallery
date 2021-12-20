@@ -23,9 +23,14 @@ import MailingList from "./pages/MailingList";
 import VideoMedia from "./pages/VideoMedia";
 import Books from "./pages/Books";
 import ArtGrid from "./pages/ArtGrid";
+import AutoBiography from "./pages/textPages/AutoBiography";
 import SingleArt from "./pages/SingleArt";
+import FullArtSingle from "./pages/FullArtSingle";
+
 import AllArtGrid from "./pages/AllArtGrid";
 import NoHeader from "./components/NoHeader";
+import BookSingle from "./pages/BookSingle";
+import Catalog from "./pages/Catalog";
 
 function App() {
   const [current, setCurrent] = useState(null);
@@ -45,6 +50,11 @@ function App() {
             path="/artwork/:style/:id"
             render={() => <SingleArt />}
           />
+           <Route
+            exact
+            path="/full/artwork/:id"
+            render={() => <FullArtSingle />}
+          />
           <Route
             path={[
               "/books",
@@ -55,13 +65,15 @@ function App() {
               "/art-educator",
               "/video-media",
               "/archive-links",
-              "/professional-relationships"
+              "/professional-relationships",
+              "/autobiography",
             ]}
           >
             <NoHeader>
               <Switch>
                 <Route path="/books" render={() => <Books />} />
                 <Route path="/test" render={() => <Index />} />
+                <Route path="/autobiography" render={() => <AutoBiography />} />
                 <Route path="/philosophy" render={() => <Philosophy />} />
                 <Route path="/art-education" render={() => <ArtEducation />} />
                 <Route
@@ -84,10 +96,10 @@ function App() {
                   render={() => <ArchivesLinks />}
                 />
                 <Route
-              exact
-              path="/professional-relationships"
-              render={() => <Relationships />}
-            />
+                  exact
+                  path="/professional-relationships"
+                  render={() => <Relationships />}
+                />
               </Switch>
             </NoHeader>
           </Route>
@@ -98,15 +110,17 @@ function App() {
             <Route exact path="/artist" render={() => <Artist />} />
 
             <Route exact path="/foundation" render={() => <Foundation />} />
+            <Route exact path="/catalog" render={() => <Catalog />} />
+
             <Route exact path="/contact" render={() => <Contact />} />
             <Route exact path="/mailing-list" render={() => <MailingList />} />
+            <Route exact path="/book/:id" render={() => <BookSingle />} />
 
             <Route
               exact
               path="/footprints-preview"
               render={() => <FootprintsPreview />}
             />
-            
 
             <Route exact path="/memories" render={() => <Memories />} />
 

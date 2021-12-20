@@ -31,8 +31,8 @@ const AllArtGrid = () => {
       <Flex w="100%" flexWrap="wrap" pt={8}>
         {allArt &&
           allArt.map((art, i) => (
-            <Link href={`/artwork/${art}/${art.src}`} cursor="pointer">
-              <Flex w="181px" h="181px" m="2px">
+            <Link href={`/full/artwork/${art.src}`} cursor="pointer">
+              <Flex w="175px" h="175px" m="2px">
                 <Image
                   objectFit="cover"
                   w="100%"

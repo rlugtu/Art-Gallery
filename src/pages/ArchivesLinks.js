@@ -91,7 +91,9 @@ const ArchivesLinks = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Text fontSize="1.17em" fontWeight="bold" m={0}>Archive Encyclopedia - Temima Gezari</Text>
+          <Text fontSize="1.17em" fontWeight="bold" m={0}>
+            Archive Encyclopedia - Temima Gezari
+          </Text>
           <Link
             color="blue"
             href="https://jwa.org/encyclopedia/article/gezari-temima"

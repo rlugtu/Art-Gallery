@@ -21,12 +21,21 @@ const Relationships = () => {
         <RelationShipSingle person={person} switchBack={switchBack} />
       ) : (
         <Stack>
-          <Heading m={0} fontSize="2rem">PROFESSIONAL RELATIONSHIPS - </Heading>
-          <Heading m={0} fontSize="2rem">CONTEMPORARY ARTISTS AND EDUCATORS</Heading>
+          <Heading m={0} fontSize="2rem">
+            PROFESSIONAL RELATIONSHIPS -{" "}
+          </Heading>
+          <Heading m={0} fontSize="2rem">
+            CONTEMPORARY ARTISTS AND EDUCATORS
+          </Heading>
           <Stack>
             <Text fontWeight="500" fontSize="1.2rem">
               Temima Gezari wrote a memoir,{" "}
-              <Text as="span" fontWeight="bold" fontStyle="italic" fontSize="1.2rem">
+              <Text
+                as="span"
+                fontWeight="bold"
+                fontStyle="italic"
+                fontSize="1.2rem"
+              >
                 I REMEMBER
               </Text>
               , in which she describes her friendships and experiences with 20th
@@ -91,7 +100,9 @@ const Relationships = () => {
           </Stack>
 
           <Stack>
-            <Heading fontWeight="normal" fontSize="1.5rem">Educators:</Heading>
+            <Heading fontWeight="normal" fontSize="1.5rem">
+              Educators:
+            </Heading>
             <Text
               color="blue"
               cursor="pointer"
