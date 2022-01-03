@@ -1,11 +1,33 @@
-import { Flex, Text, VStack } from "@chakra-ui/react";
+import { Flex, Text, VStack, Button } from "@chakra-ui/react";
 import "../styles/Navbar.scss";
+import { useHistory } from "react-router-dom";
 
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const history = useHistory();
+
   return (
-    <Flex flexDirection="column" className="nav">
+    <Flex flexDirection="column" className="nav" >
+      <Button
+        pos="absolute"
+        top="200px"
+        right="20px"
+        onClick={() => history.goBack()}
+        mg="white"
+        mt={20}
+        ml={20}
+        w="100px"
+        cursor="pointer"
+        border="none"
+        fontSize="1rem"
+        py={10}
+        bg="#f60d09"
+        color="white"
+        fontWeight="700"
+      >
+        BACK
+      </Button>
       <Flex
         flexDirection="column"
         className="nav-header"

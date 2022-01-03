@@ -6,10 +6,10 @@ const Artist = () => {
   return (
     <Flex flexDirection="column" p={20} pr={80}>
       <Stack>
-        <Heading color="#5a5a5a" m={0} mt={20} fontSize="2em">
+        <Heading color="#5a5a5a" m={0} mt={20} mb={0} fontSize="3em">
           CURRICULUM VITAE - TEMIMA GEZARI
         </Heading>
-        <Heading color="#5a5a5a" fontSize="1.35rem" m={0} pt={8} pb={0}>
+        <Heading color="black" fontSize="1.77rem" m={0} mt="0 !important" pt={0} pb={0}>
           SCULPTOR, PAINTER, ART EDUCATOR, AUTHOR AND LECTURER
         </Heading>
         <Text pt={12}>
@@ -20,8 +20,9 @@ const Artist = () => {
           and the mother of two sons, Daniel and Walter.
         </Text>
         <Stack spacing={0}>
-          <Heading color="#5a5a5a" mb={4}>
-            Education {`&`} Art Studies
+          <Heading color="black" mb={4}>
+            {/* Education {`&`} Art Studies */}
+            EDUCATION & ART STUDIES
           </Heading>
           <Text mt={0}>
             Parson's New York School of Fine and Applied Art -1924
@@ -40,11 +41,12 @@ const Artist = () => {
             Social Research
           </Text>
         </Stack>
-        <Stack spacing={16}>
-          <Heading color="#5a5a5a" mb={4}>
-            Teaching
+        <Stack spacing={12}>
+          <Heading color="black" mb={4}>
+            {/* Teaching */}
+            TEACHING
           </Heading>
-          <Text mt={0}>
+          <Text mt="0 !important">
             Taught in the Clinic for Gifted Children at New York University,
             1938 - 1940
           </Text>
@@ -53,17 +55,18 @@ const Artist = () => {
             Seminary college of the Jewish Theological Seminary from 1935 -1977.
           </Text>
           <Text>
-            Temima presented invited lectures and seminars at Brooklyn College,
+            Gave invited lectures and seminars at Brooklyn College,
             Hunter College, University of Michigan at Ann Arbor, New York
             University and the City of the College of New York, Teachers
             Training College, Singapore, Coventry College of Education, England
           </Text>
         </Stack>
-        <Stack spacing={16}>
-          <Heading color="#5a5a5a" mb={4}>
-            Leadership in Art Education
+        <Stack spacing={12}>
+          <Heading color="black" mb={4}>
+            {/* Leadership in Art Education */}
+            LEADERSHIP IN ART EDUCATION
           </Heading>
-          <Text mt={0}>
+          <Text mt="0 !important">
             Established the Art Workshop for Teachers to which they may come in
             an informal atmosphere to discuss the philosophy of art education
             and to study the various media in a search for creative approaches
@@ -103,10 +106,11 @@ const Artist = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Heading color="#5a5a5a" mb={4}>
-            Professional Memberships
+          <Heading color="black" mb={4}>
+            {/* Professional Memberships */}
+            PROFESSIONAL MEMBERSHIPS
           </Heading>
-          <Text mt={0}>Museum-Schools Committee</Text>
+          <Text mt="0 !important">Museum-Schools Committee</Text>
           <Text>National Art Education Association</Text>
           <Text>Eastern Art Association</Text>
           <Text>
@@ -126,10 +130,11 @@ const Artist = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Heading color="#5a5a5a" mb={4}>
-            Listed In
+          <Heading color="black" mb={4}>
+            {/* Listed In */}
+            LISTED IN
           </Heading>
-          <Text mt={0}>"Who's Who in World Jewrey",</Text>
+          <Text mt="0 !important">"Who's Who in World Jewrey",</Text>
           <Text>"Who's Who in the East",</Text>
           <Text>“Who's Who in American Education",</Text>
           <Text>“Who' s Who of American Women".</Text>
@@ -145,10 +150,11 @@ const Artist = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Heading color="#5a5a5a" mb={4}>
-            Solo Shows
+          <Heading color="black" mb={4}>
+            {/* Solo Shows */}
+            SOLO SHOWS
           </Heading>
-          <Text mt={0}>
+          <Text mt="0 !important">
             Retrospective Sculpture Exhibition - Suffolk Museum -1965
           </Text>
           <Text>Second Sculpture Exhibition -Suffolk Museum -1966</Text>
@@ -212,10 +218,10 @@ const Artist = () => {
         </Stack>
 
         <Stack spacing={0}>
-          <Heading color="#5a5a5a" mb={4}>
+          <Heading color="black" mb={4}>
             Art Commissions
           </Heading>
-          <Text mt={0}>
+          <Text mt="0 !important">
             Bronze Judaic Totem - at Temple Israel, Lawrence, L.I., NY
           </Text>
           <Text>Bronze "Lament" at the Yad Vashem Museum in Jerusalem</Text>

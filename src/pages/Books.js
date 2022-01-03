@@ -10,15 +10,15 @@ const Books = () => {
     setBookData(booksJson);
   }, []);
   return (
-    <Flex flexDir="column" p="40px" pr="20px" pt="20px">
+    <Flex flexDir="column" p="40px" pr="20px" pt="40px">
       <Flex flexDir="column" mb={20}>
-        <Heading w="100%" color="white" bg="grey" p={10} borderRadius={5}>
+        {/* <Heading w="100%" color="white" bg="grey" p={10} borderRadius={5}>
           Featured
-        </Heading>
+        </Heading> */}
         <Flex>
           <Link href="/book/artoftemimagezari">
             <Flex flexDir="column">
-              <Flex w="100%" maxW="250px">
+              <Flex w="100%" w="250px">
                 <Image
                   h="100%"
                   w="100%"
@@ -33,11 +33,12 @@ const Books = () => {
             </Flex>
           </Link>
           <Flex flexDir="column" ml={20}>
-            <Heading m={0} fontSize="2rem">Featured Book</Heading>
-            <Heading fontWeight="bold" fontSize="2rem" m={0}>
+            {/* <Heading m={0} fontSize="2rem">FEATURED BOOK</Heading> */}
+            <Heading fontWeight="bold" fontStyle="italic" fontSize="2rem" m={0}>
               The Art of Temima Gezari
             </Heading>
             <Text fontSize="1.5rem" mt={0}>By Daniel Gezari</Text>
+            <Text w="450px">Catalog of Temima's artwork up to the age of 80, containing most of her work presented on this website. </Text>
           </Flex>
         </Flex>
       </Flex>

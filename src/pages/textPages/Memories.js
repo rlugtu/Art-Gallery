@@ -3,7 +3,7 @@ import { Box, Image, Heading } from "@chakra-ui/react";
 
 const Memories = () => {
   return (
-    <Box>
+    <Box pb={60}>
       <Heading color="grey" textAlign="center" fontSize="2rem">
         MEMORIES OF TEMIMA GEZARI
       </Heading>

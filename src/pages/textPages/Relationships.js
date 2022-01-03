@@ -16,13 +16,13 @@ const Relationships = () => {
   };
 
   return (
-    <Flex flexDirection="column" py="40px" px={150}>
+    <Flex flexDirection="column" py="40px" px={150} minH="100vh">
       {showSingle ? (
         <RelationShipSingle person={person} switchBack={switchBack} />
       ) : (
         <Stack>
           <Heading m={0} fontSize="2rem">
-            PROFESSIONAL RELATIONSHIPS -{" "}
+            PROFESSIONAL RELATIONSHIPS WITH{" "}
           </Heading>
           <Heading m={0} fontSize="2rem">
             CONTEMPORARY ARTISTS AND EDUCATORS
@@ -39,11 +39,11 @@ const Relationships = () => {
                 I REMEMBER
               </Text>
               , in which she describes her friendships and experiences with 20th
-              century artists and educators.
+              Century artists and educators.
             </Text>
             <Text></Text>
           </Stack>
-          <Text fontSize="1.5rem">
+          <Text fontSize="1.8rem" pt={10}>
             Read highlights from{" "}
             <Text as="span" fontWeight="bold" fontStyle="italic">
               I REMEMBER:
@@ -51,7 +51,7 @@ const Relationships = () => {
           </Text>
 
           <Stack>
-            <Heading fontWeight="normal">Artists:</Heading>
+            <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>Artists:</Heading>
             <Text
               color="blue"
               cursor="pointer"
@@ -100,7 +100,7 @@ const Relationships = () => {
           </Stack>
 
           <Stack>
-            <Heading fontWeight="normal" fontSize="1.5rem">
+            <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>
               Educators:
             </Heading>
             <Text

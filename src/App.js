@@ -36,6 +36,7 @@ import Murals from "./pages/Murals";
 
 function App() {
   const [current, setCurrent] = useState(null);
+  const [hasVisited, setHasVisited] = useState(false)
 
   return (
     <>
@@ -107,7 +108,7 @@ function App() {
           </Route>
 
           <Layout>
-            <Route exact path="/" render={() => <Index />} />
+            <Route exact path="/" render={() => <Index setHasVisited={setHasVisited} hasVisited={hasVisited} />} />
             <Route exact path="/temima-life" render={() => <TemimaLife />} />
             <Route exact path="/artist" render={() => <Artist />} />
 
@@ -163,11 +164,6 @@ function App() {
               render={() => <ArtGrid artStyle="illustrations" />}
             />
           </Layout>
-
-          {/* </Routes> */}
-          {/* <NoHeader>
-          <Route exact path="/test" render={() => <Index />} />
-          </NoHeader> */}
         </Switch>
       </BrowserRouter>
     </>

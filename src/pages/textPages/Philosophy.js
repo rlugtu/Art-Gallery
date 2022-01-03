@@ -14,15 +14,7 @@ const Philosophy = () => {
   return (
     <Flex w="100%" pl="20px" pr="40px" pt="30px">
       <Stack spacing={20} mt={40} w="20%" position="fixed">
-        <Button
-          p={8}
-          whiteSpace="normal"
-          w="175px"
-          border="1px solid black"
-          onClick={() => scrollTo("artAndArtist")}
-        >
-          ART AND THE ARTIST
-        </Button>
+
         <Button
           p={10}
           whiteSpace="normal"
@@ -69,6 +61,15 @@ const Philosophy = () => {
           ART AND NATURE
         </Button>
         <Button
+          p={8}
+          whiteSpace="normal"
+          w="175px"
+          border="1px solid black"
+          onClick={() => scrollTo("artAndArtist")}
+        >
+          ART AND THE ARTIST
+        </Button>
+        <Button
           p={10}
           whiteSpace="normal"
           w="175px"
@@ -98,43 +99,6 @@ const Philosophy = () => {
       </Stack>
 
       <Flex flexDirection="column" px={80} pl={260}>
-        <Stack spacing={20} id="artAndArtist">
-          <Heading my={0} mt={40}>
-            ART AND THE ARTIST
-          </Heading>
-          <Text>
-            “For the artist, the discipline of the craft must always be
-            maintained. That is, the understanding of space, color and form. You
-            the artist, must be dedicated to the task you have set for yourself.
-            Despite its heavy and relentless demands. It is a task from which
-            you would never wish to be free.”
-          </Text>
-          <Text>
-            “I am not a competitive artist. I am not interested in being better
-            than anybody else. The person I compete with is myself. I am happy
-            when people like my work, but if I am not satisfied, their
-            compliments will have no meaning for me. It is impossible to be a
-            free, creative human being if you try to satisfy someone else’s
-            standard of what is good. I have always set my own standards and
-            gone my own merry way.”
-          </Text>
-          <Text>
-            “I am not an artist who says “let people get what they can out of my
-            art.”
-          </Text>
-          <Text>
-            I want the world to see my work, to understand and love it. When I
-            put something down in stone or clay, I am sharing my insights into
-            nature, my feelings about humanity.”
-          </Text>
-          <Text>
-            “My art reflects my fundamental concerns and values. My sculpture
-            represents the integration of traditional ideas of social justice,
-            moral and ethical concepts with a personal interpretation of their
-            application to contemporary life in our world today.”
-          </Text>
-        </Stack>
-
         <Stack spacing={20} id="creativeProcess">
           <Heading my={0} mt={40}>
             THE CREATIVE PROCESS
@@ -232,6 +196,43 @@ const Philosophy = () => {
             reveals its uniqueness. Everything starts with nature. Add yourself…
             your imagination, your good mind, your wonderful hands… and you can
             create something marvelous which has never been known before.”
+          </Text>
+        </Stack>
+
+        <Stack spacing={20} id="artAndArtist">
+          <Heading my={0} mt={40}>
+            ART AND THE ARTIST
+          </Heading>
+          <Text>
+            “For the artist, the discipline of the craft must always be
+            maintained. That is, the understanding of space, color and form. You
+            the artist, must be dedicated to the task you have set for yourself.
+            Despite its heavy and relentless demands. It is a task from which
+            you would never wish to be free.”
+          </Text>
+          <Text>
+            “I am not a competitive artist. I am not interested in being better
+            than anybody else. The person I compete with is myself. I am happy
+            when people like my work, but if I am not satisfied, their
+            compliments will have no meaning for me. It is impossible to be a
+            free, creative human being if you try to satisfy someone else’s
+            standard of what is good. I have always set my own standards and
+            gone my own merry way.”
+          </Text>
+          <Text>
+            “I am not an artist who says “let people get what they can out of my
+            art.”
+          </Text>
+          <Text>
+            I want the world to see my work, to understand and love it. When I
+            put something down in stone or clay, I am sharing my insights into
+            nature, my feelings about humanity.”
+          </Text>
+          <Text>
+            “My art reflects my fundamental concerns and values. My sculpture
+            represents the integration of traditional ideas of social justice,
+            moral and ethical concepts with a personal interpretation of their
+            application to contemporary life in our world today.”
           </Text>
         </Stack>
 

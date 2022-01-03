@@ -9,6 +9,12 @@ const Slideshow = () => {
     "GossipOnTheSubway.jpg",
     "Lighthouse.jpg",
     "VerticalAndHorizontal2.jpg",
+    "Abstraction.jpg",
+    "ATimeToDance.jpg",
+    "Carousel.jpg",
+    "GossipOnTheSubway.jpg",
+    "Lighthouse.jpg",
+    "VerticalAndHorizontal2.jpg",
   ];
 
   return (
@@ -16,12 +22,12 @@ const Slideshow = () => {
       <Heading
         className="slideshow-header"
         m={0}
-        fontSize="3rem"
+        fontSize="4rem"
         w="100%"
         display="flex"
         justifyContent="center"
         mt="12vh"
-        color="grey"
+        color="light gray"
       >
         TEMIMA GEZARI
       </Heading>
@@ -39,11 +45,6 @@ const Slideshow = () => {
 
       <div className="slideshow-container">
         <ul className="slideshow-list">
-          {images.map((item, i) => (
-            <li className="slideshow-image-container">
-              <img src={require(`../artwork/${item}`).default} alt="test" />
-            </li>
-          ))}
           {images.map((item, i) => (
             <li className="slideshow-image-container">
               <img src={require(`../artwork/${item}`).default} alt="test" />

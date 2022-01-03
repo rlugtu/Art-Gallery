@@ -4,7 +4,7 @@ import booksJson from "../../assets/jsonFiles/books.json";
 
 const AutoBiography = () => {
   return (
-    <Flex flexDirection="column" py={60} px={135}>
+    <Flex flexDirection="column" py={60} px={135} minH="100vh">
       <Heading m={0}>AUTOBIOGRAPHY</Heading>
 
       <Stack spacing={20} mt={20}>

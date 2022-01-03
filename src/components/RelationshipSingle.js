@@ -23,12 +23,15 @@ const RelationshipSingle = ({ person, switchBack }) => {
   return (
     <Stack>
       <Flex justifyContent="space-between">
-        <Text fontWeight="bold" fontSize="1.17em">
+        <Text fontWeight="bold" fontSize="2rem" mb={0}>
           {person}
         </Text>
         <Text
           fontSize="1.17em"
-          color="blue"
+          color="white"
+          bg="#f60d09"
+          px={10}
+          py={5}
           cursor="pointer"
           onClick={switchBack}
         >
@@ -43,15 +46,21 @@ const RelationshipSingle = ({ person, switchBack }) => {
             </Text>
           ))}
       </Stack>
-      <Text
-        fontSize="1.17em"
-        pt={40}
-        color="blue"
-        cursor="pointer"
-        onClick={switchBack}
-      >
-        BACK
-      </Text>
+      <Flex pt={20}>
+        <Text
+          fontSize="1.17em"
+          color="white"
+          bg="#f60d09"
+          px={10}
+          py={5}
+          w="65px"
+          cursor="pointer"
+          onClick={switchBack}
+        >
+          BACK
+        </Text>
+      </Flex>
+
     </Stack>
   );
 };

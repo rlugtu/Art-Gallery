@@ -11,8 +11,8 @@ const NoHeader = ({ children, ...rest }) => {
       <div className="content">
         <Navbar />
 
-        <Flex flexDirection="column" className="site-content-with-header">
-          <Flex borderLeft="1px solid black" bg="white"
+        <Flex flexDirection="column" className="site-content-with-header" minH="100vh" bg="white" >
+          {/* <Flex borderLeft="1px solid black" bg="white"
           >
             <Button
               onClick={() => history.goBack()}
@@ -26,7 +26,7 @@ const NoHeader = ({ children, ...rest }) => {
             >
               Back
             </Button>
-          </Flex>
+          </Flex> */}
           <main>{children}</main>
         </Flex>
       </div>
