@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Flex, Heading, Image, Text, Link } from "@chakra-ui/react";
 import artJson from "../assets/artworks/full.json";
-import '../styles/SingleArt.scss'
+import "../styles/SingleArt.scss";
 const ArtGrid = ({ artStyle }) => {
   const [artType, setArtType] = useState("");
 
@@ -9,14 +9,35 @@ const ArtGrid = ({ artStyle }) => {
     // console.log(artStyle)
     setArtType(artStyle);
     // console.log(artJson[`${artStyle}`])
-  }, []);
+  }, [artStyle]);
+
+  const formatHeader = (word) => {
+    if (word === "TemimaLife") {
+      return "Temima";
+    }
+
+    if (word === "Rockypointstudio") {
+      return "Rockypoint Studio";
+    }
+    return word;
+  };
+
+  const formatChron = (artType) => {
+    if (artType === "temimaLife") {
+      return "";
+    }
+    if (artType === "rockypointstudio") {
+      return "";
+    }
+    return " in chronological order";
+  };
+
   return (
     <Flex flexDir="column" p="20px">
       <Heading mt={0} mb="20px" fontWeight="600">
-        {artStyle[0].toUpperCase() + artStyle.slice(1)}
+        {formatHeader(artStyle[0].toUpperCase() + artStyle.slice(1))}
         <Text fontWeight="normal" as="span">
-          {" "}
-          in chronlogical order
+          {formatChron(artType)}
         </Text>
       </Heading>
       <Flex w="100%" flexWrap="wrap">

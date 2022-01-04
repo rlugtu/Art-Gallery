@@ -1,8 +1,6 @@
-import { Box, Flex, Heading, Center, Image, Button } from "@chakra-ui/react";
+import { Box, Flex, Heading, Center, Image } from "@chakra-ui/react";
 import background from "../assets/background.jpg";
-import CoverImage from "./CoverImage";
 import { useState } from "react";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import "../App.scss";
 
 const CustomImage = ({ url, width }) => {
@@ -43,26 +41,6 @@ const CoverPage = ({ setShowCover }) => {
     "Lighthouse.jpg",
     "VerticalAndHorizontal2.jpg",
   ];
-  const wheelProps = {
-    step: 0.2,
-    disabled: false,
-    wheelDisabled: false,
-    touchPadDisabled: false,
-  };
-  const panningProps = {
-    disabled: false,
-    velocityDisabled: false,
-    lockAxisX: false,
-    lockAxisY: false,
-  };
-  const animationProps = {
-    disabled: false,
-    animationType: "linear",
-  };
-  const velocity = {
-    animationType: "linear",
-  };
-
   return (
     <Box>
       {/* <TransformWrapper

@@ -2,13 +2,11 @@ import React from "react";
 import {
   Box,
   Flex,
-  Button,
   Heading,
   Image,
   Text,
   Stack,
   Link,
-  Input,
 } from "@chakra-ui/react";
 import booksJson from "../assets/jsonFiles/studioBooks.json";
 

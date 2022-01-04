@@ -1,6 +1,5 @@
 import React from "react";
 import { Flex, Heading, Text, Image, Stack, Link } from "@chakra-ui/react";
-import booksJson from "../../assets/jsonFiles/books.json";
 
 const AutoBiography = () => {
   return (

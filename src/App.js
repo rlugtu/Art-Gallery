@@ -1,8 +1,5 @@
-import logo from "./logo.svg";
 import "./App.scss";
-import Grid from "./components/Grid";
-import Grid2 from "./components/Grid2";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Index from "./pages/Index";
 import Layout from "./components/Layout";
@@ -33,10 +30,9 @@ import BookSingle from "./pages/BookSingle";
 import Catalog from "./pages/Catalog";
 import Murals from "./pages/Murals";
 
-
 function App() {
   const [current, setCurrent] = useState(null);
-  const [hasVisited, setHasVisited] = useState(false)
+  const [hasVisited, setHasVisited] = useState(false);
 
   return (
     <>
@@ -108,7 +104,13 @@ function App() {
           </Route>
 
           <Layout>
-            <Route exact path="/" render={() => <Index setHasVisited={setHasVisited} hasVisited={hasVisited} />} />
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <Index setHasVisited={setHasVisited} hasVisited={hasVisited} />
+              )}
+            />
             <Route exact path="/temima-life" render={() => <TemimaLife />} />
             <Route exact path="/artist" render={() => <Artist />} />
 
@@ -162,6 +164,16 @@ function App() {
               exact
               path="/illustrations/"
               render={() => <ArtGrid artStyle="illustrations" />}
+            />
+            <Route
+              exact
+              path="/rockypoint-studio/"
+              render={() => <ArtGrid artStyle="rockypointstudio" />}
+            />
+            <Route
+              exact
+              path="/temima"
+              render={() => <ArtGrid artStyle="temimaLife" />}
             />
           </Layout>
         </Switch>

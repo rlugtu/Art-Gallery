@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import booksJson from "../assets/jsonFiles/books.json";
-import { Flex, Heading, Text, Link, Stack, Image } from "@chakra-ui/react";
+import { Flex, Heading, Text, Link, Image } from "@chakra-ui/react";
 
 import { useParams, useHistory } from "react-router-dom";
 
@@ -20,7 +20,7 @@ const BookSingle = () => {
         }
       }
     }
-  }, []);
+  }, [id]);
   return (
     <>
       {bookData && (

@@ -5,6 +5,12 @@
   overflow-y: scroll;
   background-color: white;
 }
+@media print {
+  .nav {
+    display: none !important;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */

@@ -1946,5 +1946,169 @@
       "size": "",
       "location": ""
     }
+  ],
+  "rockypointstudio": [
+    {
+      "src": "frame_up",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "house_winter",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "steps",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "trumpetvine",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "house",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "house_2",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "steel_beam",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "rocky_point",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "rocky_1",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temima_rocks",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    }
+  ],
+  "temimaLife": [
+    {
+      "src": "temimaGarden",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temimaDrawing",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temimaSitting",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temimaTree",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temimaParka",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temimaRocks",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temima_elder",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temima1",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temima2",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    },
+    {
+      "src": "temima3",
+      "title": "",
+      "year": "",
+      "material": "",
+      "size": "",
+      "location": ""
+    }
   ]
 }

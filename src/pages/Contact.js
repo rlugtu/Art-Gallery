@@ -1,9 +1,8 @@
 import React from "react";
 import {
-  Flex,
-  Button,
+
   Heading,
-  Image,
+
   Link,
   Text,
   Stack,

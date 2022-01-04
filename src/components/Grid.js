@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 const Grid = ({ current, setCurrent }) => {
   const images = [
     "artwork",

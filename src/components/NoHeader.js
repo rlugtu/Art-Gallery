@@ -1,17 +1,19 @@
 import Navbar from "./Navbar";
-import { Flex, Button } from "@chakra-ui/react";
-import { Route, Switch } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+import { Flex } from "@chakra-ui/react";
 
 const NoHeader = ({ children, ...rest }) => {
-  const history = useHistory();
 
   return (
     <>
       <div className="content">
         <Navbar />
 
-        <Flex flexDirection="column" className="site-content-with-header" minH="100vh" bg="white" >
+        <Flex
+          flexDirection="column"
+          className="site-content-with-header"
+          minH="100vh"
+          bg="white"
+        >
           {/* <Flex borderLeft="1px solid black" bg="white"
           >
             <Button

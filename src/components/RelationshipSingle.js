@@ -1,25 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
-  Box,
   Flex,
-  Heading,
-  Center,
   Stack,
-  Image,
-  Button,
   Text,
 } from "@chakra-ui/react";
 
 import relationshipJson from "../assets/jsonFiles/relationships.json";
 const RelationshipSingle = ({ person, switchBack }) => {
-  const [artist, setArtist] = useState(null);
-  const data = relationshipJson;
+  // const [artist, setArtist] = useState(null);
 
-  useEffect(() => {
-    setArtist(person);
+  // useEffect(() => {
+  //   setArtist(person);
 
-    console.log(relationshipJson[`${person}`]);
-  }, []);
+  //   console.log(relationshipJson[`${person}`]);
+  // }, [person]);
   return (
     <Stack>
       <Flex justifyContent="space-between">
@@ -41,7 +35,7 @@ const RelationshipSingle = ({ person, switchBack }) => {
       <Stack spacing={16} pt={10}>
         {person &&
           relationshipJson[`${person}`].map((el, i) => (
-            <Text i={i} m={0}>
+            <Text i={i} m={0} key={i}>
               {el}
             </Text>
           ))}
@@ -60,7 +54,6 @@ const RelationshipSingle = ({ person, switchBack }) => {
           BACK
         </Text>
       </Flex>
-
     </Stack>
   );
 };

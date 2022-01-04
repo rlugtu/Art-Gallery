@@ -8,7 +8,7 @@ const Navbar = () => {
   const history = useHistory();
 
   return (
-    <Flex flexDirection="column" className="nav" >
+    <Flex flexDirection="column" className="nav">
       <Button
         pos="absolute"
         top="200px"

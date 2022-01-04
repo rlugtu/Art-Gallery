@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Flex, Heading, Image, Text, Link } from "@chakra-ui/react";
-import CoverPage from "../components/CoverPage";
 import "../styles/Index.scss";
 import Slideshow from "../components/Slideshow";
 
@@ -9,6 +8,11 @@ import Slideshow from "../components/Slideshow";
 
 const Home = ({ setHasVisited, hasVisited }) => {
   const [showCover, setShowCover] = useState(true);
+
+  const enterSite = () => {
+    setShowCover(false);
+    setHasVisited(true);
+  };
 
   return (
     <>
@@ -19,9 +23,9 @@ const Home = ({ setHasVisited, hasVisited }) => {
           h="100vh"
           top={0}
           left={0}
-        // onClick={() => { setShowCover(false); setHasVisited(true) }}
+          // onClick={() => { setShowCover(false); setHasVisited(true) }}
         >
-          <Slideshow />
+          <Slideshow enterSite={enterSite} />
         </Flex>
       )}
       {hasVisited && (
@@ -29,7 +33,9 @@ const Home = ({ setHasVisited, hasVisited }) => {
           <Flex className="row">
             <Flex w="50%" alignItems="center" flexDir="column" mr="8px">
               <Link href="/sculptures">
-                <Heading mt={20} mb={5} textAlign="center">SCULPTURE</Heading>
+                <Heading mt={20} mb={5} textAlign="center">
+                  SCULPTURE
+                </Heading>
                 <Flex
                   cursor="pointer"
                   // _hover={{
@@ -77,7 +83,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/sculptures/LeapingLena-5.jpg`)
+                        require(`../assets/thumbnails/sculptures/FatherAndFirstBornMotherAndSecondBorn-2.jpg`)
                           .default
                       }
                     />
@@ -88,7 +94,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/sculptures/WomansHead-0.jpg`)
+                        require(`../assets/thumbnails/sculptures/AmericanEagle-Crucifixion-67.jpg`)
                           .default
                       }
                     />
@@ -99,7 +105,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/sculptures/Juggler-18.jpg`)
+                        require(`../assets/thumbnails/sculptures/Conversation-36.jpg`)
                           .default
                       }
                     />
@@ -110,7 +116,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/sculptures/LeapingLena-5.jpg`)
+                        require(`../assets/thumbnails/sculptures/Gossip-37.jpg`)
                           .default
                       }
                     />
@@ -121,7 +127,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/sculptures/WomansHead-0.jpg`)
+                        require(`../assets/thumbnails/sculptures/WalterAge5-13.jpg`)
                           .default
                       }
                     />
@@ -132,7 +138,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/sculptures/Juggler-18.jpg`)
+                        require(`../assets/thumbnails/sculptures/TheStoneCutter-11.jpg`)
                           .default
                       }
                     />
@@ -143,7 +149,9 @@ const Home = ({ setHasVisited, hasVisited }) => {
 
             <Flex w="50%" alignItems="center" flexDir="column" ml="8px">
               <Link href="/paintings">
-                <Heading mt={20} mb={5} textAlign="center">PAINTINGS</Heading>
+                <Heading mt={20} mb={5} textAlign="center">
+                  PAINTINGS
+                </Heading>
                 <Flex
                   cursor="pointer"
                   // _hover={{
@@ -190,7 +198,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/paintings/Lighthouse-6.jpg`)
+                        require(`../assets/thumbnails/paintings/DanielAge7-9.jpg`)
                           .default
                       }
                     />
@@ -201,7 +209,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/paintings/IndianWomaninDoorway-3.jpg`)
+                        require(`../assets/thumbnails/paintings/RosietheLobsterman-8.jpg`)
                           .default
                       }
                     />
@@ -212,7 +220,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/paintings/GossipontheSubway-1.jpg`)
+                        require(`../assets/thumbnails/paintings/ATimeToEmbrace-10.jpg`)
                           .default
                       }
                     />
@@ -223,7 +231,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/paintings/Lighthouse-6.jpg`)
+                        require(`../assets/thumbnails/paintings/ATimeToDance-11.jpg`)
                           .default
                       }
                     />
@@ -234,7 +242,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/paintings/IndianWomaninDoorway-3.jpg`)
+                        require(`../assets/thumbnails/paintings/Fisherman-4.jpg`)
                           .default
                       }
                     />
@@ -245,7 +253,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/paintings/GossipontheSubway-1.jpg`)
+                        require(`../assets/thumbnails/paintings/PuebloIndianWoman-2.jpg`)
                           .default
                       }
                     />
@@ -258,7 +266,9 @@ const Home = ({ setHasVisited, hasVisited }) => {
           <Flex className="row" mt={20}>
             <Flex w="50%" alignItems="center" flexDir="column" mr="8px">
               <Link href="/drawings" w="100%">
-                <Heading mt={0} mb={5} textAlign="center">DRAWINGS</Heading>
+                <Heading mt={0} mb={5} textAlign="center">
+                  DRAWINGS
+                </Heading>
                 <Flex
                   cursor="pointer"
                   // _hover={{
@@ -306,7 +316,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/drawings/Head-7.jpg`)
+                        require(`../assets/thumbnails/drawings/Figure-3.jpg`)
                           .default
                       }
                     />
@@ -317,7 +327,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/drawings/SeatedNude-4.jpg`)
+                        require(`../assets/thumbnails/drawings/HeadDiagonals-6.jpg`)
                           .default
                       }
                     />
@@ -328,7 +338,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/drawings/StandingNude-10.jpg`)
+                        require(`../assets/thumbnails/drawings/StudyofaHead-11.jpg`)
                           .default
                       }
                     />
@@ -339,7 +349,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/drawings/Head-7.jpg`)
+                        require(`../assets/thumbnails/drawings/TreeofLife(CircleonaSquare)-13.jpg`)
                           .default
                       }
                     />
@@ -350,7 +360,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/drawings/SeatedNude-4.jpg`)
+                        require(`../assets/thumbnails/drawings/MyStudio-19.jpg`)
                           .default
                       }
                     />
@@ -361,7 +371,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/drawings/StandingNude-10.jpg`)
+                        require(`../assets/thumbnails/drawings/MyGrandfather-24.jpg`)
                           .default
                       }
                     />
@@ -371,7 +381,9 @@ const Home = ({ setHasVisited, hasVisited }) => {
             </Flex>
             <Flex w="50%" alignItems="center" flexDir="column" ml="8px">
               <Link href="/lithographs" w="100%">
-                <Heading mt={0} mb={5} textAlign="center">LITHOGRAPHS</Heading>
+                <Heading mt={0} mb={5} textAlign="center">
+                  LITHOGRAPHS
+                </Heading>
                 <Flex
                   cursor="pointer"
                   // _hover={{
@@ -419,7 +431,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/lithographs/ShabbosShpatzir-1.jpg`)
+                        require(`../assets/thumbnails/lithographs/FishforShabbat-2.jpg`)
                           .default
                       }
                     />
@@ -430,7 +442,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/lithographs/TheLittlePresser-3.jpg`)
+                        require(`../assets/thumbnails/lithographs/TheWorldSituation-4.jpg`)
                           .default
                       }
                     />
@@ -441,105 +453,133 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       w="100%"
                       h="100%"
                       src={
-                        require(`../assets/thumbnails/lithographs/FourSisters-0.jpg`)
+                        require(`../assets/thumbnails/lithographs/WashDay-Kibbutz-5.jpg`)
                           .default
                       }
                     />
                   </Flex>
                   <Flex w="100%" h="150px" flexDirection="row">
-                    <Flex w="33%">
-                      <Link href="/footprints-preview" w="100%" textAlign="center">
+                    <Flex w="33%" className="homeButton">
+                      <Link
+                        href="/footprints-preview"
+                        w="100%"
+                        textAlign="center"
+                      >
                         <Text
                           bg="rgba(246,13,9,0.7)"
                           className="home-page-button"
-
-                          mb={5} textAlign="center"
+                          mb={5}
+                          textAlign="center"
                           m="0"
                           p="10px"
-                          w="145px"
-                          borderStyle="outset"
+                          // w="145px"
+                          // borderStyle="outset"
                           cursor="pointer"
                           color="white"
                           fontWeight="400"
-                          h="145px"
+                          h="100%"
                           display="flex"
                           alignItems="center"
                           fontStyle="normal"
                           flexDirection="column"
+                          justifyContent="center"
                           fontSize="1.2rem"
                           lineHeight="1.2rem"
                         >
-                          <Text as="span"
+                          <Text
+                            as="span"
                             fontSize="1rem"
                             fontWeight="400"
                             lineHeight="1.2rem"
-                            pb={5}>
+                            pb={5}
+                          >
                             READ/PRINT
                           </Text>
-                          <Text as="span"
-                            fontSize="1.2rem" fontStyle="italic"
-                            fontWeight="800" color="black">
+                          <Text
+                            as="span"
+                            fontSize="1.2rem"
+                            fontStyle="italic"
+                            fontWeight="800"
+                            color="black"
+                          >
                             "FOOTPRINTS AND NEW WORLDS"
                           </Text>
-                          <Text as="span"
+                          <Text
+                            as="span"
                             fontSize="1rem"
                             fontWeight="400"
                             lineHeight="1.2rem"
-                            pt={5}>
+                            pt={5}
+                          >
                             CHAPTERS 1 AND 4
                           </Text>
                         </Text>
                       </Link>
                     </Flex>
-                    <Flex w="33%">
+                    <Flex w="33%" className="homeButton">
                       <Link href="/philosophy" w="100%" textAlign="center">
                         <Text
                           bg="rgba(246,13,9,0.7)"
                           className="home-page-button"
-
-                          mb={5} textAlign="center"
+                          mb={5}
+                          textAlign="center"
                           m="0"
                           p="10px"
-                          w="145px"
-                          borderStyle="outset"
+                          // w="145px"
+                          // borderStyle="outset"
                           cursor="pointer"
                           color="white"
                           fontWeight="normal"
-                          h="145px"
+                          h="100%"
                           display="flex"
+                          justifyContent="center"
                           alignItems="center"
                         >
-                          <Text as="span" color="white" fontWeight="700">TEMIMA'S <Text as="span" color="black" fontSize="1.3rem">PHILOSOPHY</Text> OF ART EDUCATION
+                          <Text as="span" color="white" fontWeight="700">
+                            TEMIMA'S{" "}
+                            <Text
+                              as="span"
+                              color="black"
+                              fontSize="1.3rem"
+                              m={0}
+                            >
+                              PHILOSOPHY
+                            </Text>{" "}
+                            OF ART EDUCATION
                           </Text>
                           {/* View Temima's philosophy of art */}
                         </Text>
                       </Link>
                     </Flex>
-                    <Flex w="33%">
+                    <Flex w="33%" className="homeButton">
                       <Link href="/books" w="100%" textAlign="center">
                         <Text
                           bg="rgba(246,13,9,0.7)"
                           className="home-page-button"
-
-                          mb={5} textAlign="center"
+                          mb={5}
+                          textAlign="center"
                           m="0"
                           p="10px"
-                          w="145px"
-                          borderStyle="outset"
+                          // w="145px"
+                          // borderStyle="outset"
                           cursor="pointer"
                           color="white"
                           fontWeight="normal"
-                          h="145px"
+                          h="100%"
                           display="flex"
                           alignItems="center"
+                          justifyContent="center"
                         >
-                          <Text as="span" color="white" fontWeight="700"><Text as="span" fontSize="1.4rem" color="black">BOOKS</Text> <br /> BY OR ABOUT  <br /> TEMIMA GEZARI
+                          <Text as="span" color="white" fontWeight="700">
+                            <Text as="span" fontSize="1.4rem" color="black">
+                              BOOKS
+                            </Text>{" "}
+                            <br /> BY OR ABOUT <br /> TEMIMA GEZARI
                           </Text>
                           {/* View books written by or about temima gezari */}
                         </Text>
                       </Link>
                     </Flex>
-
                   </Flex>
                 </Flex>
               </Link>

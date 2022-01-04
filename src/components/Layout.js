@@ -1,13 +1,12 @@
 import Navbar from "./Navbar";
 import Header from "./Header";
-import { Flex, Button } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
 
 const Layout = ({ children }) => {
-  const [showHeader, setShowHeader] = useState(true);
+  const [showHeader] = useState(true);
 
-  const history = useHistory();
+
 
   return (
     <div className="content">

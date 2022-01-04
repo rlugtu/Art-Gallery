@@ -1,8 +1,15 @@
-import React, { useRef } from "react";
-import { Flex, Button, Heading, Text, Stack } from "@chakra-ui/react";
+import React from "react";
+import {
+  Flex,
+  Button,
+  Heading,
+  Text,
+  Image,
+  Stack,
+  Link,
+} from "@chakra-ui/react";
 
 const Philosophy = () => {
-  const myRef = useRef();
 
   const scrollTo = (id) => {
     let div = document.querySelector(`#${id}`);
@@ -14,7 +21,6 @@ const Philosophy = () => {
   return (
     <Flex w="100%" pl="20px" pr="40px" pt="30px">
       <Stack spacing={20} mt={40} w="20%" position="fixed">
-
         <Button
           p={10}
           whiteSpace="normal"
@@ -328,7 +334,88 @@ const Philosophy = () => {
 
         <Stack spacing={20} id="temimaBooks">
           <Heading>TEMIMA'S BOOKS ON ART EDUCATION</Heading>
-          <Flex></Flex>
+          <Flex flexWrap="wrap" gap="20px">
+            <Flex flexDirection="column" maxW="150px">
+              <Link href="/book/footprints">
+                <Flex w="100%" flexWrap="wrap">
+                  <Image
+                    h="100%"
+                    w="100%"
+                    objectFit="contain"
+                    src={
+                      require(`../../assets/bookImages/footprints_and_new_worlds.jpg`)
+                        .default
+                    }
+                  />
+                </Flex>
+                <Text>Footprints and New Worlds</Text>
+              </Link>
+            </Flex>
+            <Flex flexDirection="column" maxW="150px" mx="10px">
+              <Link href="/book/arteducation">
+                <Flex w="100%" flexWrap="wrap">
+                  <Image
+                    h="100%"
+                    w="100%"
+                    objectFit="contain"
+                    src={
+                      require(`../../assets/bookImages/art_and_education.jpg`)
+                        .default
+                    }
+                  />
+                </Flex>
+                <Text>Art and Education</Text>
+              </Link>
+            </Flex>
+            <Flex flexDirection="column" maxW="150px" mx="10px">
+              <Link href="/book/nowthatimninety">
+                <Flex w="100%" flexWrap="wrap">
+                  <Image
+                    h="100%"
+                    w="100%"
+                    objectFit="contain"
+                    src={
+                      require(`../../assets/bookImages/now_that_im_ninety.jpg`)
+                        .default
+                    }
+                  />
+                </Flex>
+                <Text>Now that I'm Ninety</Text>
+              </Link>
+            </Flex>
+            <Flex flexDirection="column" maxW="150px" mx="10px">
+              <Link href="/book/nowthatimninetyfive">
+                <Flex w="100%" flexWrap="wrap">
+                  <Image
+                    h="100%"
+                    w="100%"
+                    objectFit="contain"
+                    src={
+                      require(`../../assets/bookImages/now_that_im_ninety_five.jpg`)
+                        .default
+                    }
+                  />
+                </Flex>
+                <Text>Now that I'm Ninety-Five</Text>
+              </Link>
+            </Flex>
+            <Flex flexDirection="column" maxW="150px" mx="10px">
+              <Link href="/book/jewishkindergarten">
+                <Flex w="100%" flexWrap="wrap">
+                  <Image
+                    h="100%"
+                    w="100%"
+                    objectFit="contain"
+                    src={
+                      require(`../../assets/bookImages/the_jewish_kindergarden.jpg`)
+                        .default
+                    }
+                  />
+                </Flex>
+                <Text>The Jewish Kindergarten - A Manual for Teachers</Text>
+              </Link>
+            </Flex>
+          </Flex>
         </Stack>
       </Flex>
     </Flex>

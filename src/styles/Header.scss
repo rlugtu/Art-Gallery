@@ -2,3 +2,9 @@
   width: 980px;
   height: 200px;
 }
+
+@media print {
+  .header {
+    display: none !important;
+  }
+}

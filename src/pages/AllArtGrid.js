@@ -8,14 +8,21 @@ const AllArtGrid = () => {
   useEffect(() => {
     let arr = [];
     for (const art in artJson) {
-      console.log(art);
-      arr.push(...artJson[`${art}`]);
+      if (
+        art === "sculptures" ||
+        art === "drawings" ||
+        art === "paintings" ||
+        art === "lithographs"
+      ) {
+        // console.log(art === "temimaLife", art);
+        arr.push(...artJson[`${art}`]);
+      }
     }
     console.log(arr);
     arr = arr.sort((a, b) => {
       return a.year - b.year;
     });
-    console.log(arr);
+    console.log(arr, arr.length);
     setAllArt(arr);
   }, []);
 

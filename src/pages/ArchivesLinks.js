@@ -3,7 +3,7 @@ import { Flex, Heading, Text, Stack, Link } from "@chakra-ui/react";
 
 const ArchivesLinks = () => {
   return (
-    <Flex flexDirection="column" py="60px" px="150px" minH='100vh'>
+    <Flex flexDirection="column" py="60px" px="150px" minH="100vh">
       <Heading>ARCHIVES AND LINKS</Heading>
       <Stack spacing={20}>
         <Stack spacing={0}>

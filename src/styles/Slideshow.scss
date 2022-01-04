@@ -8,22 +8,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  cursor: pointer;
+  // cursor: pointer;
 }
-.slideshow-container {
-  display: flex;
-  //   height: 100%;
-  align-items: center;
-  width: 100%;
-  animation: bannermove 20s linear infinite;
-}
+// .slideshow-container {
+//   display: flex;
+//   //   height: 100%;
+//   align-items: center;
+//   width: 100%;
+//   animation: bannermove 20s linear infinite;
+// }
 
 .slideshow-image-container {
   margin-top: 10vh;
   max-width: 600px;
   width: 100%;
-  max-height: 300px;
+  max-height: 400px;
+  padding: 40px 0;
   min-width: 40vh;
+  cursor:pointer;
 }
 .slideshow-image-container > img {
   width: 100%;
@@ -57,6 +59,24 @@ li {
   margin: 0 20px;
 }
 
+.pulse {
+  animation: pulse 20s linear;
+  animation-delay: 14s;
+  animation-iteration-count: 1;
+}
+
+.startPulse {
+  animation: startPulse 5s linear;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+}
+
+.secondPulse {
+  animation: secondPulse 20s linear;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+}
+
 @keyframes bannermove {
   0% {
     transform: translateX(0);
@@ -70,8 +90,41 @@ li {
   0% {
     transform: scale(1);
   }
-  50% {
-    transform: scale(1.5);
+
+  25% {
+    transform: scale(1.2);
+  }
+  55% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes startPulse {
+  0% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.2);
+
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes secondPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.2);
+  }
+  55% {
+    transform: scale(1.2);
   }
   100% {
     transform: scale(1);

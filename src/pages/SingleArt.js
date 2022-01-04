@@ -2,25 +2,29 @@ import React, { useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import artJson from "../assets/artworks/full.json";
 
-import { Flex, Heading, Text, Image } from "@chakra-ui/react";
-import '../styles/SingleArt.scss'
+import { Flex, Text, Image } from "@chakra-ui/react";
+import "../styles/SingleArt.scss";
 
 const SingleArt = ({ type }) => {
-  const [art, setArt] = useState("");
   const [artData, setArtData] = useState({});
   const { id, style } = useParams();
   const history = useHistory();
 
   useEffect(() => {
-    setArtData(artJson[style].filter((artPiece) => artPiece.src.includes(id)));
-    // for(let art in artJson) {
-    //   if(artJson[art].filter(artPiece => artPiece.src.includes(id))) {
-    //     return setArtData(artJson[art].filter(artPiece => artPiece.src.includes(id)))
-    //   }
-    // }
-  }, []);
+    const setArt = () => {
+      setArtData(artJson[style].filter((artPiece) => artPiece.src.includes(id)));
+    }
+    setArt()
+  }, [id, style]);
   return (
-    <Flex bg="white" justifyContent="center" w="100vw" h="100vh" alignItems="center" className="single-art-container">
+    <Flex
+      bg="white"
+      justifyContent="center"
+      w="100vw"
+      h="100vh"
+      alignItems="center"
+      className="single-art-container"
+    >
       <Flex
         flexDir="column"
         alignItems="center"
@@ -30,7 +34,6 @@ const SingleArt = ({ type }) => {
         // maxWidth="1250px"
         px={120}
         maxH="100vh"
-
       >
         {artData[0] && (
           <Flex flexDir="column" w="100%">
@@ -48,7 +51,9 @@ const SingleArt = ({ type }) => {
                 />
               )}
               <Flex justifyContent="center">
-                <Text mx={10} fontWeight="bold" fontStyle="italic">{artData[0].title}</Text>
+                <Text mx={10} fontWeight="bold" fontStyle="italic">
+                  {artData[0].title}
+                </Text>
                 <Text mx={10}>{artData[0].year}</Text>
                 <Text mx={10}>{artData[0].material}</Text>
                 <Text mx={10}>{artData[0].size}</Text>

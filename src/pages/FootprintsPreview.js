@@ -3,9 +3,9 @@ import { Flex, Heading, Center, Image, Text, Stack } from "@chakra-ui/react";
 
 const FootprintsPreview = () => {
   const pages = [1, 2, 3, 4, 5, 6, 7];
-  const pages2 = [8, 9, 10, 11]
+  const pages2 = [8, 9, 10, 11];
   return (
-    <Flex flexDirection="column" p={40} px={0} >
+    <Flex flexDirection="column" p={40} px={0}>
       <Heading
         bg="grey"
         p={10}
@@ -34,6 +34,14 @@ const FootprintsPreview = () => {
       >
         {/* TEMIMA GEZARI'S UNIQUE APPROACH TO EDUCATION AND CHILD DEVELOPMENT */}
         TEMIMA GEZARI'S METHOD OF CHILD DEVELOPMENT THROUGH ART
+      </Text>
+      <Text
+        onClick={() => {
+          window.print();
+          return false;
+        }}
+      >
+        Print
       </Text>
 
       <Stack px={0}>

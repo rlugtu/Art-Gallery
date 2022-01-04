@@ -51,7 +51,9 @@ const Relationships = () => {
           </Text>
 
           <Stack>
-            <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>Artists:</Heading>
+            <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>
+              Artists:
+            </Heading>
             <Text
               color="blue"
               cursor="pointer"

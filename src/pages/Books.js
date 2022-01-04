@@ -18,7 +18,7 @@ const Books = () => {
         <Flex>
           <Link href="/book/artoftemimagezari">
             <Flex flexDir="column">
-              <Flex w="100%" w="250px">
+              <Flex w="250px">
                 <Image
                   h="100%"
                   w="100%"
@@ -37,8 +37,13 @@ const Books = () => {
             <Heading fontWeight="bold" fontStyle="italic" fontSize="2rem" m={0}>
               The Art of Temima Gezari
             </Heading>
-            <Text fontSize="1.5rem" mt={0}>By Daniel Gezari</Text>
-            <Text w="450px">Catalog of Temima's artwork up to the age of 80, containing most of her work presented on this website. </Text>
+            <Text fontSize="1.5rem" mt={0}>
+              By Daniel Gezari
+            </Text>
+            <Text w="450px">
+              Catalog of Temima's artwork up to the age of 80, containing most
+              of her work presented on this website.{" "}
+            </Text>
           </Flex>
         </Flex>
       </Flex>

@@ -9,7 +9,14 @@ const Artist = () => {
         <Heading color="#5a5a5a" m={0} mt={20} mb={0} fontSize="3em">
           CURRICULUM VITAE - TEMIMA GEZARI
         </Heading>
-        <Heading color="black" fontSize="1.77rem" m={0} mt="0 !important" pt={0} pb={0}>
+        <Heading
+          color="black"
+          fontSize="1.77rem"
+          m={0}
+          mt="0 !important"
+          pt={0}
+          pb={0}
+        >
           SCULPTOR, PAINTER, ART EDUCATOR, AUTHOR AND LECTURER
         </Heading>
         <Text pt={12}>
@@ -55,10 +62,10 @@ const Artist = () => {
             Seminary college of the Jewish Theological Seminary from 1935 -1977.
           </Text>
           <Text>
-            Gave invited lectures and seminars at Brooklyn College,
-            Hunter College, University of Michigan at Ann Arbor, New York
-            University and the City of the College of New York, Teachers
-            Training College, Singapore, Coventry College of Education, England
+            Gave invited lectures and seminars at Brooklyn College, Hunter
+            College, University of Michigan at Ann Arbor, New York University
+            and the City of the College of New York, Teachers Training College,
+            Singapore, Coventry College of Education, England
           </Text>
         </Stack>
         <Stack spacing={12}>
