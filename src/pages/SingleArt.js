@@ -12,9 +12,11 @@ const SingleArt = ({ type }) => {
 
   useEffect(() => {
     const setArt = () => {
-      setArtData(artJson[style].filter((artPiece) => artPiece.src.includes(id)));
-    }
-    setArt()
+      setArtData(
+        artJson[style].filter((artPiece) => artPiece.src.includes(id))
+      );
+    };
+    setArt();
   }, [id, style]);
   return (
     <Flex

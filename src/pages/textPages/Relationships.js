@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import RelationShipSingle from "../../components/RelationshipSingle";
-import { Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import { Flex, Heading, Stack, Text, Image, Link } from "@chakra-ui/react";
 
 const Relationships = () => {
   const [showSingle, setShowSingle] = useState(false);
@@ -50,107 +50,125 @@ const Relationships = () => {
             </Text>
           </Text>
 
-          <Stack>
-            <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>
-              Artists:
-            </Heading>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("MARK ROTHKO")}
-            >
-              MARK ROTHKO
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("BRANCUSI")}
-            >
-              BRANCUSI
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("DIEGO RIVERA")}
-            >
-              DIEGO RIVERA
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("GEORGIA O’KEEFE")}
-            >
-              GEORGIA O’KEEFE
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("MARC CHAGALL")}
-            >
-              MARC CHAGALL
-            </Text>
-          </Stack>
+          <Flex>
+            <Flex flexDirection="column" w="50%">
+              <Stack>
+                <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>
+                  Artists:
+                </Heading>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("MARK ROTHKO")}
+                >
+                  MARK ROTHKO
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("BRANCUSI")}
+                >
+                  BRANCUSI
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("DIEGO RIVERA")}
+                >
+                  DIEGO RIVERA
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("GEORGIA O’KEEFE")}
+                >
+                  GEORGIA O’KEEFE
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("MARC CHAGALL")}
+                >
+                  MARC CHAGALL
+                </Text>
+              </Stack>
 
-          <Stack>
-            <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>
-              Educators:
-            </Heading>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("ALEXANDER DUSHKIN")}
-            >
-              ALEXANDER DUSHKIN
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("MORDECAI M. KAPLAN")}
-            >
-              MORDECAI M. KAPLAN
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("DAVID FINN")}
-            >
-              DAVID FINN
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("MARTHA GRAHAM")}
-            >
-              MARTHA GRAHAM
-            </Text>
-            <Text
-              color="blue"
-              cursor="pointer"
-              fontSize="1.5rem"
-              fontWeight="bold"
-              onClick={() => switchToSingle("ELEANOR ROOSEVELT")}
-            >
-              ELEANOR ROOSEVELT
-            </Text>
-          </Stack>
+              <Stack>
+                <Heading fontWeight="normal" fontSize="1.8rem" mb={0}>
+                  Educators:
+                </Heading>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("ALEXANDER DUSHKIN")}
+                >
+                  ALEXANDER DUSHKIN
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("MORDECAI M. KAPLAN")}
+                >
+                  MORDECAI M. KAPLAN
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("DAVID FINN")}
+                >
+                  DAVID FINN
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("MARTHA GRAHAM")}
+                >
+                  MARTHA GRAHAM
+                </Text>
+                <Text
+                  color="blue"
+                  cursor="pointer"
+                  fontSize="1.5rem"
+                  fontWeight="bold"
+                  onClick={() => switchToSingle("ELEANOR ROOSEVELT")}
+                >
+                  ELEANOR ROOSEVELT
+                </Text>
+              </Stack>
+            </Flex>
+            <Flex mt="20px" w="300px">
+              <Link href="/book/iremember">
+                <Flex w="100%" flexWrap="wrap">
+                  <Image
+                    h="100%"
+                    w="100%"
+                    objectFit="contain"
+                    src={
+                      require(`../../assets/bookImages/I_remember.jpg`).default
+                    }
+                  />
+                </Flex>
+              </Link>
+            </Flex>
+          </Flex>
         </Stack>
       )}
     </Flex>

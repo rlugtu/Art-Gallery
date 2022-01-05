@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Flex,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Flex, Stack, Text } from "@chakra-ui/react";
 
 import relationshipJson from "../assets/jsonFiles/relationships.json";
 const RelationshipSingle = ({ person, switchBack }) => {

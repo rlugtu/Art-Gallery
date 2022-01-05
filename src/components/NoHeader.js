@@ -2,7 +2,6 @@ import Navbar from "./Navbar";
 import { Flex } from "@chakra-ui/react";
 
 const NoHeader = ({ children, ...rest }) => {
-
   return (
     <>
       <div className="content">

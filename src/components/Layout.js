@@ -6,8 +6,6 @@ import { useState } from "react";
 const Layout = ({ children }) => {
   const [showHeader] = useState(true);
 
-
-
   return (
     <div className="content">
       <Navbar />

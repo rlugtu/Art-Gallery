@@ -11,7 +11,7 @@ import {
 
 const Foundation = () => {
   return (
-    <Flex flexDir="column" p={40} pr="80px" pt={0}>
+    <Flex flexDir="column" p={40} pr="80px" pt={0} minH="80vh">
       <Stack spacing={20} mt={20}>
         <Heading m={0} fontSize="1.8rem" color="#838383">
           Temima Gezari Foundation for Art and Education

@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Flex,
-  Heading,
-  Image,
-  Text,
-  Stack,
-  Link,
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text, Stack, Link } from "@chakra-ui/react";
 import booksJson from "../assets/jsonFiles/studioBooks.json";
 
 const StudioWorkshopPress = () => {

@@ -10,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 
 const Philosophy = () => {
-
   const scrollTo = (id) => {
     let div = document.querySelector(`#${id}`);
     div.scrollIntoView({

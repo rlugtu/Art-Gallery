@@ -1,9 +1,5 @@
 // import "../styles/Slideshow.scss";
-import {
-  Flex,
-  Heading,
-  Button,
-} from "@chakra-ui/react";
+import { Flex, Heading, Button } from "@chakra-ui/react";
 import SlideshowImage from "../components/SlideshowImage";
 import Marquee from "react-fast-marquee";
 
@@ -24,31 +20,31 @@ const Slideshow = ({ enterSite }) => {
   ];
 
   const imageInfo = [
-    {
-      link: "Abstraction-95",
-      image: "Abstraction.jpg"
-    },
+  
     {
       link: "ATimeToDance-11",
-      image: "ATimeToDance.jpg"
-    },
+      image: "ATimeToDance.jpg",
+    },  // {
+    //   link: "Abstraction-95",
+    //   image: "Abstraction.jpg",
+    // },
     {
       link: "Carousel-122",
-      image: "Carousel.jpg"
+      image: "Carousel.jpg",
     },
     {
       link: "GossipontheSubway-1",
-      image: "GossipOnTheSubway.jpg"
+      image: "GossipOnTheSubway.jpg",
     },
     {
       link: "Lighthouse-6",
-      image: "Lighthouse.jpg"
+      image: "Lighthouse.jpg",
     },
     {
       link: "VerticalHorizontal2",
-      image: "VerticalAndHorizontal2.jpg"
+      image: "VerticalAndHorizontal2.jpg",
     },
-  ]
+  ];
 
   return (
     <div className="section">
@@ -77,7 +73,7 @@ const Slideshow = ({ enterSite }) => {
       </Heading>
       <Marquee speed={40} gradient={false} pauseOnHover={true}>
         <ul className="slideshow-list">
-          {/* <Flex w="80vw"h="500px"></Flex> */}
+          {/* <Flex w="90vw"h="500px"></Flex> */}
           {imageInfo.map((item, i) => (
             <SlideshowImage image={item} />
           ))}
@@ -98,8 +94,17 @@ const Slideshow = ({ enterSite }) => {
           ))}
         </ul>
       </div> */}
-      <Flex justifyContent="center" w="100%" mt={120}>
-        <Button onClick={() => enterSite()}border="none" fontSize="1.5rem"px="20px" py="10px">Enter</Button>
+      <Flex justifyContent="center" w="100%" mt={60}>
+        <Button
+          onClick={() => enterSite()}
+          border="none"
+          fontSize="1.5rem"
+          px="20px"
+          py="10px"
+          cusror="pointer"
+        >
+          Enter
+        </Button>
       </Flex>
     </div>
   );

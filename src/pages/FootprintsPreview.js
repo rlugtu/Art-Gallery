@@ -36,12 +36,20 @@ const FootprintsPreview = () => {
         TEMIMA GEZARI'S METHOD OF CHILD DEVELOPMENT THROUGH ART
       </Text>
       <Text
+        ml="20px"
+        p="10px"
+        w="180px"
+        textAlign="center"
+        fontWeight="bold"
+        bg="red"
+        color="white"
+        cursor="pointer"
         onClick={() => {
           window.print();
           return false;
         }}
       >
-        Print
+        CLICK HERE TO PRINT
       </Text>
 
       <Stack px={0}>

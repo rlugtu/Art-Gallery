@@ -1,16 +1,9 @@
 import React from "react";
-import {
-
-  Heading,
-
-  Link,
-  Text,
-  Stack,
-} from "@chakra-ui/react";
+import { Heading, Link, Text, Stack } from "@chakra-ui/react";
 
 const Contact = () => {
   return (
-    <Stack p="30px" pl="40px">
+    <Stack p="30px" pl="40px" minH="80vh">
       <Heading m={0}>CONTACT US:</Heading>
       <Heading color="grey" mb={0} pt="20px" fontSize="2em">
         TEMIMA GEZARI FOUNDATION FOR ART AND EDUCATION

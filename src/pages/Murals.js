@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { Flex, Heading, Image } from "@chakra-ui/react";
 import MuralSingle from "../components/MuralSingle";
+import MuralPdf from "./MuralPdf";
 
 const Murals = () => {
   const [art, setArt] = useState(null);
@@ -153,6 +154,7 @@ const Murals = () => {
               />
             </Flex>
           </Flex>
+          <MuralPdf />
         </Flex>
       )}
     </>

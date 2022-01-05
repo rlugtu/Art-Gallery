@@ -175,6 +175,11 @@ function App() {
               path="/temima"
               render={() => <ArtGrid artStyle="temimaLife" />}
             />
+            <Route
+              exact
+              path="/family-life"
+              render={() => <ArtGrid artStyle="familyLife" />}
+            />
           </Layout>
         </Switch>
       </BrowserRouter>

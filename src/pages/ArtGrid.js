@@ -19,6 +19,10 @@ const ArtGrid = ({ artStyle }) => {
     if (word === "Rockypointstudio") {
       return "Rockypoint Studio";
     }
+
+    if (word === "FamilyLife") {
+      return "Family Life";
+    }
     return word;
   };
 
@@ -27,6 +31,10 @@ const ArtGrid = ({ artStyle }) => {
       return "";
     }
     if (artType === "rockypointstudio") {
+      return "";
+    }
+
+    if (artType === "familyLife") {
       return "";
     }
     return " in chronological order";

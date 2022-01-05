@@ -3,7 +3,7 @@ import { Flex, Button, Heading, Text, Input, Stack } from "@chakra-ui/react";
 
 const MailingList = () => {
   return (
-    <Flex p={40}>
+    <Flex p={40} minH="80vh">
       <Stack>
         <Heading mt={0} fontSize="2em">
           MAILING LIST:{" "}
