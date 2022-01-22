@@ -21,12 +21,13 @@ const Navbar = () => {
         cursor="pointer"
         border="none"
         fontSize="1rem"
-        py={10}
-        bg="#f60d09"
-        color="white"
+        py={8}
+        // bg="#f60d09"
+        color="#5a5a5a"
         fontWeight="700"
+        border="4px outset #e2e2e2"
       >
-        BACK
+        GO BACK
       </Button>
       <Flex
         flexDirection="column"
@@ -81,7 +82,8 @@ const Navbar = () => {
           exact
           to="/"
           activeStyle={{
-            fontWeight: "bold",
+            fontWeight: "bolder",
+            fontSize: "1.4rem",
           }}
         >
           HOME
@@ -256,12 +258,17 @@ const Navbar = () => {
           >
             MEMORIES OF TEMIMA GEZARI
           </NavLink>
-        </VStack>
-        <Text m={0} mt={20}>
-          <NavLink className="link-header" exact to="/autobiography">
+          <NavLink
+            className="link"
+            exact
+            to="/autobiography"
+            activeStyle={{
+              fontWeight: "bold",
+            }}
+          >
             AUTOBIOGRAPHY
           </NavLink>
-        </Text>
+        </VStack>
         <Text m={0} mt={20}>
           <NavLink className="link-header" exact to="/philosophy">
             PHILOSOPHY
@@ -274,14 +281,40 @@ const Navbar = () => {
           <NavLink className="link" exact to="/artist-creativity">
             ART AND CREATIVITY
           </NavLink>
-        </VStack>
-        <VStack display="flex" alignItems="flex-start" mt={20} spacing={10}>
-          <NavLink className="link-header" exact to="/footprints-preview">
+          <NavLink className="link" exact to="/footprints-preview">
             FOOTPRINTS BOOK PREVIEW
           </NavLink>
-          <NavLink className="link-header" exact to="/books">
-            BOOKS BY TEMIMA GEZARI
-          </NavLink>
+        </VStack>
+        <VStack display="flex" alignItems="flex-start" spacing={10}>
+          <Text m={0} mt={20}>
+            <NavLink className="link-header" exact to="/books">
+              BOOKS
+            </NavLink>
+          </Text>
+          <VStack
+            display="flex"
+            alignItems="flex-start"
+            pl={16}
+            mt="0px !important"
+            pt={0}
+            spacing={0}
+          >
+            <NavLink className="link" exact to="/books">
+              BOOKS BY TEMIMA GEZARI
+            </NavLink>
+            <NavLink className="link" exact to="/books">
+              BOOKS ABOUT TEMIMA GEZARI
+            </NavLink>
+          </VStack>
+        </VStack>
+
+        <VStack
+          display="flex"
+          alignItems="flex-start"
+          pt={0}
+          spacing="20px"
+          mt="20px"
+        >
           <NavLink className="link-header" exact to="/video-media">
             VIDEO AND MEDIA
           </NavLink>

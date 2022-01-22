@@ -54,15 +54,15 @@ const Murals = () => {
               />
             </Flex>
           </Flex>
-          <Flex h="260px" w="100%" mt={10} className="art-grid">
+          <Flex h="260px" w="100%" mt={80} className="art-grid">
             <Flex
               w="100%"
-              h="100%"
+              h="auto"
               border="2px solid white"
               onClick={() => setter("landOfIsraelFull")}
             >
               <Image
-                objectFit="cover"
+                // objectFit="cover"
                 w="100%"
                 h="100%"
                 src={
@@ -74,13 +74,13 @@ const Murals = () => {
           </Flex>
           <Flex mt={10} className="art-grid">
             <Flex
-              w="195px"
-              h="195px"
-              border="2px solid white"
+              w="150px"
+              h="256px"
+              // border="2px solid white"
               onClick={() => setter("landOfIsraelBottomLeft")}
             >
               <Image
-                objectFit="cover"
+                // objectFit="cover"
                 w="100%"
                 h="100%"
                 src={
@@ -89,30 +89,15 @@ const Murals = () => {
                 }
               />
             </Flex>
+
             <Flex
-              w="195px"
-              h="195px"
-              border="2px solid white"
-              onClick={() => setter("landOfIsraelBottomRight")}
-            >
-              <Image
-                objectFit="cover"
-                w="100%"
-                h="100%"
-                src={
-                  require("../assets/artworks/murals/LandOfIsraelBottomRight.jpg")
-                    .default
-                }
-              />
-            </Flex>
-            <Flex
-              w="195px"
-              h="195px"
-              border="2px solid white"
+              w="auto"
+              h="155px"
+              // border="2px solid white"
               onClick={() => setter("landOfIsraelMiddleLeft")}
             >
               <Image
-                objectFit="cover"
+                // objectFit="cover"
                 w="100%"
                 h="100%"
                 src={
@@ -122,13 +107,13 @@ const Murals = () => {
               />
             </Flex>
             <Flex
-              w="195px"
-              h="195px"
-              border="2px solid white"
+              w="auto"
+              h="155px"
+              // border="2px solid white"
               onClick={() => setter("landOfIsraelMiddleRight")}
             >
               <Image
-                objectFit="cover"
+                // objectFit="cover"
                 w="100%"
                 h="100%"
                 src={
@@ -137,9 +122,25 @@ const Murals = () => {
                 }
               />
             </Flex>
+            <Flex
+              w="150px"
+              h="256px"
+              // border="2px solid white"
+              onClick={() => setter("landOfIsraelBottomRight")}
+            >
+              <Image
+                // objectFit="contain"
+                w="100%"
+                h="100%"
+                src={
+                  require("../assets/artworks/murals/LandOfIsraelBottomRight.jpg")
+                    .default
+                }
+              />
+            </Flex>
           </Flex>
           <Flex
-            mt={10}
+            mt={80}
             className="art-grid"
             onClick={() => setter("rockyPoint")}
           >

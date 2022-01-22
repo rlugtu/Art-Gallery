@@ -1,4 +1,17 @@
-import { Flex, Image, Link } from "@chakra-ui/react";
+import {
+  Flex,
+  Image,
+  Link,
+  Modal,
+  ModalOverlay,
+  Button,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
+} from "@chakra-ui/react";
 import "../styles/Slideshow.scss";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
@@ -12,6 +25,7 @@ const SlideshowImage = ({ image }) => {
     /* Optional options */
     threshold: 0,
   });
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   useEffect(() => {
     if (inView) {
@@ -36,19 +50,36 @@ const SlideshowImage = ({ image }) => {
   // }, [image, inView]);
   return (
     <>
-      <Flex ref={ref}>
-        <Link href={`/full/artwork/${image.link}`}>
-          <Image
-            objectFit="contain"
-            mx={40}
-            className={`slideshow-image-container ${pulse ? "pulse" : ""} ${
-              startPulse ? "startPulse" : ""
-            } ${secondPulse ? "secondPulse" : ""}`}
-            src={require(`../artwork/${image.image}`).default}
-            alt="test"
-          />
-        </Link>
+      <Flex ref={ref} onClick={onOpen}>
+        {/* <Link href={`/full/artwork/${image.link}`}> */}
+        <Image
+          objectFit="contain"
+          mx={20}
+          className={`slideshow-image-container ${pulse ? "pulse" : ""} ${
+            startPulse ? "startPulse" : ""
+          } ${secondPulse ? "secondPulse" : ""}`}
+          src={require(`../artwork/${image.image}`).default}
+          alt="test"
+        />
+        {/* </Link> */}
       </Flex>
+      <Modal isOpen={isOpen} onClose={onClose}>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Modal Title</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <h1>hi</h1>
+          </ModalBody>
+
+          <ModalFooter>
+            <Button colorScheme="blue" mr={3} onClick={onClose}>
+              Close
+            </Button>
+            <Button variant="ghost">Secondary Action</Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
     </>
   );
 };

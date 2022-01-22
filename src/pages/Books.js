@@ -18,7 +18,7 @@ const Books = () => {
         <Flex>
           <Link href="/book/artoftemimagezari">
             <Flex flexDir="column">
-              <Flex w="250px">
+              <Flex w="350px">
                 <Image
                   h="100%"
                   w="100%"
@@ -38,17 +38,17 @@ const Books = () => {
               The Art of Temima Gezari
             </Heading>
             <Text fontSize="1.5rem" mt={0}>
-              By Daniel Gezari
+              by Daniel Gezari
             </Text>
             <Text w="450px">
-              Catalog of Temima's artwork up to the age of 80, containing most
-              of her work presented on this website.{" "}
+              Catalog of Temima's artwork up to the age of 80, <br></br>{" "}
+              containing most of her work presented on this website.{" "}
             </Text>
           </Flex>
         </Flex>
       </Flex>
       <Stack>
-        <Heading color="white" bg="grey" my={0} p={10} borderRadius={5}>
+        <Heading color="white" bg="grey" my={0} p={10} mt={20} borderRadius={5}>
           Books Written by Temima Gezari
         </Heading>
         <Flex flexWrap="wrap" maxW="900px">
@@ -62,11 +62,11 @@ const Books = () => {
                 cursor="pointer"
               >
                 <Link href={`/book/${book.linkTitle}`}>
-                  <Flex h="230px">
+                  <Flex h="220px" w="150px">
                     <Image
                       h="100%"
                       w="100%"
-                      objectFit="contain"
+                      // objectFit="contain"
                       src={
                         require(`../assets/bookImages/${book.file}.jpg`).default
                       }
@@ -77,7 +77,7 @@ const Books = () => {
                     fontWeight="bold"
                     fontSize="1.1rem"
                     color="black"
-                    mt={0}
+                    mt={10}
                   >
                     {book.title}
                   </Text>
@@ -101,7 +101,7 @@ const Books = () => {
                   flexWrap="wrap"
                   cursor="pointer"
                 >
-                  <Flex h="230px">
+                  <Flex h="220px" w="150px">
                     <Image
                       h="100%"
                       w="100%"
@@ -116,7 +116,7 @@ const Books = () => {
                     fontWeight="bold"
                     fontSize="1.1rem"
                     color="black"
-                    mt={0}
+                    mt={10}
                   >
                     {book.title}
                   </Text>
@@ -134,17 +134,20 @@ const Books = () => {
             bookData.booksBy.map((book, i) => (
               <Link href={`/book/${book.linkTitle}`}>
                 <Flex
-                  maxW="140px"
+                  maxW="200px"
                   flexDir="column"
-                  m={14}
+                  m={20}
                   flexWrap="wrap"
                   cursor="pointer"
                 >
-                  <Flex h="230px">
+                  <Flex
+                    h="220px"
+                    w={book.file === "art_of_temima_gezari" ? "200px" : "160px"}
+                  >
                     <Image
                       h="100%"
                       w="100%"
-                      objectFit="contain"
+                      // objectFit="contain"
                       src={
                         require(`../assets/bookImages/${book.file}.jpg`).default
                       }
@@ -155,7 +158,8 @@ const Books = () => {
                     fontWeight="bold"
                     fontSize="1.1rem"
                     color="black"
-                    mt={0}
+                    mt={10}
+                    w={book.file === "art_of_temima_gezari" ? "200px" : "160px"}
                   >
                     {book.title}
                   </Text>

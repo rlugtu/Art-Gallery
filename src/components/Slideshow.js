@@ -20,11 +20,10 @@ const Slideshow = ({ enterSite }) => {
   ];
 
   const imageInfo = [
-  
     {
       link: "ATimeToDance-11",
       image: "ATimeToDance.jpg",
-    },  // {
+    }, // {
     //   link: "Abstraction-95",
     //   image: "Abstraction.jpg",
     // },
@@ -55,23 +54,23 @@ const Slideshow = ({ enterSite }) => {
         w="100%"
         display="flex"
         justifyContent="center"
-        mt="12vh"
-        color="light gray"
+        mt="9vh"
+        color="light white !important"
       >
         TEMIMA GEZARI
       </Heading>
       <Heading
-        className="slideshow-header"
+        className="slideshow-header-2"
         m={0}
         fontSize="2rem"
         w="100%"
         display="flex"
         justifyContent="center"
-        color="grey"
+        color="light white !important"
       >
         MID-TWENTIETH CENTURY AMERICAN ARTIST AND EDUCATOR
       </Heading>
-      <Marquee speed={40} gradient={false} pauseOnHover={true}>
+      <Marquee speed={80} gradient={false} pauseOnHover={true}>
         <ul className="slideshow-list">
           {/* <Flex w="90vw"h="500px"></Flex> */}
           {imageInfo.map((item, i) => (

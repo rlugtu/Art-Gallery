@@ -22,17 +22,17 @@ const Header = () => {
         <Flex>
           <Image
             h="175px"
-            w="159px"
+            w="140px"
             objectFit="cover"
-            src={require("../assets/header/header2.jpg").default}
+            src={require("../assets/header/header3.jpeg").default}
           />
         </Flex>
         <Flex>
           <Image
             h="175px"
-            w="140px"
+            w="159px"
             objectFit="cover"
-            src={require("../assets/header/header3.jpeg").default}
+            src={require("../assets/header/header2.jpg").default}
           />
         </Flex>
         <Flex>

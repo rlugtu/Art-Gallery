@@ -29,9 +29,22 @@ const Home = ({ setHasVisited, hasVisited }) => {
         </Flex>
       )}
       {hasVisited && (
-        <Flex className="container" p={0} pb={80} flexDir="column" px={20}>
+        <Flex
+          className="container"
+          p={0}
+          pb={80}
+          flexDir="column"
+          px={20}
+          pt={20}
+        >
           <Flex className="row">
-            <Flex w="50%" alignItems="center" flexDir="column" mr="8px">
+            <Flex
+              w="50%"
+              className="row-button"
+              alignItems="center"
+              flexDir="column"
+              mr="8px"
+            >
               <Link href="/sculptures">
                 <Heading mt={20} mb={5} textAlign="center">
                   SCULPTURE
@@ -147,7 +160,13 @@ const Home = ({ setHasVisited, hasVisited }) => {
               </Link>
             </Flex>
 
-            <Flex w="50%" alignItems="center" flexDir="column" ml="8px">
+            <Flex
+              w="50%"
+              className="row-button"
+              alignItems="center"
+              flexDir="column"
+              ml="8px"
+            >
               <Link href="/paintings">
                 <Heading mt={20} mb={5} textAlign="center">
                   PAINTINGS
@@ -264,7 +283,13 @@ const Home = ({ setHasVisited, hasVisited }) => {
           </Flex>
 
           <Flex className="row" mt={20}>
-            <Flex w="50%" alignItems="center" flexDir="column" mr="8px">
+            <Flex
+              w="50%"
+              className="row-button"
+              alignItems="center"
+              flexDir="column"
+              mr="8px"
+            >
               <Link href="/drawings" w="100%">
                 <Heading mt={0} mb={5} textAlign="center">
                   DRAWINGS
@@ -379,7 +404,13 @@ const Home = ({ setHasVisited, hasVisited }) => {
                 </Flex>
               </Link>
             </Flex>
-            <Flex w="50%" alignItems="center" flexDir="column" ml="8px">
+            <Flex
+              w="50%"
+              className="row-button"
+              alignItems="center"
+              flexDir="column"
+              ml="8px"
+            >
               <Link href="/lithographs" w="100%">
                 <Heading mt={0} mb={5} textAlign="center">
                   LITHOGRAPHS
@@ -458,134 +489,177 @@ const Home = ({ setHasVisited, hasVisited }) => {
                       }
                     />
                   </Flex>
-                  <Flex w="100%" h="150px" flexDirection="row">
-                    <Flex w="33%" className="homeButton">
-                      <Link
-                        href="/footprints-preview"
-                        w="100%"
-                        textAlign="center"
-                      >
-                        <Text
-                          bg="rgba(246,13,9,0.7)"
-                          className="home-page-button"
-                          mb={5}
-                          textAlign="center"
-                          m="0"
-                          p="10px"
-                          // w="145px"
-                          // borderStyle="outset"
-                          cursor="pointer"
-                          color="white"
-                          fontWeight="400"
-                          h="100%"
-                          display="flex"
-                          alignItems="center"
-                          fontStyle="normal"
-                          flexDirection="column"
-                          justifyContent="center"
-                          fontSize="1.2rem"
-                          lineHeight="1.2rem"
-                        >
-                          <Text
-                            as="span"
-                            fontSize="1rem"
-                            fontWeight="400"
-                            lineHeight="1.2rem"
-                            pb={5}
-                          >
-                            READ/PRINT
-                          </Text>
-                          <Text
-                            as="span"
-                            fontSize="1.2rem"
-                            fontStyle="italic"
-                            fontWeight="800"
-                            color="black"
-                          >
-                            "FOOTPRINTS AND NEW WORLDS"
-                          </Text>
-                          <Text
-                            as="span"
-                            fontSize="1rem"
-                            fontWeight="400"
-                            lineHeight="1.2rem"
-                            pt={5}
-                          >
-                            CHAPTERS 1 AND 4
-                          </Text>
-                        </Text>
-                      </Link>
-                    </Flex>
-                    <Flex w="33%" className="homeButton">
-                      <Link href="/philosophy" w="100%" textAlign="center">
-                        <Text
-                          bg="rgba(246,13,9,0.7)"
-                          className="home-page-button"
-                          mb={5}
-                          textAlign="center"
-                          m="0"
-                          p="10px"
-                          // w="145px"
-                          // borderStyle="outset"
-                          cursor="pointer"
-                          color="white"
-                          fontWeight="normal"
-                          h="100%"
-                          display="flex"
-                          justifyContent="center"
-                          alignItems="center"
-                        >
-                          <Text as="span" color="white" fontWeight="700">
-                            TEMIMA'S{" "}
-                            <Text
-                              as="span"
-                              color="black"
-                              fontSize="1.3rem"
-                              m={0}
-                            >
-                              PHILOSOPHY
-                            </Text>{" "}
-                            OF ART EDUCATION
-                          </Text>
-                          {/* View Temima's philosophy of art */}
-                        </Text>
-                      </Link>
-                    </Flex>
-                    <Flex w="33%" className="homeButton">
-                      <Link href="/books" w="100%" textAlign="center">
-                        <Text
-                          bg="rgba(246,13,9,0.7)"
-                          className="home-page-button"
-                          mb={5}
-                          textAlign="center"
-                          m="0"
-                          p="10px"
-                          // w="145px"
-                          // borderStyle="outset"
-                          cursor="pointer"
-                          color="white"
-                          fontWeight="normal"
-                          h="100%"
-                          display="flex"
-                          alignItems="center"
-                          justifyContent="center"
-                        >
-                          <Text as="span" color="white" fontWeight="700">
-                            <Text as="span" fontSize="1.4rem" color="black">
-                              BOOKS
-                            </Text>{" "}
-                            <br /> BY OR ABOUT <br /> TEMIMA GEZARI
-                          </Text>
-                          {/* View books written by or about temima gezari */}
-                        </Text>
-                      </Link>
-                    </Flex>
+                  <Flex w="33%" h="145px" border="2px solid white">
+                    <Image
+                      objectFit="cover"
+                      w="100%"
+                      h="100%"
+                      src={
+                        require(`../assets/thumbnails/illustrations/-2.jpg`)
+                          .default
+                      }
+                    />
+                  </Flex>
+                  <Flex w="33%" h="145px" border="2px solid white">
+                    <Image
+                      objectFit="cover"
+                      w="100%"
+                      h="100%"
+                      src={
+                        require(`../assets/thumbnails/illustrations/-1.jpg`)
+                          .default
+                      }
+                    />
+                  </Flex>
+                  <Flex w="33%" h="145px" border="2px solid white">
+                    <Image
+                      objectFit="cover"
+                      w="100%"
+                      h="100%"
+                      src={
+                        require(`../assets/thumbnails/illustrations/-0.jpg`)
+                          .default
+                      }
+                    />
                   </Flex>
                 </Flex>
               </Link>
             </Flex>
           </Flex>
-
+          <Flex w="100%" h="150px" flexDirection="row" mt={20}>
+            <Flex w="33%" className="homeButton">
+              <Link href="/philosophy" w="100%" textAlign="center">
+                <Text
+                  bg="rgba(246,13,9,0.7)"
+                  className="home-page-button"
+                  mb={5}
+                  textAlign="center"
+                  m="0"
+                  p="10px"
+                  // w="145px"
+                  // borderStyle="outset"
+                  cursor="pointer"
+                  color="white"
+                  fontWeight="normal"
+                  h="100%"
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <Text
+                    as="span"
+                    color="black"
+                    fontWeight="700"
+                    fontSize="1.5rem"
+                  >
+                    TEMIMA'S{" "}
+                    <Text
+                      // as="span"
+                      // color="black"
+                      color="white"
+                      fontSize="2.5rem"
+                      m={0}
+                    >
+                      PHILOSOPHY
+                    </Text>{" "}
+                    OF ART EDUCATION
+                  </Text>
+                  {/* View Temima's philosophy of art */}
+                </Text>
+              </Link>
+            </Flex>
+            <Flex w="33%" className="homeButton">
+              <Link href="/books" w="100%" textAlign="center">
+                <Text
+                  bg="rgba(246,13,9,0.7)"
+                  className="home-page-button"
+                  mb={5}
+                  textAlign="center"
+                  m="0"
+                  p="10px"
+                  // w="145px"
+                  // borderStyle="outset"
+                  cursor="pointer"
+                  color="white"
+                  fontWeight="normal"
+                  h="100%"
+                  display="flex"
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Text as="span" color="white" fontWeight="700">
+                    <Text as="span" fontSize="2.5rem" color="white">
+                      BOOKS
+                    </Text>
+                    <Text m={0} fontSize="1.5rem" color="black">
+                      BY OR ABOUT
+                    </Text>
+                    <Text m={0} fontSize="1.5rem" color="black">
+                      TEMIMA GEZARI
+                    </Text>
+                    {/* <br /> BY OR ABOUT <br /> TEMIMA GEZARI */}
+                  </Text>
+                  {/* View books written by or about temima gezari */}
+                </Text>
+              </Link>
+            </Flex>
+            <Flex w="33%" className="homeButton">
+              <Link href="/footprints-preview" w="100%" textAlign="center">
+                <Text
+                  bg="rgba(246,13,9,0.7)"
+                  className="home-page-button"
+                  mb={5}
+                  textAlign="center"
+                  m="0"
+                  p="10px"
+                  // w="145px"
+                  // borderStyle="outset"
+                  cursor="pointer"
+                  // color="white"
+                  color="black"
+                  // fontWeight="700"
+                  fontWeight="bold"
+                  h="100%"
+                  display="flex"
+                  alignItems="center"
+                  fontStyle="normal"
+                  flexDirection="column"
+                  justifyContent="center"
+                  fontSize="1.2rem"
+                  // lineHeight="1.2rem"
+                >
+                  <Text
+                    as="span"
+                    fontSize="1.2rem"
+                    fontWeight="800"
+                    // lineHeight="1.2rem"
+                    pb={5}
+                  >
+                    PREVIEW
+                  </Text>
+                  <Text
+                    as="span"
+                    fontSize="1.8rem"
+                    fontStyle="italic"
+                    fontWeight="800"
+                    // color="black"
+                    color="white"
+                  >
+                    "FOOTPRINTS AND <br></br> NEW WORLDS"
+                  </Text>
+                  <Text
+                    as="span"
+                    fontSize="1.2rem"
+                    fontWeight="800"
+                    lineHeight="1.2rem"
+                    pt={5}
+                  >
+                    CHAPTERS 1 AND 4
+                  </Text>
+                </Text>
+              </Link>
+            </Flex>
+          </Flex>
           {/* <Flex wrap="wrap" mt={20}>
             <Flex w="100%" alignItems="center" h="100%" objectFit="contain">
               <Link href="/footprints-preview">
@@ -608,7 +682,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                 </Text>
               </Link>
             </Flex>
-            <Flex w="50%" alignItems="center" h="100%" objectFit="contain">
+            <Flex w="50%" className="row-button" alignItems="center" h="100%" objectFit="contain">
               <Link href="/artist">
                 <Text
                           bg="rgba(246,13,9,0.7)"
@@ -629,7 +703,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                 </Text>
               </Link>
             </Flex>
-            <Flex w="50%" alignItems="center" objectFit="contain">
+            <Flex w="50%" className="row-button" alignItems="center" objectFit="contain">
               <Link href="/books" w="100%">
                 <Text
                           bg="rgba(246,13,9,0.7)"
@@ -651,7 +725,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                 </Text>
               </Link>
             </Flex>
-            <Flex w="50%" alignItems="center" objectFit="contain">
+            <Flex w="50%" className="row-button" alignItems="center" objectFit="contain">
               <Link href="/philosophy">
                 <Text
                           bg="rgba(246,13,9,0.7)"
