@@ -31,13 +31,13 @@ const VideoMedia = () => {
       </Stack>
       <Stack mt={180} spacing={20}>
         <Heading m={0} bg="gray" color="white" p={10} borderRadius="5px">
-          RADIO BROADCASTS OF TEMIMA GEZARI
+          RADIO BROADCASTS
         </Heading>
         <Heading>Long Island History Interview</Heading>
         <Text>November 23, 2016</Text>
         <Text>
-          Click the player below to listen to a radio studio inerview with
-          Temima's son, Daniel Gezari about his of his mother and father.
+          Click the player below to listen to a radio interview with Temima's
+          son, Daniel Gezari about his of his mother and father.
         </Text>
         <Text>
           Interview with Dan Gezari - Long Island History Project - Radio Show
@@ -48,14 +48,23 @@ const VideoMedia = () => {
         <Heading m={0} bg="gray" color="white" p={10} borderRadius="5px">
           Filmstrips by Temima Gezari
         </Heading>
-        <Text>Growing Through Art (1955)</Text>
-        <Text>
-          Art and Growing Child (1956) (1956 Winner of the Silver Reel Award of
-          the Film Council of America and the 1957 Scholastic Award)
+        <Text fontWeight="bold">
+          Growing Through Art <Text as="span">(1955)</Text>
         </Text>
-        <Text>Minature Stone Sculpture (1963)</Text>
-        <Text>The Art of Israeli Children (1963)</Text>
-        <Text>The Patriarchs (1977)</Text>
+        <Text fontWeight="bold">Art and Growing Child</Text>
+        <Text>
+          1956 Winner of the Silver Reel Award of the Film Council of America
+          (1957 Scholastic Award)
+        </Text>
+        <Text fontWeight="bold">
+          Minature Stone Sculpture <Text as="span">(1963)</Text>
+        </Text>
+        <Text fontWeight="bold">
+          The Art of Israeli Children <Text as="span">(1963)</Text>
+        </Text>
+        <Text fontWeight="bold">
+          The Patriarchs <Text as="span">(1977)</Text>
+        </Text>
       </Stack>
     </Flex>
   );

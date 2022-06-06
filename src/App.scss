@@ -14,7 +14,7 @@ body {
     justify-content: center;
   }
 
-  font-family: "Trebuchet MS" !important;
+  font-family: "Arial" !important;
 }
 body * {
   box-sizing: border-box;
@@ -31,6 +31,10 @@ body * {
 @media print {
   .site-content-with-header {
     padding-left: 0;
+  }
+
+  .hide-print {
+    display: none;
   }
 }
 

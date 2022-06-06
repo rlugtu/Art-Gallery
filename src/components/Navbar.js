@@ -11,15 +11,14 @@ const Navbar = () => {
     <Flex flexDirection="column" className="nav">
       <Button
         pos="absolute"
-        top="200px"
-        right="20px"
+        top="192px"
+        right="8px"
         onClick={() => history.goBack()}
         mg="white"
         mt={20}
         ml={20}
         w="100px"
         cursor="pointer"
-        border="none"
         fontSize="1rem"
         py={8}
         // bg="#f60d09"
@@ -33,7 +32,7 @@ const Navbar = () => {
         flexDirection="column"
         className="nav-header"
         h={204}
-        p={22}
+        p={12}
         bg="#b7ac44"
       >
         <Text
@@ -43,6 +42,7 @@ const Navbar = () => {
           fontWeight="700"
           fontSize="3.4rem"
           textAlign="center"
+          className="temima-header"
         >
           TEMIMA
         </Text>
@@ -53,18 +53,20 @@ const Navbar = () => {
           fontWeight="700"
           fontSize="3.4rem"
           textAlign="center"
+          className="temima-header"
         >
           GEZARI
         </Text>
         <Text
+          pt={5}
           m={0}
-          my="5px"
           fontWeight="bold"
           lineHeight="1.3rem"
           fontSize="1.3rem"
           textAlign="center"
+          className="temima-header"
         >
-          20th CENTURY AMERICAN
+          20th CENTURY
         </Text>
         <Text
           m={0}
@@ -72,8 +74,19 @@ const Navbar = () => {
           lineHeight="1.3rem"
           fontSize="1.3rem"
           textAlign="center"
+          className="temima-header"
         >
-          ARTIST AND EDUCATOR
+          AMERICAN ARTIST
+        </Text>
+        <Text
+          m={0}
+          fontWeight="bold"
+          lineHeight="1.3rem"
+          fontSize="1.3rem"
+          textAlign="center"
+          className="temima-header"
+        >
+          AND EDUCATOR
         </Text>
       </Flex>
       <Flex flexDirection="column" p={20}>
@@ -158,16 +171,6 @@ const Navbar = () => {
           <NavLink
             className="link"
             exact
-            to="/highschool-exercises"
-            activeStyle={{
-              fontWeight: "bold",
-            }}
-          >
-            HIGH SCHOOL EXERCISES
-          </NavLink>
-          <NavLink
-            className="link"
-            exact
             to="/illustrations"
             activeStyle={{
               fontWeight: "bold",
@@ -175,6 +178,17 @@ const Navbar = () => {
           >
             BOOK ILLUSTRATIONS
           </NavLink>
+          <NavLink
+            className="link"
+            exact
+            to="/highschool-exercises"
+            activeStyle={{
+              fontWeight: "bold",
+            }}
+          >
+            HIGH SCHOOL ART CLASS
+          </NavLink>
+
           <NavLink
             className="link"
             exact
@@ -197,6 +211,17 @@ const Navbar = () => {
             }}
           >
             CATALOG OF WORKS
+          </NavLink>
+          <NavLink
+            className="link"
+            exact
+            to="/catalog"
+            activeStyle={{
+              fontWeight: "bold",
+            }}
+          >
+            {/* put  */}
+            PHOTOBOOK OF WORKS
           </NavLink>
         </VStack>
         <Text m={0} mt={20}>
@@ -226,17 +251,7 @@ const Navbar = () => {
               fontWeight: "bold",
             }}
           >
-            ARTIST
-          </NavLink>
-          <NavLink
-            className="link"
-            exact
-            to="/art-educator"
-            activeStyle={{
-              fontWeight: "bold",
-            }}
-          >
-            ART EDUCATOR
+            ARTIST & EDUCATOR
           </NavLink>
           <NavLink
             className="link"
@@ -256,7 +271,7 @@ const Navbar = () => {
               fontWeight: "bold",
             }}
           >
-            MEMORIES OF TEMIMA GEZARI
+            MEMORIES OF TEMIMA
           </NavLink>
           <NavLink
             className="link"
@@ -278,12 +293,22 @@ const Navbar = () => {
           <NavLink className="link" exact to="/art-education">
             ART EDUCATION
           </NavLink>
+          <NavLink
+            className="link"
+            exact
+            to="/art-educator"
+            activeStyle={{
+              fontWeight: "bold",
+            }}
+          >
+            ART & CHILDREN
+          </NavLink>
           <NavLink className="link" exact to="/artist-creativity">
             ART AND CREATIVITY
           </NavLink>
-          <NavLink className="link" exact to="/footprints-preview">
+          {/* <NavLink className="link" exact to="/footprints-preview">
             FOOTPRINTS BOOK PREVIEW
-          </NavLink>
+          </NavLink> */}
         </VStack>
         <VStack display="flex" alignItems="flex-start" spacing={10}>
           <Text m={0} mt={20}>
@@ -312,7 +337,7 @@ const Navbar = () => {
           display="flex"
           alignItems="flex-start"
           pt={0}
-          spacing="20px"
+          spacing="15px"
           mt="20px"
         >
           <NavLink className="link-header" exact to="/video-media">

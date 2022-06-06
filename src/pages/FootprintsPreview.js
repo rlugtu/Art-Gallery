@@ -39,11 +39,14 @@ const FootprintsPreview = () => {
         ml="20px"
         p="10px"
         w="180px"
+        className="hide-print"
         textAlign="center"
-        fontWeight="bold"
-        bg="red"
-        color="white"
+        // bg="red"
+        // color="white"
         cursor="pointer"
+        color="#5a5a5a"
+        fontWeight="700"
+        border="4px outset #e2e2e2"
         onClick={() => {
           window.print();
           return false;

@@ -19,6 +19,7 @@ import Contact from "./pages/Contact";
 import MailingList from "./pages/MailingList";
 import VideoMedia from "./pages/VideoMedia";
 import Books from "./pages/Books";
+import Books2 from "./pages/Book2";
 import ArtGrid from "./pages/ArtGrid";
 import AutoBiography from "./pages/textPages/AutoBiography";
 import SingleArt from "./pages/SingleArt";
@@ -32,7 +33,7 @@ import Murals from "./pages/Murals";
 
 function App() {
   const [current, setCurrent] = useState(null);
-  const [hasVisited, setHasVisited] = useState(false);
+  const [hasVisited, setHasVisited] = useState(true);
 
   return (
     <>
@@ -57,6 +58,7 @@ function App() {
           <Route
             path={[
               "/books",
+              "/books2",
               "/test",
               "/philosophy",
               "/art-education",
@@ -71,6 +73,7 @@ function App() {
             <NoHeader>
               <Switch>
                 <Route path="/books" render={() => <Books />} />
+                <Route path="/books2" render={() => <Books2 />} />
                 <Route path="/test" render={() => <Index />} />
                 <Route path="/autobiography" render={() => <AutoBiography />} />
                 <Route path="/philosophy" render={() => <Philosophy />} />

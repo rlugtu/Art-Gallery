@@ -30,10 +30,10 @@ const AllArtGrid = () => {
     <Flex flexDir="column" p="20px">
       <Heading mt={0}>
         FULL COLLECTION
-        <Text fontWeight="normal" as="span">
+        {/* <Text fontWeight="normal" as="span">
           {" "}
           in Chronlogical Order
-        </Text>
+        </Text> */}
       </Heading>
       <Flex w="100%" flexWrap="wrap" pt={8}>
         {allArt &&

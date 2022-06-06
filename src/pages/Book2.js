@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Flex, Heading, Text, Stack, Link, Image } from "@chakra-ui/react";
 import booksJson from "../assets/jsonFiles/books.json";
 
-const Books = () => {
+const Books2 = () => {
   const [bookData, setBookData] = useState(null);
 
   useEffect(() => {
@@ -12,13 +12,10 @@ const Books = () => {
   return (
     <Flex flexDir="column" p="40px" pr="20px" pt="40px">
       <Flex flexDir="column" mb={20}>
-        <Heading m={0}>
-          To Leave this page, select another topic on this sidebar
-        </Heading>
         {/* <Heading w="100%" color="white" bg="grey" p={10} borderRadius={5}>
           Featured
         </Heading> */}
-        {/* <Flex>
+        <Flex>
           <Link href="/book/artoftemimagezari">
             <Flex flexDir="column">
               <Flex w="350px">
@@ -46,10 +43,17 @@ const Books = () => {
               Catalog of Temima's artwork up to the age of 80, <br></br>{" "}
               containing most of her work presented on this website.{" "}
             </Text>
-            <Text>Photo book of Temima's lifetime artwork up until the age of 80 (1985) including all of her artwork listed under full collection and catalog of works. This is book is a collection of photos of most of the artwork on this site. . This book has 325 photos consisting of sculptures, drawings, paintings, lithographs, illustrations, and more.</Text>
+            <Text>
+              Photo book of Temima's lifetime artwork up until the age of 80
+              (1985) including all of her artwork listed under full collection
+              and catalog of works. This is book is a collection of photos of
+              most of the artwork on this site. . This book has 325 photos
+              consisting of sculptures, drawings, paintings, lithographs,
+              illustrations, and more.
+            </Text>
             <Text></Text>
           </Flex>
-        </Flex> */}
+        </Flex>
       </Flex>
       <Stack>
         <Heading color="white" bg="grey" my={0} p={10} mt={20} borderRadius={5}>
@@ -176,4 +180,4 @@ const Books = () => {
   );
 };
 
-export default Books;
+export default Books2;

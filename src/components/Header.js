@@ -52,18 +52,18 @@ const Header = () => {
         alignItems="center"
         h="39px"
       >
-        <Link textAlign="center" color="white" exact href="/instructions">
+        {/* <Link textAlign="center" color="white" exact href="/instructions">
           <Text p={0} m={0} color="#bdbdbd">
             INSTRUCTIONS
           </Text>
-        </Link>
+        </Link> */}
         <Link textAlign="center" color="white" exact href="/artist ">
           <Text p={0} m={0} color="#bdbdbd">
             {" "}
             WHO IS TEMIMA?
           </Text>
         </Link>
-        <Link textAlign="center" color="white" exact href="/books">
+        <Link textAlign="center" color="white" exact href="/books2">
           <Text p={0} m={0} color="#bdbdbd">
             {" "}
             BOOKS

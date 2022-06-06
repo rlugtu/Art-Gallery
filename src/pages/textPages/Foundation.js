@@ -11,12 +11,12 @@ import {
 
 const Foundation = () => {
   return (
-    <Flex flexDir="column" p={40} pr="80px" pt={0} minH="80vh">
+    <Flex flexDir="column" p={40} pr="20px" pt={0} minH="80vh">
       <Stack spacing={20} mt={20}>
-        <Heading m={0} fontSize="1.8rem" color="#838383">
+        <Heading m={0} fontSize="2.2rem" color="#838383">
           Temima Gezari Foundation for Art and Education
         </Heading>
-        <Text pr="160px">
+        <Text pr="160px" fontSize="1.2rem">
           The Temima Gezari Foundation for Art and Education is a 501(c)3
           non-profit corporation that was founded to promote and publicize
           Temima's philosophy and method of education. Her humanistic approach
@@ -54,13 +54,13 @@ const Foundation = () => {
           </Text>{" "}
           to go to the Donate Page.
         </Text> */}
-        <Stack mt={0} pt={0}>
-          <Heading mt={0} pt={0} pr="160px" fontSize="1.8rem">
-            Donate to the TEMIMA GEZARI FOUNDATION FOR ART AND EDUCATION
+        <Stack mt={0} pt={30}>
+          <Heading color="#838383" mt={0} pt={0} pr="160px" fontSize="1.8rem">
+            Donate to The Temima Gezari Foundation for Art and Education
           </Heading>
           <Heading pr="160px" fontSize="1.4rem">
-            Please support our efforts to promote temimas philosophy and methods
-            of art education and child development.
+            Please support our efforts to promote Temima's philosophy and
+            methods of art education and child development.
           </Heading>
           <Flex pt={40}>
             <Button
