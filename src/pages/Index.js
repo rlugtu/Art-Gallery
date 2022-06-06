@@ -4,7 +4,6 @@ import "../styles/Index.scss";
 import Slideshow from "../components/Slideshow";
 import FadingCoverPage from "../components/FadingCoverPage"
 import Carousel from 'fade-carousel';
-import Slider from "react-slick";
 
 // Leaping Lena,
 // NEWSBOY,
@@ -330,11 +329,11 @@ const Home = ({ setHasVisited, hasVisited }) => {
                     // lineHeight="1.2rem"
                     pb={5}
                   >
-                    READ EXERPTS FROM
+                    READ EXCERPTS FROM
                   </Text>
                   <Text
                     as="span"
-                    fontSize="1.8rem"
+                    fontSize="1.6rem"
                     fontStyle="italic"
                     fontWeight="800"
                     // color="black"
@@ -346,7 +345,7 @@ const Home = ({ setHasVisited, hasVisited }) => {
                     as="span"
                     fontSize="1.2rem"
                     fontWeight="800"
-                    lineHeight="1.2rem"
+                    lineHeight="1rem"
                     pt={5}
                   >
                     CHAPTERS 1 & 4
